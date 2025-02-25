@@ -1,0 +1,30 @@
+    .quiz-container {
+        background-color: var(--background-color);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .quiz__content {
+        display: flex;
+        flex-direction: row;
+        gap: 20px; /* Adds space between QuizQuestion and PuzzleDisplay */
+        align-items: center; /* Ensures they align properly */
+        justify-content: center; /* Centering inside container */
+        width: 100vw; /* Ensures it takes full width */
+        
+    }
+
+    .quiz__question {
+        width: 40vw;
+        
+    }
+    .quiz__puzzle{
+        width: 30vw;
+    }

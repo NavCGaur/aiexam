@@ -1,0 +1,39 @@
+/* RefundAndCancellation.css */
+.refund-and-cancellation {
+ 
+    padding: 4rem 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .refund-and-cancellation h1 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .refund-and-cancellation p, .refund-and-cancellation li {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .refund-and-cancellation ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .refund-and-cancellation {
+      padding: 10px;
+    }
+  
+    .refund-and-cancellation h1 {
+      font-size: 1.5rem;
+    }
+  
+    .refund-and-cancellation p, .refund-and-cancellation li {
+      font-size: 0.9rem;
+    }
+  }
+  

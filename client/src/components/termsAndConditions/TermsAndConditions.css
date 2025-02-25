@@ -1,0 +1,38 @@
+/* TermsAndConditions.css */
+.terms-and-conditions {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .terms-and-conditions h1 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .terms-and-conditions p, .terms-and-conditions li {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .terms-and-conditions ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .terms-and-conditions {
+      padding: 10px;
+    }
+  
+    .terms-and-conditions h1 {
+      font-size: 1.5rem;
+    }
+  
+    .terms-and-conditions p, .terms-and-conditions li {
+      font-size: 0.9rem;
+    }
+  }
+  

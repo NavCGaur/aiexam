@@ -1,0 +1,84 @@
+[
+  {
+    "class": "6",
+    "subject": "Social Science",
+    "chapter": "Locating Places on the Earth",
+    "type": "matchTheFollowing",
+    "difficulty": "easy",
+    "marks": 4,
+    "text": "Match the items in Column A with the correct options from Column B.",
+    "columnA": [
+      "Equator",
+      "Latitude",
+      "Longitude",
+      "Prime Meridian"
+    ],
+    "columnB": [
+      "An imaginary line that divides the Earth into Northern and Southern Hemispheres",
+      "Imaginary lines that run parallel to the Equator",
+      "Imaginary lines that run from the North Pole to the South Pole",
+      "An imaginary line that divides the Earth into Eastern and Western Hemispheres"
+    ],
+    "options": [
+      "1A, 2B, 3C, 4D"
+    ],
+    "answer": "1A, 2B, 3C, 4D",
+    "createdAt": "2025-01-30T16:44:47.559Z"
+  }
+],
+[
+  {
+    "class": "6",
+    "subject": "Social Science",
+    "chapter": "Landforms and Life",
+    "type": "matchTheFollowing",
+    "difficulty": "easy",
+    "marks": 4,
+    "text": "Match the items in Column A with the correct options from Column B.",
+    "columnA": [
+      "Mountains",
+      "Rivers",
+      "Plains",
+      "Plateaus"
+    ],
+    "columnB": [
+      "High, steep landforms with rocky peaks and slopes",
+      "Natural water bodies flowing towards an ocean or sea",
+      "Large, flat areas of land with fertile soil",
+      "Elevated flatlands with steep sides"
+    ],
+    "options": [
+      "1A, 2B, 3C, 4D"
+    ],
+    "answer": "1A, 2B, 3C, 4D",
+    "createdAt": "2025-01-30T16:44:47.559Z"
+  }
+],
+[
+  {
+    "class": "6",
+    "subject": "Social Science",
+    "chapter": "Timeline and Sources of History",
+    "type": "matchTheFollowing",
+    "difficulty": "easy",
+    "marks": 4,
+    "text": "Match the items in Column A with the correct options from Column B.",
+    "columnA": [
+      "Archaeology",
+      "Primary Sources",
+      "Secondary Sources",
+      "Carbon Dating"
+    ],
+    "columnB": [
+      "Study of ancient cultures and human remains",
+      "First-hand accounts or direct evidence from the past",
+      "Interpretations or analysis of primary sources",
+      "Method used to determine the age of artifacts"
+    ],
+    "options": [
+      "1A, 2B, 3C, 4D"
+    ],
+    "answer": "1A, 2B, 3C, 4D",
+    "createdAt": "2025-01-30T16:44:47.559Z"
+  }
+],

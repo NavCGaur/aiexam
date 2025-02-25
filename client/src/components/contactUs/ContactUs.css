@@ -1,0 +1,33 @@
+/* ContactUs.css */
+.contact-us {
+    padding: 6rem 2rem;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-us h1 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .contact-us p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 600px) {
+    .contact-us {
+      padding: 10px;
+    }
+  
+    .contact-us h1 {
+      font-size: 1.5rem;
+    }
+  
+    .contact-us p {
+      font-size: 0.9rem;
+    }
+  }
+  

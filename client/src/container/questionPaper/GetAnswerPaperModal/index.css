@@ -1,0 +1,126 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    z-index: 1000;
+}
+
+.modal-container {
+    background: #fff;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    font-family: var(--font-family);
+}
+
+.modal-close-button {
+    position: absolute;
+    right:4rem;
+    top: 4rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: 'white';
+    z-index: 100;
+}
+
+.modal-content {
+    padding: 2rem;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.modal-info-text {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.modal-input-container {
+    margin-bottom: 1.5rem;
+}
+
+.modal-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 2px solid var(--color-footer);
+    border-radius: 5px;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    outline: none;
+}
+
+.modal-input.success {
+    border-color: #28a745;
+}
+
+.modal-input.error {
+    border-color: #dc3545;
+}
+
+.validation-message {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.validation-message.success {
+    color: #28a745;
+}
+
+.validation-message.error {
+    color: #dc3545;
+}
+
+.modal-extra-section {
+    border-top: 1px solid #eee;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.extra-section-text {
+    font-size: 1rem;
+    color: var(--color-text);
+    margin-bottom: 1rem;
+}
+
+/* Reusing your existing button style */
+.modal-extra-section .gpt4__cta-button {
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 650px) {
+    .modal-container {
+        margin: 1rem;
+    }
+
+    .modal-content {
+        padding: 1.5rem;
+    }
+
+    .modal-title {
+        font-size: 1.25rem;
+    }
+
+    .modal-info-text,
+    .extra-section-text {
+        font-size: 0.875rem;
+    }
+}

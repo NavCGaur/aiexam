@@ -1,0 +1,15 @@
+.quiz-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .quiz-header__topic {
+    font-size: 1.5rem;
+    font-weight: var(--font-weight);
+    color: var(--text-color);
+  }
+  
+  .quiz-header__progress {
+    font-size: 1rem;
+    color: var(--text-color);
+  }

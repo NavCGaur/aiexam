@@ -1,0 +1,29 @@
+.quiz-feedback {
+    text-align: center;
+  }
+  
+  .quiz-feedback__title {
+    font-size: 1.5rem;
+    font-weight: var(--font-weight);
+    color: var(--text-color);
+  }
+  
+  .quiz-feedback__score {
+    font-size: 1.2rem;
+    color: var(--text-color);
+  }
+  
+  .quiz-feedback__incorrect {
+    font-size: 1rem;
+    color: var(--text-color);
+  }
+  
+  .quiz-feedback__button {
+    background-color: var(--header-background);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }

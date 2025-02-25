@@ -1,0 +1,2553 @@
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Reproduction in Organisms",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is a method of asexual reproduction in plants?",
+    "options": [
+      "Budding",
+      "Fertilization",
+      "Meiosis",
+      "Pollination"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Reproduction in Organisms",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "In humans, the male gametes are produced in which of the following structures?",
+    "options": [
+      "Testes",
+      "Ovaries",
+      "Uterus",
+      "Fallopian tubes"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Reproduction in Organisms",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is a characteristic of sexual reproduction?",
+    "options": [
+      "Involves fusion of male and female gametes",
+      "Results in genetically identical offspring",
+      "Occurs through mitosis",
+      "Occurs in unicellular organisms only"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which part of the flower develops into a fruit?",
+    "options": [
+      "Pistil",
+      "Stamen",
+      "Sepal",
+      "Petals"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which process involves the transfer of pollen grains from anther to stigma?",
+    "options": [
+      "Fertilization",
+      "Pollination",
+      "Germination",
+      "Seed dispersal"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which structure of a flower contains the female reproductive organs?",
+    "options": [
+      "Pistil",
+      "Stamen",
+      "Sepal",
+      "Petals"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which hormone is responsible for the development of secondary sexual characteristics in males?",
+    "options": [
+      "Estrogen",
+      "Progesterone",
+      "Testosterone",
+      "Follicle-stimulating hormone"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Where does fertilization usually occur in the human female reproductive system?",
+    "options": [
+      "Uterus",
+      "Fallopian tube",
+      "Vagina",
+      "Ovary"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "What is the average length of the menstrual cycle in human females?",
+    "options": [
+      "10 days",
+      "20 days",
+      "30 days",
+      "40 days"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Reproductive Health",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is NOT a barrier method of contraception?",
+    "options": [
+      "Condoms",
+      "Diaphragm",
+      "Birth control pills",
+      "Cervical cap"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Reproductive Health",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "What is the function of a diaphragm in contraception?",
+    "options": [
+      "To prevent fertilization of the egg",
+      "To block the entry of sperm into the uterus",
+      "To inhibit ovulation",
+      "To thicken cervical mucus"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Reproductive Health",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following sexually transmitted infections is caused by a virus?",
+    "options": [
+      "Gonorrhea",
+      "Syphilis",
+      "Chlamydia",
+      "HIV/AIDS"
+    ],
+    "correctAnswer": "D",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Principles of Inheritance and Variation",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is the unit of heredity?",
+    "options": [
+      "Gene",
+      "Protein",
+      "Chromosome",
+      "Cell"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Principles of Inheritance and Variation",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Mendel's law of segregation is based on the separation of:",
+    "options": [
+      "Alleles",
+      "Genes",
+      "Chromosomes",
+      "Nucleotides"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Principles of Inheritance and Variation",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following represents the genotype of a homozygous recessive individual?",
+    "options": [
+      "aa",
+      "AA",
+      "Aa",
+      "aA"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which enzyme is responsible for unwinding the DNA double helix during replication?",
+    "options": [
+      "DNA polymerase",
+      "RNA polymerase",
+      "Helicase",
+      "Ligase"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "What is the function of DNA polymerase during DNA replication?",
+    "options": [
+      "Unwinds the DNA helix",
+      "Adds nucleotides to the growing DNA strand",
+      "Joins Okazaki fragments",
+      "Proofreads the newly synthesized DNA"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which nitrogenous base is not found in RNA?",
+    "options": [
+      "Adenine",
+      "Guanine",
+      "Thymine",
+      "Uracil"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Evolution",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which scientist proposed the theory of natural selection?",
+    "options": [
+      "Charles Darwin",
+      "Gregor Mendel",
+      "Louis Pasteur",
+      "Alfred Russel Wallace"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Evolution",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "What is the process by which organisms with favorable traits are more likely to survive and reproduce?",
+    "options": [
+      "Natural selection",
+      "Genetic drift",
+      "Mutation",
+      "Gene flow"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Evolution",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is not a mechanism of evolution?",
+    "options": [
+      "Gene flow",
+      "Genetic drift",
+      "Punctuated equilibrium",
+      "Mutation"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Human Health and Disease",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is a viral disease?",
+    "options": [
+      "Malaria",
+      "Tuberculosis",
+      "Influenza",
+      "Typhoid"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Human Health and Disease",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is not a mode of transmission for HIV?",
+    "options": [
+      "Blood transfusion",
+      "Sharing needles",
+      "Mosquito bites",
+      "Mother to child during childbirth"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Human Health and Disease",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is a symptom of Dengue fever?",
+    "options": [
+      "Severe cough",
+      "Joint pain",
+      "High blood pressure",
+      "Blurry vision"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is a method of vegetative propagation?",
+    "options": [
+      "Seed",
+      "Cutting",
+      "Spore",
+      "Pollen"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is an example of artificial insemination in livestock?",
+    "options": [
+      "Breeding by natural selection",
+      "Breeding by inbreeding",
+      "Breeding by outbreeding",
+      "Breeding by artificial insemination"
+    ],
+    "correctAnswer": "D",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is a technique used for hybridoma formation?",
+    "options": [
+      "Cloning",
+      "Vegetative propagation",
+      "Cell fusion",
+      "Micropropagation"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Microbes in Human Welfare",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is an example of a beneficial microbe used in the production of bread?",
+    "options": [
+      "Streptococcus pyogenes",
+      "Saccharomyces cerevisiae",
+      "Escherichia coli",
+      "Mycobacterium tuberculosis"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Microbes in Human Welfare",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which process involves the use of microbes to convert milk into products like curd and cheese?",
+    "options": [
+      "Fermentation",
+      "Photosynthesis",
+      "Respiration",
+      "Germination"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Microbes in Human Welfare",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is a role of microbes in sewage treatment plants?",
+    "options": [
+      "Producing toxins",
+      "Causing diseases",
+      "Decomposing organic matter",
+      "Increasing pollution"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biotechnology: Principles and Processes",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is not a step in the process of recombinant DNA technology?",
+    "options": [
+      "Isolation of DNA fragments",
+      "Ligation of DNA fragments",
+      "Transcription of DNA fragments",
+      "Introduction of recombinant DNA into host cells"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biotechnology: Principles and Processes",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which enzyme is used to cut DNA at specific sequences in recombinant DNA technology?",
+    "options": [
+      "DNA polymerase",
+      "Ligase",
+      "Restriction enzyme",
+      "RNA polymerase"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biotechnology: Principles and Processes",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "What is the purpose of using a selectable marker in recombinant DNA technology?",
+    "options": [
+      "To identify the host cells that have taken up the recombinant DNA",
+      "To amplify the target gene",
+      "To isolate DNA fragments",
+      "To transcribe the DNA fragments"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biotechnology and Its Applications",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is an example of a genetically modified organism (GMO)?",
+    "options": [
+      "Dog",
+      "Tomato",
+      "Lion",
+      "Elephant"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biotechnology and Its Applications",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "What is the role of restriction enzymes in genetic engineering?",
+    "options": [
+      "Identifying DNA sequences",
+      "Producing proteins",
+      "Regulating gene expression",
+      "Activating immune response"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biotechnology and Its Applications",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which technique is used for separating DNA fragments based on their size?",
+    "options": [
+      "PCR",
+      "Gel electrophoresis",
+      "Plasmid cloning",
+      "DNA fingerprinting"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Organisms and Populations",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is an example of abiotic factor?",
+    "options": [
+      "Grass",
+      "Sunlight",
+      "Deer",
+      "Worms"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Organisms and Populations",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "What is the primary source of energy in most ecosystems?",
+    "options": [
+      "Grass",
+      "Water",
+      "Sunlight",
+      "Air"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Organisms and Populations",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is an example of a biotic factor?",
+    "options": [
+      "Rocks",
+      "Water",
+      "Sunlight",
+      "Grasshoppers"
+    ],
+    "correctAnswer": "D",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Ecosystem",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is not a biotic component of an ecosystem?",
+    "options": [
+      "Plants",
+      "Animals",
+      "Water",
+      "Bacteria"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Ecosystem",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "The process by which green plants use sunlight to synthesize food is called:",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Transpiration",
+      "Pollination"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Ecosystem",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is a decomposer in an ecosystem?",
+    "options": [
+      "Deer",
+      "Lion",
+      "Fungi",
+      "Grass"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biodiversity and Conservation",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is not a direct value of biodiversity?",
+    "options": [
+      "Food",
+      "Medicine",
+      "Climate regulation",
+      "Plastic"
+    ],
+    "correctAnswer": "D",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biodiversity and Conservation",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "What is the term used to describe the variety of species present in an ecosystem?",
+    "options": [
+      "Habitat diversity",
+      "Genetic diversity",
+      "Species diversity",
+      "Ecosystem diversity"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biodiversity and Conservation",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is a threat to biodiversity?",
+    "options": [
+      "Conservation efforts",
+      "Habitat destruction",
+      "Protected areas",
+      "Species reintroduction"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Environmental Issues",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following gases is responsible for causing global warming?",
+    "options": [
+      "Nitrogen",
+      "Oxygen",
+      "Carbon Dioxide",
+      "Hydrogen"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Environmental Issues",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is a non-renewable source of energy?",
+    "options": [
+      "Solar power",
+      "Wind power",
+      "Coal",
+      "Biomass"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Environmental Issues",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "What is the main cause of ozone depletion in the stratosphere?",
+    "options": [
+      "Chlorofluorocarbons (CFCs)",
+      "Carbon Dioxide",
+      "Methane",
+      "Nitrous Oxide"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Reproduction in Organisms",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is a gamete?",
+    "marks": 2,
+    "answer": "A gamete is a haploid reproductive cell (sperm or egg) that fuses with another gamete during fertilization.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Reproduction in Organisms",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the significance of meiosis in sexual reproduction?",
+    "marks": 2,
+    "answer": "Meiosis ensures genetic variation by producing haploid gametes with unique genetic combinations through crossing over and independent assortment.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Reproduction in Organisms",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the difference between asexual and sexual reproduction?",
+    "marks": 2,
+    "answer": "Asexual reproduction involves a single parent and produces genetically identical offspring, while sexual reproduction involves two parents and produces genetically diverse offspring.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is pollination?",
+    "marks": 2,
+    "answer": "Pollination is the transfer of pollen grains from the anther to the stigma of a flower, which is essential for fertilization in flowering plants.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the role of pollen tube in plant reproduction?",
+    "marks": 2,
+    "answer": "The pollen tube delivers the male gametes (sperm cells) from the pollen grain to the ovule for fertilization in plant reproduction.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is double fertilization in flowering plants?",
+    "marks": 2,
+    "answer": "Double fertilization is a unique process in flowering plants where one sperm fertilizes the egg to form the zygote, while the other sperm combines with the polar nuclei to form endosperm, a nutrient-rich tissue.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the function of the fallopian tubes in human reproduction?",
+    "marks": 2,
+    "answer": "The fallopian tubes are responsible for transporting the egg from the ovary to the uterus and providing the site for fertilization to occur.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of spermatogenesis in males.",
+    "marks": 3,
+    "answer": "Spermatogenesis is the process by which sperms are produced in the testes through multiple stages of cell division and differentiation.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the role of progesterone in the menstrual cycle?",
+    "marks": 2,
+    "answer": "Progesterone helps prepare the uterus for a possible pregnancy by thickening the uterine lining and maintaining it for implantation of a fertilized egg.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Reproductive Health",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is infertility?",
+    "marks": 2,
+    "answer": "Infertility is the inability of a couple to achieve pregnancy or carry a pregnancy to term after a year or more of regular, unprotected sexual intercourse.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Reproductive Health",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the role of contraceptives in reproductive health?",
+    "marks": 2,
+    "answer": "Contraceptives help in preventing unwanted pregnancies, sexually transmitted infections, and promoting responsible family planning.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Reproductive Health",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What are the advantages of sex education in schools?",
+    "marks": 2,
+    "answer": "Sex education in schools helps in providing accurate information about reproductive health, promoting safe practices, and reducing risky behavior among adolescents.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Principles of Inheritance and Variation",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is a Punnett square?",
+    "marks": 2,
+    "answer": "A Punnett square is a diagram used to predict the possible genotypes of offspring in a genetic cross.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Principles of Inheritance and Variation",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the law of independent assortment?",
+    "marks": 3,
+    "answer": "The law of independent assortment states that alleles of different genes segregate independently of one another during gamete formation.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Principles of Inheritance and Variation",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is genetic recombination?",
+    "marks": 2,
+    "answer": "Genetic recombination is the process by which alleles are shuffled between homologous chromosomes during meiosis, leading to genetic diversity in offspring.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is DNA replication?",
+    "marks": 3,
+    "answer": "DNA replication is the process by which a cell makes an identical copy of its DNA, which is essential for cell division and passing genetic information to the next generation.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the role of RNA in protein synthesis?",
+    "marks": 2,
+    "answer": "RNA is involved in protein synthesis as it carries the genetic information from DNA to the ribosomes where proteins are made. There are different types of RNA (mRNA, tRNA, rRNA) involved in this process.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the significance of the genetic code?",
+    "marks": 3,
+    "answer": "The genetic code is a set of rules by which information encoded within genetic material (DNA or mRNA sequences) is translated into proteins by living cells. It is significant as it ensures accurate protein synthesis and enables the inheritance of traits from one generation to the next.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Evolution",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is natural selection?",
+    "marks": 2,
+    "answer": "Natural selection is the process where organisms better adapted to their environment tend to survive and produce more offspring.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Evolution",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "Explain the concept of genetic drift.",
+    "marks": 3,
+    "answer": "Genetic drift is the change in the frequency of certain genes in a population due to random chance events, leading to a loss of genetic variation.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Evolution",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "Define convergent evolution.",
+    "marks": 2,
+    "answer": "Convergent evolution is when different species independently evolve similar traits or characteristics due to similar environmental pressures.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Human Health and Disease",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is immunity?",
+    "marks": 2,
+    "answer": "Immunity is the ability of an organism to resist a particular infection or toxin by the action of specific antibodies or sensitized white blood cells.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Human Health and Disease",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the function of antibodies in the immune system?",
+    "marks": 2,
+    "answer": "Antibodies are proteins produced by the immune system in response to the presence of an antigen. They help in neutralizing pathogens, marking them for destruction, and enhancing phagocytosis.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Human Health and Disease",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "Explain the difference between infectious and non-infectious diseases.",
+    "marks": 2,
+    "answer": "Infectious diseases are caused by pathogenic microorganisms like bacteria, viruses, fungi, or parasites and can be transmitted from person to person. Non-infectious diseases are not caused by pathogens and are typically chronic conditions like heart disease, diabetes, or cancer.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is apomixis?",
+    "marks": 2,
+    "answer": "Apomixis is a type of asexual reproduction that involves the formation of seeds without fertilization.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is tissue culture technique?",
+    "marks": 2,
+    "answer": "Tissue culture is a technique used to grow plant cells, tissues, or organs in aseptic conditions outside the plant's body.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is cryopreservation?",
+    "marks": 2,
+    "answer": "Cryopreservation is the process of preserving biological material at very low temperatures, typically in liquid nitrogen, to maintain their viability for future use.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Microbes in Human Welfare",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What are antibiotics?",
+    "marks": 2,
+    "answer": "Antibiotics are substances produced by microorganisms that can inhibit the growth of or destroy other microorganisms.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Microbes in Human Welfare",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "How do microbes help in the production of alcohol?",
+    "marks": 2,
+    "answer": "Microbes like yeast are used in the fermentation process to convert sugars into alcohol under anaerobic conditions.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Microbes in Human Welfare",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the role of microbes in sewage treatment?",
+    "marks": 2,
+    "answer": "Microbes help in the breakdown of organic matter in sewage into simpler substances, reducing pollution and making the water safer for release into the environment.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biotechnology: Principles and Processes",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is genetic engineering?",
+    "marks": 2,
+    "answer": "Genetic engineering is the process of modifying an organism's genetic material using biotechnology.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biotechnology: Principles and Processes",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the role of restriction enzymes in genetic engineering?",
+    "marks": 2,
+    "answer": "Restriction enzymes are used to cut DNA at specific sequences, allowing for the insertion of foreign genes or DNA fragments.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biotechnology: Principles and Processes",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the significance of DNA ligase in genetic engineering?",
+    "marks": 2,
+    "answer": "DNA ligase is used to join DNA fragments together by catalyzing the formation of phosphodiester bonds between them.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biotechnology and Its Applications",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is genetic engineering?",
+    "marks": 2,
+    "answer": "Genetic engineering is the process of manually adding new DNA to an organism to give it new traits or characteristics.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biotechnology and Its Applications",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the role of restriction enzymes in genetic engineering?",
+    "marks": 2,
+    "answer": "Restriction enzymes are used to cut DNA at specific sequences, allowing for the insertion of new genetic material during genetic engineering.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biotechnology and Its Applications",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the significance of PCR (Polymerase Chain Reaction) in biotechnology?",
+    "marks": 2,
+    "answer": "PCR is used to amplify a small amount of DNA into a larger quantity, making it an essential tool in DNA analysis, genetic engineering, and biotechnology research.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Ecosystem",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is a short answer question?",
+    "marks": 2,
+    "answer": "A short answer question requires a brief but complete response, typically 1-2 sentences.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Ecosystem",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "Define an ecosystem.",
+    "marks": 3,
+    "answer": "An ecosystem is a community of living organisms interacting with each other and their physical environment.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Ecosystem",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the role of decomposers in an ecosystem?",
+    "marks": 2,
+    "answer": "Decomposers break down dead organic matter and recycle nutrients back into the ecosystem.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biodiversity and Conservation",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is biodiversity?",
+    "marks": 2,
+    "answer": "Biodiversity refers to the variety and variability of life forms on Earth, including different species, genetic diversity within species, and different ecosystems.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biodiversity and Conservation",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "Why is biodiversity important for ecosystems?",
+    "marks": 2,
+    "answer": "Biodiversity is important for ecosystems because it contributes to ecosystem stability, productivity, resilience, and the provision of ecosystem services such as air and water purification, pollination, and nutrient cycling.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biodiversity and Conservation",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What are the major threats to biodiversity?",
+    "marks": 2,
+    "answer": "The major threats to biodiversity include habitat destruction, climate change, pollution, overexploitation of natural resources, and invasive species.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Environmental Issues",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is biodiversity?",
+    "marks": 2,
+    "answer": "Biodiversity refers to the variety and variability of life forms on Earth, including diversity within species, between species, and of ecosystems.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Environmental Issues",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the greenhouse effect?",
+    "marks": 2,
+    "answer": "The greenhouse effect is the process by which greenhouse gases trap heat from the sun in the Earth's atmosphere, leading to a warming of the planet.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Environmental Issues",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the ozone layer and why is it important?",
+    "marks": 2,
+    "answer": "The ozone layer is a region of the Earth's stratosphere that contains a high concentration of ozone molecules. It is important because it absorbs the majority of the sun's ultraviolet radiation, protecting life on Earth from harmful UV rays.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Reproduction in Organisms",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "In a population of frogs, the males are known for their distinct croaking sound during the breeding season to attract females. However, due to environmental pollution, the water bodies where these frogs breed have become contaminated with harmful chemicals. This has resulted in a decrease in the population of frogs in that area. Investigate the possible reasons for this decline and suggest measures to conserve the frog population.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "How can environmental pollution affect the reproduction of frogs?",
+          "marks": 1,
+          "answer": "Environmental pollution can lead to the contamination of water bodies, affecting the quality of water and disrupting the breeding behavior of frogs."
+        },
+        {
+          "text": "Explain the role of the male frog's croaking sound in reproduction.",
+          "marks": 1,
+          "answer": "The male frog's croaking sound is used to attract females for mating during the breeding season."
+        },
+        {
+          "text": "What measures can be taken to conserve the frog population in the contaminated area?",
+          "marks": 1,
+          "answer": "Measures such as cleaning up the water bodies, reducing pollution, and creating safe breeding habitats can help conserve the frog population."
+        },
+        {
+          "text": "How does a decline in the frog population impact the ecosystem?",
+          "marks": 1,
+          "answer": "A decline in the frog population can disrupt the food chain and ecosystem balance, as frogs play a crucial role in controlling insect populations."
+        },
+        {
+          "text": "Discuss the importance of biodiversity conservation in preventing such situations.",
+          "marks": 1,
+          "answer": "Biodiversity conservation is essential to maintain the balance of ecosystems and prevent the loss of species due to environmental factors like pollution."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "In a certain species of flowering plant, the process of double fertilization takes place. During the process, one sperm nucleus fuses with the egg cell to form the zygote, while the other sperm nucleus fuses with the polar nuclei to form the endosperm. This species also shows the phenomenon of self-incompatibility, where the pollen grains are unable to germinate on the stigma of the same plant. As a result, cross-pollination is essential for successful fertilization.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "Explain the process of double fertilization in flowering plants.",
+          "marks": 1,
+          "answer": "Double fertilization involves the fusion of one sperm nucleus with the egg cell to form the zygote, and the fusion of the other sperm nucleus with the polar nuclei to form the endosperm."
+        },
+        {
+          "text": "What is self-incompatibility in plants? How does it impact fertilization?",
+          "marks": 1,
+          "answer": "Self-incompatibility is a genetic mechanism in plants that prevents self-fertilization. It promotes outbreeding and cross-pollination, as pollen grains from the same plant are unable to germinate on the stigma."
+        },
+        {
+          "text": "Why is cross-pollination important in species with self-incompatibility?",
+          "marks": 1,
+          "answer": "Cross-pollination is important in species with self-incompatibility because it allows for the transfer of pollen from one plant to another, facilitating successful fertilization and genetic diversity."
+        },
+        {
+          "text": "What is the significance of endosperm formation in double fertilization?",
+          "marks": 1,
+          "answer": "Endosperm formation in double fertilization provides nourishment to the developing embryo and seed. It is a rich source of nutrients and supports the growth of the new plant."
+        },
+        {
+          "text": "How does the process of double fertilization contribute to the reproductive success of flowering plants?",
+          "marks": 1,
+          "answer": "Double fertilization ensures the formation of both the embryo and endosperm, which are essential for the development of a new plant. It enhances reproductive success by providing adequate nourishment and support for the growing seed."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "Case Description: Sarah, a 35-year-old woman, is trying to conceive for the past year without success. She and her partner have been actively trying to have a baby but have not been successful. Sarah has regular menstrual cycles and has no known medical conditions. She has been tracking her ovulation using ovulation prediction kits. Despite all efforts, she has not been able to get pregnant. She is now seeking advice from a fertility specialist.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What could be the possible reasons for Sarah's infertility?",
+          "marks": 1,
+          "answer": "Possible reasons could include ovulation disorders, blocked fallopian tubes, endometriosis, or male factor infertility."
+        },
+        {
+          "text": "What tests can the fertility specialist recommend for Sarah and her partner?",
+          "marks": 1,
+          "answer": "The specialist may recommend tests like semen analysis for the male partner, hormonal tests for Sarah, ultrasound to check the uterus and ovaries, and hysterosalpingography to check for tubal blockages."
+        },
+        {
+          "text": "What are some lifestyle changes that Sarah and her partner can make to improve their chances of conception?",
+          "marks": 1,
+          "answer": "They can maintain a healthy weight, avoid smoking and excessive alcohol consumption, reduce stress levels, and ensure a balanced diet with regular exercise."
+        },
+        {
+          "text": "What are the treatment options that the fertility specialist may suggest for Sarah?",
+          "marks": 1,
+          "answer": "Treatment options may include ovulation induction, intrauterine insemination (IUI), in vitro fertilization (IVF), or surgery to correct any underlying issues."
+        },
+        {
+          "text": "How can Sarah and her partner cope with the emotional stress of infertility?",
+          "marks": 1,
+          "answer": "They can seek counseling, join support groups, communicate openly with each other, and take breaks from fertility treatments to focus on their relationship."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Reproductive Health",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A couple, aged 32 and 30, has been trying to conceive for the past 2 years without success. They have not used any contraception methods before. The woman has a regular menstrual cycle and the man has no known medical conditions. They are worried about their fertility and seek advice. What could be the possible reasons for their infertility?",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What are the common causes of female infertility?",
+          "marks": 1,
+          "answer": "Common causes of female infertility include ovulation disorders, blocked fallopian tubes, endometriosis, and age-related factors."
+        },
+        {
+          "text": "What are the common causes of male infertility?",
+          "marks": 1,
+          "answer": "Common causes of male infertility include low sperm count, poor sperm motility, abnormal sperm shape, and hormonal imbalances."
+        },
+        {
+          "text": "How can the couple determine the cause of their infertility?",
+          "marks": 1,
+          "answer": "The couple can undergo fertility tests, including semen analysis for the man and tests to check for ovulation, fallopian tube blockages, and hormonal imbalances for the woman."
+        },
+        {
+          "text": "What are some lifestyle factors that can affect fertility?",
+          "marks": 1,
+          "answer": "Factors like smoking, excessive alcohol consumption, obesity, stress, and exposure to environmental toxins can negatively impact fertility in both men and women."
+        },
+        {
+          "text": "What are some possible treatment options for infertility?",
+          "marks": 1,
+          "answer": "Treatment options for infertility may include medications to stimulate ovulation, surgery to correct physical issues, assisted reproductive technologies like IVF, and lifestyle changes."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Principles of Inheritance and Variation",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "Case Description: In a family, a couple has four children. The first two children are boys, and the last two children are girls. The couple is wondering about the probability of having children of a specific gender in their next pregnancy. They have heard about the principles of inheritance and variation and seek your advice.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What is the probability of the couple having a boy in their next pregnancy?",
+          "marks": 1,
+          "answer": "The probability of having a boy is 50% (1/2) in each pregnancy."
+        },
+        {
+          "text": "What is the probability of the couple having a girl in their next pregnancy?",
+          "marks": 1,
+          "answer": "The probability of having a girl is also 50% (1/2) in each pregnancy."
+        },
+        {
+          "text": "Explain the principle of independent assortment in the context of gender inheritance.",
+          "marks": 1,
+          "answer": "The principle of independent assortment states that the inheritance of one trait is not influenced by the inheritance of another trait. In the case of gender inheritance, the chance of having a boy or a girl is independent of the previous children's genders."
+        },
+        {
+          "text": "What are the chances of the couple having two boys and two girls in four pregnancies?",
+          "marks": 1,
+          "answer": "The chances of having two boys and two girls in four pregnancies can vary, but statistically, it could be 6.25% (1/2 * 1/2 * 1/2 * 1/2) if each pregnancy is independent."
+        },
+        {
+          "text": "How does the concept of genetic recombination contribute to the variation in offspring genders?",
+          "marks": 1,
+          "answer": "Genetic recombination during meiosis leads to new combinations of alleles, increasing genetic variation. This recombination can result in different gender outcomes in offspring, contributing to the variation in genders among siblings."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "Case Description: A family has a history of a genetic disorder called Huntington's disease. The grandfather passed away due to this disease, and now the father is showing symptoms. The family is concerned about the inheritance pattern and the chances of the next generation getting affected. They seek genetic counseling to understand the molecular basis of this disease.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What is the molecular basis of Huntington's disease?",
+          "marks": 1,
+          "answer": "Huntington's disease is caused by a mutation in the HTT gene, leading to the production of a toxic form of the huntingtin protein."
+        },
+        {
+          "text": "Explain the inheritance pattern of Huntington's disease.",
+          "marks": 1,
+          "answer": "Huntington's disease follows an autosomal dominant pattern of inheritance, where a single copy of the mutated gene from either parent can lead to the disease."
+        },
+        {
+          "text": "What are the chances of the father passing on the mutated gene to his children?",
+          "marks": 1,
+          "answer": "If the father carries the mutated gene, each of his children has a 50% chance of inheriting the gene and developing Huntington's disease."
+        },
+        {
+          "text": "Can genetic testing help in predicting the risk of developing Huntington's disease?",
+          "marks": 1,
+          "answer": "Yes, genetic testing can identify the presence of the mutated gene in individuals, helping them understand their risk of developing Huntington's disease."
+        },
+        {
+          "text": "What are the possible treatment options for individuals with Huntington's disease?",
+          "marks": 1,
+          "answer": "Currently, there is no cure for Huntington's disease, but treatments focus on managing symptoms and improving quality of life."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Evolution",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "In a population of birds, there is a variation in beak size. Due to a change in climate, the availability of food sources changes. Some birds with larger beaks are able to crack open harder seeds, while birds with smaller beaks can feed on softer seeds. Over time, the population shows a shift towards larger beak sizes. Explain this phenomenon.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "How does natural selection play a role in this case?",
+          "marks": 1,
+          "answer": "Natural selection favors birds with larger beaks as they are better suited to crack harder seeds, leading to their increased survival and reproduction."
+        },
+        {
+          "text": "What is the significance of this variation in beak size for the population?",
+          "marks": 1,
+          "answer": "The variation in beak size allows the population to adapt to the changing environment and utilize different food sources, enhancing their chances of survival."
+        },
+        {
+          "text": "How does this example illustrate the concept of adaptation?",
+          "marks": 1,
+          "answer": "This example demonstrates how the population adapts to its environment by developing traits, like beak size, that increase their fitness and survival in response to changing conditions."
+        },
+        {
+          "text": "Explain how this case relates to the concept of evolution.",
+          "marks": 1,
+          "answer": "This case shows how natural selection acts on heritable traits within a population, leading to changes in the gene pool over generations, which is the basis of evolution."
+        },
+        {
+          "text": "What would happen if the food sources remained constant over time?",
+          "marks": 1,
+          "answer": "If the food sources remained constant, there would be no selective pressure favoring larger beaks, and the population's beak sizes would likely remain stable."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Human Health and Disease",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "Case Description: A 45-year-old man visited a doctor complaining of persistent cough, weight loss, and chest pain. Upon further investigation, it was found that he had a history of smoking for the past 20 years. The doctor suspected a serious respiratory condition and advised him to undergo a series of tests.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What could be the possible respiratory condition the man is suffering from?",
+          "marks": 1,
+          "answer": "Lung cancer."
+        },
+        {
+          "text": "What are the risk factors associated with the development of this condition?",
+          "marks": 1,
+          "answer": "Smoking is a major risk factor for lung cancer."
+        },
+        {
+          "text": "How can early detection improve the prognosis of this condition?",
+          "marks": 1,
+          "answer": "Early detection of lung cancer can lead to timely treatment and better outcomes."
+        },
+        {
+          "text": "What are some preventive measures that can be taken to reduce the risk of developing this condition?",
+          "marks": 1,
+          "answer": "Quitting smoking and avoiding exposure to secondhand smoke can reduce the risk of lung cancer."
+        },
+        {
+          "text": "What treatment options are available for managing this condition?",
+          "marks": 1,
+          "answer": "Treatment options for lung cancer may include surgery, chemotherapy, radiation therapy, and targeted therapy."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "In a poultry farm, the number of eggs produced per week has been decreasing steadily despite providing optimal conditions. Upon investigation, it was found that the hens were suffering from a deficiency of a particular nutrient. The farm manager decided to take corrective measures to enhance egg production.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What could be the possible nutrient deficiency affecting egg production in hens?",
+          "marks": 1,
+          "answer": "Calcium deficiency"
+        },
+        {
+          "text": "How can the farm manager correct this nutrient deficiency in hens?",
+          "marks": 1,
+          "answer": "Supplementing calcium in the diet of hens"
+        },
+        {
+          "text": "What role does calcium play in egg production in hens?",
+          "marks": 1,
+          "answer": "Calcium is essential for the formation of eggshells."
+        },
+        {
+          "text": "How long does it typically take for the corrective measures to show an improvement in egg production?",
+          "marks": 1,
+          "answer": "Around 2-4 weeks"
+        },
+        {
+          "text": "What other factors should the farm manager consider to further enhance egg production in hens?",
+          "marks": 1,
+          "answer": "Proper lighting, temperature, and overall nutrition of hens"
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Microbes in Human Welfare",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A dairy farm was facing issues with milk spoilage due to the growth of harmful bacteria. The farm owner decided to implement a new method using beneficial microbes to prevent milk spoilage and improve dairy production. Several strains of Lactobacillus were introduced in the milk processing unit. After a few weeks, the farm noticed a significant reduction in milk spoilage and an increase in the quality of dairy products.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "How did the introduction of Lactobacillus strains help in preventing milk spoilage?",
+          "marks": 1,
+          "answer": "Lactobacillus strains produce lactic acid, which lowers the pH of the milk and inhibits the growth of harmful bacteria."
+        },
+        {
+          "text": "Explain how the use of beneficial microbes can improve dairy production.",
+          "marks": 1,
+          "answer": "Beneficial microbes like Lactobacillus can enhance the flavor, texture, and shelf life of dairy products by fermenting lactose into lactic acid and other compounds."
+        },
+        {
+          "text": "What other benefits can the dairy farm experience by using beneficial microbes?",
+          "marks": 1,
+          "answer": "Besides preventing milk spoilage, beneficial microbes can also increase the nutritional value of dairy products, improve digestion, and boost the immune system of animals."
+        },
+        {
+          "text": "How can the dairy farm ensure the proper maintenance of beneficial microbes in the milk processing unit?",
+          "marks": 1,
+          "answer": "The dairy farm should regularly monitor the microbial population, provide suitable growth conditions, and prevent contamination to maintain the beneficial microbes in the processing unit."
+        },
+        {
+          "text": "Suggest one more application of beneficial microbes in the food industry.",
+          "marks": 1,
+          "answer": "Beneficial microbes like yeast can be used in baking to ferment dough and produce carbon dioxide, leading to bread rising and a fluffy texture."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biotechnology: Principles and Processes",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A group of biotechnologists are working on developing a genetically modified crop that can resist a common pest. They have identified a gene from a bacterium that produces a protein toxic to the pest. The gene has been inserted into the crop plant's genome. After conducting several tests, they find that the genetically modified crop shows resistance to the pest and has increased yield compared to non-modified crops.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "How does the gene from the bacterium help the crop resist the pest?",
+          "marks": 1,
+          "answer": "The gene from the bacterium produces a protein toxic to the pest, providing resistance to the crop."
+        },
+        {
+          "text": "What are the potential benefits of using genetically modified crops like these?",
+          "marks": 1,
+          "answer": "Genetically modified crops can show resistance to pests, increase yield, and reduce the need for chemical pesticides."
+        },
+        {
+          "text": "What are some concerns or criticisms that may arise regarding the use of genetically modified crops?",
+          "marks": 1,
+          "answer": "Concerns may include environmental impact, potential health risks, and ethical considerations."
+        },
+        {
+          "text": "How can the biotechnologists ensure that the genetically modified crop is safe for consumption and the environment?",
+          "marks": 1,
+          "answer": "They can conduct thorough testing, including toxicity studies and environmental impact assessments, before releasing the crop for commercial use."
+        },
+        {
+          "text": "What regulatory measures are in place to govern the production and release of genetically modified crops?",
+          "marks": 1,
+          "answer": "Regulatory bodies like the FDA and USDA in the US have guidelines and approval processes for genetically modified crops."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biotechnology and Its Applications",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A biotechnology company has developed a genetically modified crop that is resistant to a common pest. The crop has been successfully tested in field trials and has shown increased yield compared to non-modified crops. However, there is a debate in the community regarding the safety and ethical implications of genetically modified organisms. The company needs to address these concerns and gain public acceptance for their product.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "How can the biotechnology company communicate the safety of their genetically modified crop to the public?",
+          "marks": 1,
+          "answer": "The company can conduct transparent studies and provide scientific evidence of the safety of the crop to the public."
+        },
+        {
+          "text": "What ethical considerations should the company take into account when promoting their genetically modified crop?",
+          "marks": 1,
+          "answer": "The company should consider the impact on biodiversity, potential cross-contamination with non-modified crops, and the rights of farmers to choose their preferred farming methods."
+        },
+        {
+          "text": "How can the company address concerns about the long-term effects of genetically modified crops on the environment?",
+          "marks": 1,
+          "answer": "The company can collaborate with environmental organizations and regulatory bodies to conduct long-term monitoring studies and ensure the sustainability of their product."
+        },
+        {
+          "text": "What strategies can the company use to engage with stakeholders and gain public acceptance for their genetically modified crop?",
+          "marks": 1,
+          "answer": "The company can organize public forums, engage with local communities and farmers, and provide clear information about the benefits and risks of their product."
+        },
+        {
+          "text": "How can the company ensure the responsible use of their genetically modified crop to prevent unintended consequences?",
+          "marks": 1,
+          "answer": "The company can implement strict regulations, promote education on proper farming practices, and monitor the cultivation of their crop to prevent any negative impacts."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Organisms and Populations",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A group of students conducted an experiment to study the effect of temperature on the growth of a particular species of bacteria. They divided the bacteria culture into three groups and exposed each group to different temperatures - Group A at 20°C, Group B at 30°C, and Group C at 40°C. After 24 hours, they measured the growth of bacteria in each group.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What was the independent variable in this experiment?",
+          "marks": 1,
+          "answer": "Temperature"
+        },
+        {
+          "text": "What was the dependent variable in this experiment?",
+          "marks": 1,
+          "answer": "Growth of bacteria"
+        },
+        {
+          "text": "Based on the results, which group showed the highest growth of bacteria and why?",
+          "marks": 1,
+          "answer": "Group B at 30°C showed the highest growth as it was the optimal temperature for bacterial growth."
+        },
+        {
+          "text": "What can be concluded about the relationship between temperature and bacterial growth from this experiment?",
+          "marks": 1,
+          "answer": "There is an optimal temperature range for bacterial growth, with growth decreasing at temperatures below or above this range."
+        },
+        {
+          "text": "How could this experiment be improved for more accurate results?",
+          "marks": 1,
+          "answer": "Using a larger sample size, replicating the experiment multiple times, and controlling for other variables like nutrients."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Ecosystem",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A pond ecosystem in a park is facing a decline in the number of fish species due to pollution from nearby industries. The water quality has deteriorated, affecting the aquatic plants and animals. As a result, the ecosystem is becoming unbalanced. The park authorities are concerned about the long-term impact on the biodiversity of the pond ecosystem.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What are the possible causes of water pollution in the pond ecosystem?",
+          "marks": 1,
+          "answer": "Industrial waste discharge, agricultural runoff, and sewage contamination."
+        },
+        {
+          "text": "How does water pollution affect the aquatic plants and animals in the pond ecosystem?",
+          "marks": 1,
+          "answer": "Water pollution can reduce oxygen levels, increase toxins, and disrupt the food chain."
+        },
+        {
+          "text": "What steps can be taken to restore the balance in the pond ecosystem?",
+          "marks": 1,
+          "answer": "Implementing water treatment, reducing pollution sources, and promoting conservation practices."
+        },
+        {
+          "text": "Explain the importance of biodiversity in maintaining a healthy ecosystem.",
+          "marks": 1,
+          "answer": "Biodiversity ensures resilience, stability, and productivity of ecosystems."
+        },
+        {
+          "text": "How can community involvement help in protecting the pond ecosystem?",
+          "marks": 1,
+          "answer": "Community participation can raise awareness, support conservation efforts, and monitor ecosystem health."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biodiversity and Conservation",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A group of researchers discovered a new species of plant in a remote rainforest. This plant had unique characteristics and was found in a small area. They named it 'Rainforestia specialis'. The researchers were concerned about the conservation status of this new species due to habitat destruction in the area. They decided to take action to protect 'Rainforestia specialis'.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What are the possible threats to the conservation of 'Rainforestia specialis'?",
+          "marks": 1,
+          "answer": "Habitat destruction, deforestation, climate change, and human activities."
+        },
+        {
+          "text": "Suggest two conservation strategies that the researchers can implement to protect 'Rainforestia specialis'.",
+          "marks": 1,
+          "answer": "Establishing protected areas and conducting awareness campaigns."
+        },
+        {
+          "text": "How can genetic diversity play a role in the conservation of 'Rainforestia specialis'?",
+          "marks": 1,
+          "answer": "Genetic diversity can help the species adapt to changing environmental conditions."
+        },
+        {
+          "text": "Explain the importance of preserving biodiversity in ecosystems like the rainforest.",
+          "marks": 1,
+          "answer": "Biodiversity ensures ecological balance, provides ecosystem services, and supports human well-being."
+        },
+        {
+          "text": "What are the implications of losing unique plant species like 'Rainforestia specialis'?",
+          "marks": 1,
+          "answer": "Loss of potential benefits, disruption of ecosystem functions, and reduction in overall biodiversity."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Environmental Issues",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A factory located near a river has been releasing untreated industrial waste into the water for several years. As a result, the water quality has deteriorated significantly, leading to the death of aquatic life and affecting the health of people living downstream who use the water for drinking and irrigation. The local community is now facing a severe environmental crisis.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What are the potential environmental impacts of releasing untreated industrial waste into a river?",
+          "marks": 1,
+          "answer": "The potential impacts include water pollution, loss of aquatic life, and health hazards for humans."
+        },
+        {
+          "text": "How can the local community address this environmental crisis?",
+          "marks": 1,
+          "answer": "The community can petition authorities to stop the factory's activities, organize clean-up drives, and promote awareness about water pollution."
+        },
+        {
+          "text": "What laws or regulations may have been violated by the factory in this case?",
+          "marks": 1,
+          "answer": "The factory may have violated laws related to water pollution, environmental protection, and waste management."
+        },
+        {
+          "text": "What are the long-term consequences of not addressing this environmental issue?",
+          "marks": 1,
+          "answer": "Failure to address the issue can lead to further degradation of the ecosystem, health problems, and economic losses for the community."
+        },
+        {
+          "text": "Suggest some sustainable practices that the factory can adopt to prevent further environmental damage.",
+          "marks": 1,
+          "answer": "The factory can implement waste treatment systems, use eco-friendly production methods, and invest in renewable energy sources."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Reproduction in Organisms",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the process of gametogenesis in humans. How is it different in males and females?",
+    "marks": 5,
+    "answer": "Gametogenesis is the process of formation of male and female gametes (sperms and eggs) through meiosis. In males, spermatogenesis occurs in the testes where diploid cells called spermatogonia undergo meiosis to produce haploid sperm cells. In females, oogenesis takes place in the ovaries where diploid cells called oogonia undergo meiosis but only one functional egg cell is produced along with polar bodies."
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Reproduction in Organisms",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the significance of fertilization in sexual reproduction.",
+    "marks": 4,
+    "answer": "Fertilization is the fusion of a sperm cell and an egg cell to form a zygote, which is the first cell of a new individual. It restores the diploid number of chromosomes, ensuring genetic diversity in offspring. Fertilization also activates the zygote to start dividing and developing into a new organism. It also determines the genetic traits and characteristics of the new individual."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the process of double fertilization in flowering plants.",
+    "marks": 5,
+    "answer": "Double fertilization is a unique process in flowering plants where two sperm cells are involved in the fertilization of the ovule. One sperm cell fertilizes the egg cell to form the zygote, which will develop into the embryo. The other sperm cell combines with the two polar nuclei in the central cell of the ovule to form the triploid endosperm nucleus, which will develop into the endosperm tissue providing nourishment to the developing embryo."
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Describe the structure of a typical flower and the functions of its different parts.",
+    "marks": 4,
+    "answer": "A typical flower consists of four main parts: sepals, petals, stamens, and pistil. Sepals are the outermost whorl, usually green and protect the unopened flower bud. Petals are brightly colored to attract pollinators. Stamens are the male reproductive organs, consisting of anther and filament, producing pollen grains. Pistil is the female reproductive organ, consisting of stigma, style, and ovary, containing the ovules. The functions of these parts include protecting the reproductive structures, attracting pollinators, producing gametes, and facilitating fertilization."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the process of spermatogenesis in males.",
+    "marks": 4,
+    "answer": "Spermatogenesis is the process by which sperms are produced in the male testes. It begins at puberty and involves the division and differentiation of diploid spermatogonia into haploid sperm cells. The process consists of three main stages: multiplication phase, growth phase, and maturation phase. During spermatogenesis, spermatogonia undergo mitosis to produce primary spermatocytes, which then undergo meiosis I to form secondary spermatocytes. These secondary spermatocytes undergo meiosis II to produce haploid spermatids, which eventually mature into spermatozoa."
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Describe the process of fertilization in humans.",
+    "marks": 4,
+    "answer": "Fertilization is the fusion of a sperm cell with an egg cell (ovum) to form a zygote. In humans, fertilization typically occurs in the fallopian tubes. During sexual intercourse, millions of sperm are deposited in the female reproductive tract. The sperm swim towards the egg, aided by cervical mucus and contractions of the female reproductive tract. Once a sperm successfully penetrates the egg's outer layer, the egg undergoes changes to prevent entry of other sperm. The genetic material from the sperm and egg then combine to form a zygote, which begins to divide and develop into an embryo."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Reproductive Health",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the importance of reproductive health education in schools.",
+    "marks": 4,
+    "answer": "Reproductive health education in schools is essential as it helps in creating awareness about reproductive organs, menstrual hygiene, contraception, sexually transmitted infections, and safe sexual practices. It also promotes gender equality, empowers individuals to make informed decisions regarding their sexual health, and reduces the stigma associated with reproductive issues. Additionally, it plays a crucial role in preventing teenage pregnancies, promoting responsible sexual behavior, and overall improving the reproductive health outcomes of individuals."
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Reproductive Health",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the various methods of contraception available to prevent unwanted pregnancies.",
+    "marks": 4,
+    "answer": "There are several methods of contraception available to prevent unwanted pregnancies, including barrier methods such as condoms, hormonal methods like birth control pills, intrauterine devices (IUDs), emergency contraception, sterilization (vasectomy for males and tubal ligation for females), fertility awareness methods, and implants. Each method has its own effectiveness, advantages, and disadvantages, allowing individuals to choose the most suitable option based on their preferences and health considerations."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Principles of Inheritance and Variation",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the process of genetic recombination during meiosis.",
+    "marks": 4,
+    "answer": "Genetic recombination occurs during meiosis when homologous chromosomes exchange genetic material. This process is called crossing over and leads to the creation of new combinations of alleles on the chromosomes. It increases genetic diversity among offspring by producing gametes with unique genetic combinations."
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Principles of Inheritance and Variation",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the significance of Mendel's laws of inheritance in modern genetics.",
+    "marks": 5,
+    "answer": "Mendel's laws of inheritance, including the law of segregation and the law of independent assortment, laid the foundation for modern genetics. These laws describe how traits are passed from parents to offspring in a predictable manner. They helped in understanding the principles of heredity, genetic variation, and the transmission of genetic traits across generations, forming the basis for further genetic research and advancements in the field."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the process of DNA replication in eukaryotes.",
+    "marks": 5,
+    "answer": "DNA replication in eukaryotes is a complex process that takes place during the S phase of the cell cycle. It involves several steps, including unwinding of the double helix by helicase, stabilization of single-stranded DNA by single-strand binding proteins, synthesis of RNA primers by primase, elongation of DNA strands by DNA polymerase, and joining of Okazaki fragments on the lagging strand by DNA ligase. The end result is two identical copies of the original DNA molecule."
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the significance of the central dogma of molecular biology in understanding genetic information flow.",
+    "marks": 4,
+    "answer": "The central dogma of molecular biology states that genetic information flows from DNA to RNA to proteins. This concept is crucial in understanding how genetic information is stored, replicated, and expressed in living organisms. It explains the process of transcription, where DNA is copied into RNA, and translation, where RNA is used to synthesize proteins. By following this central dogma, scientists can decipher the genetic code and study how genes control various cellular functions and traits."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Evolution",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the concept of natural selection with an example.",
+    "marks": 4,
+    "answer": "Natural selection is the process by which organisms that are better adapted to their environment tend to survive and reproduce more than those that are less adapted. This leads to the accumulation of favorable traits in a population over time. An example of natural selection is the peppered moth during the Industrial Revolution in England. As the environment became polluted, the light-colored moths stood out against darkened trees, making them more vulnerable to predators. The dark-colored moths had higher survival rates as they were better camouflaged, leading to an increase in their population."
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Evolution",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the role of genetic mutations in the process of evolution.",
+    "marks": 5,
+    "answer": "Genetic mutations are changes in the DNA sequence that can lead to variations in individuals. These variations can be beneficial, harmful, or neutral. In the process of evolution, genetic mutations provide the raw material for natural selection to act upon. Beneficial mutations may increase an individual's fitness, making them more likely to survive and reproduce. Over time, these mutations can become more prevalent in a population, leading to the evolution of new species. Harmful mutations may decrease an individual's fitness and are less likely to be passed on to future generations."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Human Health and Disease",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the difference between innate immunity and adaptive immunity in the human body.",
+    "marks": 5,
+    "answer": "Innate immunity is the body's first line of defense against pathogens and is non-specific in nature. It includes physical barriers like skin, as well as cellular and chemical defenses such as phagocytes and inflammation. Adaptive immunity, on the other hand, is a specific response to a particular pathogen. It involves the production of antibodies and memory cells that provide long-term protection against future infections."
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Human Health and Disease",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the role of vaccines in preventing infectious diseases and how they work in the human body.",
+    "marks": 4,
+    "answer": "Vaccines play a crucial role in preventing infectious diseases by stimulating the immune system to produce an immune response without causing the disease itself. They contain weakened or killed pathogens or their antigens, which trigger the production of antibodies and memory cells. This prepares the immune system to recognize and fight off the actual pathogen if exposed in the future, providing immunity against the disease."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the process of artificial insemination in cattle. What are its advantages?",
+    "marks": 4,
+    "answer": "Artificial insemination in cattle involves collecting semen from a selected bull, processing it to remove impurities and pathogens, and then inserting it into the reproductive tract of a female cow using specialized equipment. This technique helps in breeding superior genetic traits, increasing the rate of conception, preventing the spread of diseases, and reducing the need for keeping a large number of male animals on the farm."
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the role of tissue culture in plant breeding. How is it beneficial?",
+    "marks": 4,
+    "answer": "Tissue culture in plant breeding involves the growth of plant cells, tissues, or organs in an artificial nutrient medium under controlled conditions. It helps in rapid multiplication of plants, production of disease-free plants, genetic modification, and conservation of endangered species. Tissue culture also allows for the regeneration of whole plants from a single cell, enabling the propagation of plants with desirable traits."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Microbes in Human Welfare",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain how microbes are used in the production of antibiotics.",
+    "marks": 4,
+    "answer": "Microbes are used in the production of antibiotics through a process called fermentation. In this process, specific strains of bacteria or fungi are grown in large fermenters or bioreactors under controlled conditions. These microbes produce substances that inhibit the growth of other microorganisms, which are then harvested and purified to create antibiotics for medical use."
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Microbes in Human Welfare",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the role of microbes in the production of biofuels.",
+    "marks": 5,
+    "answer": "Microbes play a crucial role in the production of biofuels through a process called microbial fermentation. During fermentation, microorganisms such as yeast or bacteria break down organic materials like sugars, starches, or cellulose to produce biofuels like ethanol or biodiesel. These biofuels are considered renewable and environmentally friendly alternatives to fossil fuels."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biotechnology: Principles and Processes",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the process of gel electrophoresis and its importance in biotechnology.",
+    "marks": 5,
+    "answer": "Gel electrophoresis is a technique used to separate and analyze DNA, RNA, or proteins based on their size and charge. In this process, the molecules are loaded onto a gel matrix and an electric current is passed through the gel. The molecules move through the gel at different rates depending on their size and charge, resulting in separation into bands. This technique is important in biotechnology for analyzing DNA fragments, identifying genetic disorders, studying gene expression, and DNA fingerprinting."
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biotechnology: Principles and Processes",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the applications of polymerase chain reaction (PCR) in biotechnology.",
+    "marks": 5,
+    "answer": "Polymerase chain reaction (PCR) is a technique used to amplify a specific segment of DNA exponentially. This process involves three main steps: denaturation, annealing, and extension. PCR is widely used in biotechnology for DNA cloning, genetic engineering, forensic analysis, medical diagnostics, and studying gene expression. It allows researchers to produce millions of copies of a specific DNA sequence quickly and efficiently, making it an essential tool in various biotechnological applications."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biotechnology and Its Applications",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the process of recombinant DNA technology and its applications in biotechnology.",
+    "marks": 5,
+    "answer": "Recombinant DNA technology involves the insertion of a foreign gene or DNA fragment into a host organism, creating a genetically modified organism (GMO). This process typically involves cutting the desired gene using restriction enzymes, ligating it into a vector such as a plasmid, and then introducing the vector into a host cell for replication. Recombinant DNA technology has various applications in biotechnology, such as the production of genetically modified crops with improved traits, the development of recombinant proteins for medical use, and the creation of genetically modified organisms for research purposes."
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biotechnology and Its Applications",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the ethical considerations surrounding the use of biotechnology in agriculture and medicine.",
+    "marks": 4,
+    "answer": "The use of biotechnology in agriculture and medicine raises various ethical considerations. In agriculture, the creation of genetically modified crops and organisms raises concerns about environmental impact, food safety, and biodiversity. In medicine, the use of biotechnology to create genetically modified organisms for research or therapeutic purposes raises questions about consent, privacy, and the potential for misuse. It is important for scientists, policymakers, and society to consider these ethical issues carefully when utilizing biotechnology in these fields."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Organisms and Populations",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the concept of ecological succession. Provide examples of primary and secondary succession.",
+    "marks": 5
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Organisms and Populations",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the differences between intraspecific and interspecific competition among organisms. How do these types of competition affect population dynamics?",
+    "marks": 4
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Ecosystem",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the concept of ecological succession. Provide examples of primary and secondary succession.",
+    "marks": 4
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Ecosystem",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the importance of biodiversity in an ecosystem. How does biodiversity contribute to the stability of an ecosystem?",
+    "marks": 4
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biodiversity and Conservation",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the importance of biodiversity in maintaining ecological balance.",
+    "marks": 4,
+    "answer": "Biodiversity is crucial for maintaining ecological balance as it ensures the stability of ecosystems. A diverse range of species helps in maintaining food chains and webs, regulating the climate, purifying the air and water, and providing resources for human use. It also enhances the resilience of ecosystems to withstand environmental changes and disturbances, thus contributing to their sustainability."
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biodiversity and Conservation",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the major threats to biodiversity and their impact on ecosystems.",
+    "marks": 5,
+    "answer": "The major threats to biodiversity include habitat destruction, climate change, pollution, invasive species, overexploitation of resources, and diseases. These threats can lead to the extinction of species, disruption of food chains, loss of genetic diversity, and destabilization of ecosystems. It can also impact human well-being by reducing the availability of resources, increasing the risk of natural disasters, and affecting the overall health of the environment."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Environmental Issues",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the concept of greenhouse effect and its role in global warming.",
+    "marks": 5,
+    "answer": "The greenhouse effect is a natural process where certain gases in the Earth's atmosphere trap heat from the sun, keeping the planet warm enough to support life. However, human activities have increased the concentration of these greenhouse gases, such as carbon dioxide and methane, leading to enhanced greenhouse effect and global warming. This results in rising temperatures, melting ice caps, changing weather patterns, and other environmental impacts."
+  },
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Environmental Issues",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the causes and effects of air pollution on human health and the environment.",
+    "marks": 4,
+    "answer": "Air pollution is caused by the release of harmful substances into the atmosphere, such as particulate matter, sulfur dioxide, nitrogen oxides, and volatile organic compounds, from sources like vehicles, industries, and burning of fossil fuels. These pollutants can lead to respiratory problems, cardiovascular diseases, and even cancer in humans. Additionally, air pollution can harm ecosystems, damage crops, and contribute to global climate change."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Reproduction in Organisms",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of fertilization in humans.",
+    "marks": 4,
+    "answer": "Fertilization in humans is the process where the sperm cell from the male fuses with the egg cell from the female to form a zygote. It occurs in the fallopian tube of the female reproductive system. After sexual intercourse, the sperm travels through the cervix and uterus to reach the fallopian tube where the egg is released during ovulation. The sperm penetrates the egg's outer layer (zona pellucida) and fertilizes it, resulting in the formation of a zygote. The zygote then undergoes multiple cell divisions to form an embryo, which eventually implants in the uterus for further development. This process marks the beginning of a new individual with a unique genetic composition."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of double fertilization in flowering plants.",
+    "marks": 4,
+    "answer": "Double fertilization is a unique process in flowering plants where two sperm nuclei are involved in the fertilization of the female gametes. One sperm nucleus fuses with the egg cell to form the zygote, which develops into the embryo. The other sperm nucleus fuses with the two polar nuclei to form the triploid endosperm, which provides nourishment to the developing embryo. This process ensures that both the embryo and endosperm are formed during fertilization, which is essential for the successful development of the seed. Double fertilization is a key characteristic of angiosperms and plays a crucial role in their reproductive success."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of fertilization in humans.",
+    "marks": 4,
+    "answer": "Fertilization is the process of fusion of the male gamete (sperm) with the female gamete (ovum) to form a zygote. In humans, fertilization typically occurs in the fallopian tube. When a sperm penetrates the egg, it triggers changes in the egg that prevent other sperm from entering. The genetic material from the sperm and egg then combine to form a diploid zygote. The zygote undergoes multiple rounds of cell division to form a blastocyst, which then implants itself in the endometrium of the uterus. This marks the beginning of pregnancy. The process of fertilization ensures genetic diversity and the continuation of the species."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Reproductive Health",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the importance of reproductive health in maintaining overall well-being.",
+    "marks": 4,
+    "answer": "Reproductive health plays a crucial role in maintaining overall well-being as it encompasses the physical, mental, and social aspects of reproductive well-being. It ensures that individuals have access to safe and effective methods of family planning, prevention and treatment of reproductive tract infections, and prevention of sexually transmitted infections. By promoting reproductive health, individuals can make informed decisions about their reproductive choices, leading to improved maternal and child health, reduced infant mortality, and better family planning outcomes. Additionally, reproductive health education helps in breaking taboos and myths surrounding reproductive issues, leading to a more open and healthy society overall."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Principles of Inheritance and Variation",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the principle of independent assortment and its significance in genetics.",
+    "marks": 4,
+    "answer": "The principle of independent assortment states that different genes for different traits are inherited independently of each other during gamete formation. This means that the inheritance of one trait does not affect the inheritance of another trait. This principle was proposed by Gregor Mendel based on his experiments with dihybrid crosses. \n\nThe significance of independent assortment in genetics is that it helps in explaining the variety of traits observed in offspring. It also allows for the creation of genetic diversity in populations, which is important for evolution. Independent assortment is a key factor in genetic recombination, leading to new combinations of alleles and increasing genetic variability. Overall, the principle of independent assortment plays a crucial role in understanding genetic inheritance and diversity."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of DNA replication in prokaryotes.",
+    "marks": 4,
+    "answer": "In prokaryotes, DNA replication occurs in the cytoplasm and starts at the origin of replication. The enzyme helicase unwinds the double-stranded DNA, creating a replication fork. Primase synthesizes RNA primers, which are then extended by DNA polymerase III. Leading strand synthesis is continuous, while lagging strand synthesis is discontinuous, forming Okazaki fragments. DNA polymerase I removes the RNA primers and replaces them with DNA. DNA ligase then joins the Okazaki fragments. The process is semi-conservative, meaning each daughter DNA molecule consists of one parental strand and one newly synthesized strand."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Evolution",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of natural selection with an example.",
+    "marks": 4,
+    "answer": "Natural selection is a key mechanism of evolution proposed by Charles Darwin. It is the process by which organisms that are better adapted to their environment tend to survive and reproduce more. This leads to the passing on of beneficial traits to the next generation, resulting in the evolution of a population. For example, the peppered moth in England during the Industrial Revolution. Prior to industrialization, light-colored moths were well camouflaged against lichen-covered tree trunks. But with the increase of pollution, darker moths had better camouflage and their population increased. This example illustrates how natural selection can lead to changes in a population over time."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Human Health and Disease",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the concept of immunization and its importance in preventing diseases.",
+    "marks": 4,
+    "answer": "Immunization is the process of administering a vaccine to stimulate the immune system to develop adaptive immunity against specific pathogens. It helps in preventing infectious diseases by creating an immune response without causing the disease itself. Immunization is crucial as it helps in reducing the spread of diseases, protecting individuals from serious illnesses, and even eradicating certain diseases. Vaccines have played a significant role in controlling diseases like smallpox, polio, measles, etc. They work by introducing a weakened or inactive form of the pathogen into the body, triggering the immune system to produce antibodies. These antibodies provide immunity against future infections by the same pathogen. Overall, immunization is a cost-effective and life-saving public health intervention that has had a profound impact on global health."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of tissue culture in plants and its significance in food production.",
+    "marks": 4,
+    "answer": "Tissue culture is a technique used to grow plants in a controlled environment from a small piece of tissue. In this process, plant cells are taken from a plant and placed in a sterile medium with the right nutrients, hormones, and conditions for growth. This technique is significant in food production as it allows for the mass production of disease-free plants, rapid propagation of plants, and the production of genetically uniform plants. Tissue culture also helps in the conservation of rare and endangered plant species. Overall, tissue culture plays a crucial role in improving crop yield and quality in agriculture."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Microbes in Human Welfare",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain how microbes are used in the production of antibiotics.",
+    "marks": 4,
+    "answer": "Microbes are extensively used in the production of antibiotics through a process called fermentation. During fermentation, specific strains of microbes such as bacteria and fungi are grown in large bioreactors under controlled conditions. These microbes are then allowed to produce secondary metabolites, which are chemicals with antibiotic properties. The secondary metabolites are extracted and purified to obtain the antibiotic drugs. For example, penicillin, one of the first antibiotics discovered, is produced by the fungus Penicillium. This process of using microbes for antibiotic production has revolutionized medicine and has led to the development of various life-saving drugs."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biotechnology: Principles and Processes",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of recombinant DNA technology.",
+    "marks": 4,
+    "answer": "Recombinant DNA technology involves the creation of new combinations of genetic material by integrating DNA from different sources. The process includes several steps: 1. Isolation of the gene of interest: The gene to be inserted into the target organism is identified and isolated using restriction enzymes. 2. Insertion of gene into a vector: The gene is then inserted into a vector, such as a plasmid or a viral DNA. 3. Introduction of recombinant DNA into host cells: The recombinant DNA is introduced into host cells, where it can replicate and express the gene. 4. Selection of transformed cells: The transformed cells containing the recombinant DNA are selected using markers. This technology has revolutionized fields such as medicine, agriculture, and industry."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biotechnology and Its Applications",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of recombinant DNA technology and its applications.",
+    "marks": 4,
+    "answer": "Recombinant DNA technology involves the creation of artificial DNA sequences by combining DNA molecules from different sources. The process includes isolation of DNA from the donor organism, cleaving it using restriction enzymes, and then inserting it into a vector such as a plasmid. This recombinant DNA is then introduced into a host organism where it can be replicated. \n\nThe applications of recombinant DNA technology are vast and include the production of genetically modified crops, development of recombinant vaccines and drugs, gene therapy for genetic disorders, and creation of genetically modified organisms for various purposes. This technology has revolutionized fields like agriculture, medicine, and biotechnology, offering solutions to various challenges and opening up new possibilities for research and development."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Organisms and Populations",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the concept of population growth and its different patterns.",
+    "marks": 4,
+    "answer": "Population growth refers to the change in the number of individuals in a population over time. It can follow different patterns such as exponential growth, logistic growth, and oscillations. Exponential growth occurs when resources are unlimited, and the population grows at a constant rate. Logistic growth is when a population initially grows exponentially but then levels off due to limited resources. Oscillations refer to fluctuations in population size over time. Factors like birth rate, death rate, immigration, and emigration influence population growth. Understanding these patterns is crucial for predicting how populations will change in response to environmental factors."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Ecosystem",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the concept of ecological succession and its different stages.",
+    "marks": 4,
+    "answer": "Ecological succession is the gradual process of change and replacement of species in an ecosystem over time. It can be primary succession, which starts in an area where no life previously existed, or secondary succession, which occurs in an area that was previously inhabited but has been disturbed or destroyed. \n\nThe stages of ecological succession include: \n\n1. Pioneer stage: This is the initial stage where hardy and fast-growing species colonize the barren environment. \n\n2. Intermediate stage: As the pioneer species grow and die, they create soil and provide nutrients for other species to establish themselves. \n\n3. Climax stage: This is the final stage where a stable community of plants and animals is established, representing the most complex and diverse ecosystem in that area. \n\nEach stage of ecological succession plays a crucial role in the development and stability of an ecosystem."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Biodiversity and Conservation",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the importance of biodiversity in ecosystem functioning and human well-being.",
+    "marks": 4,
+    "answer": "Biodiversity plays a crucial role in ecosystem functioning and human well-being. In ecosystems, biodiversity contributes to various processes such as nutrient cycling, pollination, and decomposition. Different species have specific roles in maintaining the balance of these processes, which ultimately support the overall health and stability of the ecosystem. Additionally, biodiversity provides resilience to ecosystems, making them more adaptable to environmental changes. \n\nIn terms of human well-being, biodiversity is essential for various ecosystem services such as food production, clean water, air purification, and climate regulation. Many medicines and resources come from diverse species, which are used for pharmaceuticals, agriculture, and industry. Furthermore, biodiversity also has cultural and recreational value, enriching human lives. Therefore, conserving biodiversity is crucial for sustaining ecosystem functioning and ensuring human well-being."
+  }
+],
+[
+  {
+    "class": 12,
+    "subject": "Biology",
+    "chapter": "Environmental Issues",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the concept of biodiversity and its importance in maintaining ecological balance.",
+    "marks": 4,
+    "answer": "Biodiversity refers to the variety of life forms present in a particular ecosystem or on Earth as a whole. It includes diversity within species, between species, and of ecosystems. Biodiversity is crucial for maintaining ecological balance as it contributes to the stability of ecosystems and the sustainability of life on Earth. It provides various ecosystem services such as air and water purification, climate regulation, pollination, and nutrient cycling. Biodiversity also enhances the resilience of ecosystems to environmental changes and disturbances. Thus, conserving biodiversity is essential for the well-being of both humans and the planet as a whole."
+  }
+],

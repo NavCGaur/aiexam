@@ -1,0 +1,117 @@
+/* Payment Verification Component - BEM Naming */
+.payment-verification {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: var(--color-footer);
+    padding: 20px;
+  }
+  
+  .payment-verification__container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 30vw; /* Make width responsive */
+    width: 100%;
+    height: 60vh; /* Ensures height > width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Ensure icons are well sized */
+  .payment-verification__icon {
+    font-size: 50px !important;
+    margin-bottom: 15px;
+  }
+  
+  .payment-verification__icon--loading {
+    color: #1976d2;
+  }
+  
+  .payment-verification__icon--success {
+    color: #2e7d32;
+  }
+  
+  .payment-verification__icon--error {
+    color: #d32f2f;
+  }
+  
+  .payment-verification__icon--pending {
+    color: #ff9800;
+  }
+  
+  .payment-verification__icon--downloaded {
+    color: #0288d1;
+  }
+  
+  .payment-verification__status {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .payment-verification__attempts {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .payment-verification__retry-button {
+    background: #d32f2f;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s ease;
+  }
+  
+  .payment-verification__retry-button:hover {
+    background: #b71c1c;
+  }
+  
+  /* ✅ Responsive Adjustments */
+  @media (max-width: 768px) {
+    .payment-verification__container {
+      max-width: 95vw; /* Make it full width on smaller screens */
+      height: 80vh; /* Increase height for mobile look */
+      padding: 20px;
+    }
+  
+    .payment-verification__icon {
+      font-size: 40px !important;
+    }
+  
+    .payment-verification__status {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .payment-verification__container {
+      max-width: 98vw;
+      height: 85vh; /* Taller for mobile */
+      padding: 15px;
+    }
+  
+    .payment-verification__icon {
+      font-size: 35px !important;
+    }
+  
+    .payment-verification__status {
+      font-size: 14px;
+    }
+  
+    .payment-verification__retry-button {
+      padding: 8px 14px;
+      font-size: 12px;
+    }
+  }
+  

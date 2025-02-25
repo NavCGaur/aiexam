@@ -1,0 +1,3472 @@
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "The Living World",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is not a characteristic of living organisms?",
+    "options": [
+      "Growth and development",
+      "Reproduction",
+      "Respiration",
+      "Decay"
+    ],
+    "correctAnswer": "D",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "The Living World",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "The term 'Biodiversity' refers to:",
+    "options": [
+      "Variety of life forms on Earth",
+      "Variety of ecosystems on Earth",
+      "Variety of species within an ecosystem",
+      "Variety of genes within a species"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "The Living World",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "The process by which organisms maintain a stable internal environment is called:",
+    "options": [
+      "Homeostasis",
+      "Adaptation",
+      "Evolution",
+      "Metabolism"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Biological Classification",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is not a characteristic of Kingdom Plantae?",
+    "options": [
+      "Cell wall made of chitin",
+      "Autotrophic mode of nutrition",
+      "Presence of chlorophyll",
+      "Multicellular organization"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Biological Classification",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is a characteristic of Kingdom Fungi?",
+    "options": [
+      "Autotrophic mode of nutrition",
+      "Presence of chlorophyll",
+      "Cell wall made of cellulose",
+      "Heterotrophic mode of nutrition"
+    ],
+    "correctAnswer": "D",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Biological Classification",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is a characteristic of Kingdom Animalia?",
+    "options": [
+      "Autotrophic mode of nutrition",
+      "Presence of chlorophyll",
+      "Heterotrophic mode of nutrition",
+      "Cell wall made of cellulose"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Plant Kingdom",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is not a bryophyte?",
+    "options": [
+      "Moss",
+      "Liverwort",
+      "Fern",
+      "Hornwort"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Plant Kingdom",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is a gymnosperm?",
+    "options": [
+      "Mango",
+      "Pine",
+      "Rose",
+      "Tulip"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Plant Kingdom",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "The process of transferring pollen grains from anther to stigma is known as:",
+    "options": [
+      "Fertilization",
+      "Pollination",
+      "Germination",
+      "Photosynthesis"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is a characteristic feature of Porifera?",
+    "options": [
+      "Bilateral symmetry",
+      "Presence of true tissues",
+      "Exoskeleton made of chitin",
+      "Pores for water circulation"
+    ],
+    "correctAnswer": "D",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which phylum of animals is known for having a notochord at some stage of their development?",
+    "options": [
+      "Arthropoda",
+      "Mollusca",
+      "Chordata",
+      "Annelida"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is a characteristic feature of Phylum Arthropoda?",
+    "options": [
+      "Presence of notochord",
+      "Pseudocoelomate body plan",
+      "Segmented body with jointed appendages",
+      "Closed circulatory system"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Morphology of Flowering Plants",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which part of a flower develops into a seed after fertilization?",
+    "options": [
+      "Stigma",
+      "Ovary",
+      "Petal",
+      "Sepal"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Morphology of Flowering Plants",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "What is the male reproductive part of a flower called?",
+    "options": [
+      "Pistil",
+      "Stamen",
+      "Ovary",
+      "Style"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Morphology of Flowering Plants",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which part of a plant holds the seeds?",
+    "options": [
+      "Flower",
+      "Fruit",
+      "Leaf",
+      "Root"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Anatomy of Flowering Plants",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which tissue provides mechanical support to the plant?",
+    "options": [
+      "Epidermal tissue",
+      "Ground tissue",
+      "Vascular tissue",
+      "Meristematic tissue"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Anatomy of Flowering Plants",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which tissue is responsible for the transportation of water and minerals in a plant?",
+    "options": [
+      "Epidermal tissue",
+      "Ground tissue",
+      "Vascular tissue",
+      "Meristematic tissue"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Anatomy of Flowering Plants",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which part of the plant is responsible for gas exchange?",
+    "options": [
+      "Roots",
+      "Stem",
+      "Leaves",
+      "Flowers"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Structural Organisation in Animals",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is not a part of the alimentary canal?",
+    "options": [
+      "Stomach",
+      "Liver",
+      "Small Intestine",
+      "Large Intestine"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Structural Organisation in Animals",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "What is the basic structural and functional unit of the nervous system?",
+    "options": [
+      "Neuron",
+      "Muscle Cell",
+      "Red Blood Cell",
+      "Epithelial Cell"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Structural Organisation in Animals",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is a function of the skeletal system?",
+    "options": [
+      "Support and protection",
+      "Transport of oxygen",
+      "Digestion of food",
+      "Filtration of blood"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Cell: The Unit of Life",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which organelle is known as the powerhouse of the cell?",
+    "options": [
+      "Mitochondria",
+      "Golgi Apparatus",
+      "Endoplasmic Reticulum",
+      "Ribosomes"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Cell: The Unit of Life",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which structure is responsible for maintaining the shape of the cell and providing mechanical support?",
+    "options": [
+      "Cell Wall",
+      "Cell Membrane",
+      "Nucleus",
+      "Chloroplast"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Cell: The Unit of Life",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which organelle is responsible for protein synthesis in a cell?",
+    "options": [
+      "Ribosomes",
+      "Vacuole",
+      "Lysosome",
+      "Centriole"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Biomolecules",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which biomolecule is the primary source of energy for living organisms?",
+    "options": [
+      "Lipids",
+      "Proteins",
+      "Carbohydrates",
+      "Nucleic acids"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Biomolecules",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which biomolecule is composed of long chains of amino acids?",
+    "options": [
+      "Carbohydrates",
+      "Lipids",
+      "Proteins",
+      "Nucleic acids"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Biomolecules",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which biomolecule stores genetic information in cells?",
+    "options": [
+      "Proteins",
+      "Lipids",
+      "Carbohydrates",
+      "Nucleic acids"
+    ],
+    "correctAnswer": "D",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which phase of the cell cycle is characterized by DNA replication?",
+    "options": [
+      "G1 phase",
+      "S phase",
+      "G2 phase",
+      "M phase"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "During which phase of the cell cycle do the chromosomes align at the equatorial plane of the cell?",
+    "options": [
+      "Interphase",
+      "Prophase",
+      "Metaphase",
+      "Anaphase"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which enzyme is responsible for unwinding the DNA during replication?",
+    "options": [
+      "Helicase",
+      "DNA polymerase",
+      "Ligase",
+      "RNA polymerase"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Transport in Plants",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which tissue in plants is responsible for the transport of water and minerals?",
+    "options": [
+      "Xylem",
+      "Phloem",
+      "Epidermis",
+      "Cortex"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Transport in Plants",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "What is the main force responsible for the movement of water and minerals in plants?",
+    "options": [
+      "Capillarity",
+      "Osmosis",
+      "Transpiration pull",
+      "Root pressure"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Transport in Plants",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is NOT a factor affecting the rate of transpiration in plants?",
+    "options": [
+      "Temperature",
+      "Humidity",
+      "Soil pH",
+      "Wind"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Mineral Nutrition",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following elements is not a micronutrient for plants?",
+    "options": [
+      "Iron",
+      "Potassium",
+      "Magnesium",
+      "Zinc"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Mineral Nutrition",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which element is responsible for the opening and closing of stomata in plants?",
+    "options": [
+      "Potassium",
+      "Calcium",
+      "Magnesium",
+      "Sulfur"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Mineral Nutrition",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which mineral nutrient is a constituent of chlorophyll?",
+    "options": [
+      "Nitrogen",
+      "Iron",
+      "Magnesium",
+      "Phosphorus"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which pigment is responsible for the absorption of light in photosynthesis?",
+    "options": [
+      "Chlorophyll",
+      "Carotenoids",
+      "Xanthophylls",
+      "Phycobilins"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Where does the light-dependent reaction of photosynthesis take place?",
+    "options": [
+      "Thylakoid membrane",
+      "Stroma",
+      "Cytoplasm",
+      "Nucleus"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "What is the primary function of the Calvin cycle in photosynthesis?",
+    "options": [
+      "Carbon fixation",
+      "ATP production",
+      "Water absorption",
+      "Oxygen release"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Respiration in Plants",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is not a product of anaerobic respiration in plants?",
+    "options": [
+      "Ethanol",
+      "Carbon dioxide",
+      "Water",
+      "Lactic acid"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Respiration in Plants",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Where does the process of glycolysis occur in plant cells?",
+    "options": [
+      "Cytoplasm",
+      "Mitochondria",
+      "Chloroplasts",
+      "Nucleus"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Respiration in Plants",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is the primary site of photosynthesis and respiration in plant cells?",
+    "options": [
+      "Mitochondria",
+      "Chloroplasts",
+      "Cytoplasm",
+      "Cell membrane"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Plant Growth and Development",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which plant hormone is responsible for cell elongation and tropic growth?",
+    "options": [
+      "Auxin",
+      "Gibberellin",
+      "Cytokinin",
+      "Abscisic Acid"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Plant Growth and Development",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is not a plant growth regulator?",
+    "options": [
+      "Auxin",
+      "Glucose",
+      "Cytokinin",
+      "Abscisic Acid"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Plant Growth and Development",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "The process of shedding leaves, flowers, and fruits at the end of their development is known as:",
+    "options": [
+      "Senescence",
+      "Transpiration",
+      "Photosynthesis",
+      "Wilting"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Digestion and Absorption",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which enzyme is responsible for the breakdown of carbohydrates in the mouth?",
+    "options": [
+      "Amylase",
+      "Pepsin",
+      "Lipase",
+      "Trypsin"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Digestion and Absorption",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Where does the absorption of most nutrients occur in the human digestive system?",
+    "options": [
+      "Stomach",
+      "Mouth",
+      "Small Intestine",
+      "Large Intestine"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Digestion and Absorption",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "What is the function of bile in digestion?",
+    "options": [
+      "Emulsify fats",
+      "Breakdown proteins",
+      "Digest carbohydrates",
+      "Neutralize stomach acid"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Breathing and Exchange of Gases",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following structures is responsible for the exchange of gases in humans?",
+    "options": [
+      "Alveoli",
+      "Trachea",
+      "Bronchi",
+      "Pharynx"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Breathing and Exchange of Gases",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "During inhalation, the diaphragm ____________.",
+    "options": [
+      "Contracts and moves up",
+      "Relaxes and moves down",
+      "Contracts and moves down",
+      "Relaxes and moves up"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Breathing and Exchange of Gases",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which gas is primarily responsible for the transport of oxygen in the blood?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Hemoglobin"
+    ],
+    "correctAnswer": "D",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Body Fluids and Circulation",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is NOT a component of blood plasma?",
+    "options": [
+      "Red blood cells",
+      "Water",
+      "Proteins",
+      "Salts"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Body Fluids and Circulation",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is responsible for the clotting of blood?",
+    "options": [
+      "Platelets",
+      "Red blood cells",
+      "White blood cells",
+      "Plasma"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Body Fluids and Circulation",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "What is the primary function of hemoglobin in red blood cells?",
+    "options": [
+      "Oxygen transport",
+      "Clotting",
+      "Immune response",
+      "Digestion"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Excretory Products and Their Elimination",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which organ is responsible for the production of urine in humans?",
+    "options": [
+      "Liver",
+      "Lungs",
+      "Kidneys",
+      "Pancreas"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Excretory Products and Their Elimination",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "What is the primary nitrogenous waste excreted by mammals?",
+    "options": [
+      "Urea",
+      "Ammonia",
+      "Creatinine",
+      "Uric acid"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Excretory Products and Their Elimination",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which structure in the kidney is responsible for filtration of blood?",
+    "options": [
+      "Nephron",
+      "Renal tubule",
+      "Collecting duct",
+      "Renal pelvis"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Locomotion and Movement",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is not a function of the skeletal system?",
+    "options": [
+      "Support",
+      "Protection",
+      "Contraction",
+      "Storage of minerals"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Locomotion and Movement",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is a characteristic of striated muscles?",
+    "options": [
+      "Involuntary control",
+      "Unbranched fibers",
+      "Found in walls of hollow organs",
+      "Multinucleated fibers"
+    ],
+    "correctAnswer": "D",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Locomotion and Movement",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which type of joint allows the movement in all directions?",
+    "options": [
+      "Hinge joint",
+      "Pivot joint",
+      "Ball and socket joint",
+      "Saddle joint"
+    ],
+    "correctAnswer": "C",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which part of the brain is responsible for maintaining posture and balance?",
+    "options": [
+      "Cerebellum",
+      "Medulla oblongata",
+      "Hypothalamus",
+      "Cerebrum"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "The gap between two neurons where transmission of nerve impulse takes place is called?",
+    "options": [
+      "Synapse",
+      "Axon",
+      "Dendrite",
+      "Myelin sheath"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which of the following is a part of the peripheral nervous system?",
+    "options": [
+      "Cranial nerves",
+      "Spinal cord",
+      "Brain",
+      "Cerebellum"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which gland is known as the master gland of the endocrine system?",
+    "options": [
+      "Thyroid gland",
+      "Pituitary gland",
+      "Adrenal gland",
+      "Pancreas"
+    ],
+    "correctAnswer": "B",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Which hormone is responsible for the regulation of blood glucose levels in the body?",
+    "options": [
+      "Insulin",
+      "Glucagon",
+      "Estrogen",
+      "Testosterone"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "type": "mcq",
+    "difficulty": "easy",
+    "text": "Where is the adrenal gland located in the human body?",
+    "options": [
+      "Above the kidneys",
+      "In the neck",
+      "In the brain",
+      "In the chest"
+    ],
+    "correctAnswer": "A",
+    "marks": 1,
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "The Living World",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is a short answer question?",
+    "marks": 2,
+    "answer": "A short answer question requires a brief but complete response, typically 1-2 sentences.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "The Living World",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "Define biodiversity.",
+    "marks": 3,
+    "answer": "Biodiversity refers to the variety of living organisms present in a particular habitat or ecosystem.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "The Living World",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "Explain the term 'taxonomy'.",
+    "marks": 3,
+    "answer": "Taxonomy is the science of classification of living organisms based on shared characteristics and evolutionary relationships.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Plant Kingdom",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What are algae?",
+    "marks": 2,
+    "answer": "Algae are simple, autotrophic, thalloid, chlorophyll-bearing and largely aquatic organisms ranging from unicellular to multicellular forms.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Plant Kingdom",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the main function of roots in plants?",
+    "marks": 2,
+    "answer": "The main function of roots in plants is to anchor the plant in the soil, absorb water and minerals, and store reserve food material.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Plant Kingdom",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the significance of spores in plant reproduction?",
+    "marks": 2,
+    "answer": "Spores are important in plant reproduction as they are capable of developing into a new plant without the need for fertilization, allowing for asexual reproduction and dispersal.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What are the characteristics of animals?",
+    "marks": 2,
+    "answer": "Animals are eukaryotic, multicellular organisms that are heterotrophic and lack cell walls. They exhibit various modes of reproduction and have diverse body plans.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the basis of classification of animals?",
+    "marks": 2,
+    "answer": "Animals are classified based on their body symmetry, presence of a notochord, segmentation, and other key characteristics such as presence or absence of a backbone.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the significance of the study of animal diversity?",
+    "marks": 2,
+    "answer": "Studying animal diversity helps us understand the evolutionary relationships between different species, their adaptations to specific environments, and provides insights into the functioning of ecosystems.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Morphology of Flowering Plants",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What are the parts of a typical flower?",
+    "marks": 2,
+    "answer": "The parts of a typical flower include sepals, petals, stamens, and carpels.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Morphology of Flowering Plants",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the function of sepals in a flower?",
+    "marks": 2,
+    "answer": "Sepals protect the flower bud and support the petals when the flower is in bloom.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Morphology of Flowering Plants",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the role of pollen grains in plant reproduction?",
+    "marks": 2,
+    "answer": "Pollen grains contain the male gametes and are responsible for the transfer of sperm cells to the female reproductive organs of a flower.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Anatomy of Flowering Plants",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the primary function of the root system in a plant?",
+    "marks": 2,
+    "answer": "The primary function of the root system in a plant is to anchor the plant in the soil, absorb water and minerals, and store food.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Anatomy of Flowering Plants",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What are the main functions of the stem in a plant?",
+    "marks": 2,
+    "answer": "The main functions of the stem in a plant are to provide support for the plant, transport water and nutrients between roots and leaves, and hold the leaves up to receive sunlight.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Anatomy of Flowering Plants",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the function of the stomata in plant leaves?",
+    "marks": 2,
+    "answer": "The stomata in plant leaves regulate the exchange of gases such as oxygen and carbon dioxide, as well as the loss of water vapor through transpiration.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Structural Organisation in Animals",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the basic structural and functional unit of an animal?",
+    "marks": 2,
+    "answer": "The basic structural and functional unit of an animal is the cell.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Structural Organisation in Animals",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the role of epithelial tissue in animals?",
+    "marks": 2,
+    "answer": "Epithelial tissue functions in protection, secretion, absorption, and excretion in animals.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Structural Organisation in Animals",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the significance of connective tissue in the body?",
+    "marks": 2,
+    "answer": "Connective tissue provides support, binds structures together, and helps in the transportation of substances in the body.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Cell: The Unit of Life",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is a cell?",
+    "marks": 2,
+    "answer": "A cell is the basic structural and functional unit of life.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Cell: The Unit of Life",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What are the two main types of cells?",
+    "marks": 2,
+    "answer": "The two main types of cells are prokaryotic cells and eukaryotic cells.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Cell: The Unit of Life",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the function of the cell membrane?",
+    "marks": 2,
+    "answer": "The cell membrane regulates the passage of substances in and out of the cell and provides structure and protection.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Biomolecules",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What are biomolecules?",
+    "marks": 2,
+    "answer": "Biomolecules are molecules that are essential for the structure, function, and regulation of living organisms.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Biomolecules",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "Give an example of a carbohydrate.",
+    "marks": 2,
+    "answer": "Glucose is an example of a carbohydrate.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Biomolecules",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the primary function of lipids in living organisms?",
+    "marks": 2,
+    "answer": "Lipids serve as energy storage molecules, structural components of cell membranes, and signaling molecules in living organisms.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is mitosis?",
+    "marks": 2,
+    "answer": "Mitosis is a type of cell division that results in two daughter cells each having the same number and kind of chromosomes as the parent nucleus.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the importance of the cell cycle?",
+    "marks": 3,
+    "answer": "The cell cycle is important for growth, repair, and reproduction of organisms. It ensures proper growth and development by regulating cell division.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What are the stages of the cell cycle?",
+    "marks": 2,
+    "answer": "The cell cycle consists of interphase (G1, S, G2 phases) and mitotic phase (prophase, metaphase, anaphase, telophase).",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Mineral Nutrition",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What are essential nutrients for plant growth?",
+    "marks": 2,
+    "answer": "Essential nutrients for plant growth include nitrogen, phosphorus, potassium, calcium, magnesium, sulfur, iron, zinc, copper, manganese, boron, and molybdenum.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Mineral Nutrition",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the role of micronutrients in plants?",
+    "marks": 2,
+    "answer": "Micronutrients are essential for various physiological and biochemical processes in plants, such as enzyme activation, photosynthesis, and nutrient transport.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Mineral Nutrition",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "How do plants absorb mineral nutrients from the soil?",
+    "marks": 2,
+    "answer": "Plants absorb mineral nutrients from the soil through their roots using processes like active transport, passive diffusion, and root hairs.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is photosynthesis?",
+    "marks": 2,
+    "answer": "Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy, usually from the sun, into chemical energy stored in glucose molecules.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What are the two stages of photosynthesis?",
+    "marks": 2,
+    "answer": "The two stages of photosynthesis are the light-dependent reactions (light reactions) and the light-independent reactions (Calvin cycle or dark reactions).",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the primary pigment involved in photosynthesis?",
+    "marks": 2,
+    "answer": "Chlorophyll is the primary pigment involved in photosynthesis. It absorbs light energy and plays a key role in capturing energy for the process.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Respiration in Plants",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the primary site of respiration in plants?",
+    "marks": 2,
+    "answer": "The primary site of respiration in plants is the mitochondria.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Respiration in Plants",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the role of stomata in plant respiration?",
+    "marks": 2,
+    "answer": "Stomata are small openings on the surface of leaves that allow for the exchange of gases, including oxygen and carbon dioxide, during respiration.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Respiration in Plants",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "How is energy released during the process of respiration in plants?",
+    "marks": 2,
+    "answer": "Energy is released during respiration in plants through the breakdown of glucose molecules in the presence of oxygen, leading to the production of ATP (adenosine triphosphate).",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Plant Growth and Development",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is photoperiodism?",
+    "marks": 2,
+    "answer": "Photoperiodism is the response of plants to the relative lengths of light and dark periods, affecting processes like flowering and germination.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Plant Growth and Development",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What are auxins and their role in plant growth?",
+    "marks": 2,
+    "answer": "Auxins are plant hormones that promote cell elongation, root initiation, apical dominance, and tropic responses like phototropism.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Plant Growth and Development",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is apical dominance?",
+    "marks": 2,
+    "answer": "Apical dominance is the control exerted by the terminal bud over the outgrowth of lateral buds, influencing the overall shape of the plant.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Digestion and Absorption",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What are the main functions of the digestive system?",
+    "marks": 3,
+    "answer": "The main functions of the digestive system are ingestion, digestion, absorption, and elimination of waste.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Digestion and Absorption",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "Explain the role of enzymes in digestion.",
+    "marks": 3,
+    "answer": "Enzymes are biological catalysts that help break down large molecules into smaller ones during digestion, facilitating the process of nutrient absorption.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Digestion and Absorption",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the role of bile in digestion?",
+    "marks": 2,
+    "answer": "Bile helps in emulsification of fats, breaking them down into smaller droplets to increase the efficiency of fat digestion by lipase enzymes.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Breathing and Exchange of Gases",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the primary function of the respiratory system?",
+    "marks": 2,
+    "answer": "The primary function of the respiratory system is to facilitate the exchange of oxygen and carbon dioxide between the body and the environment.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Breathing and Exchange of Gases",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the role of hemoglobin in the respiratory system?",
+    "marks": 2,
+    "answer": "Hemoglobin is a protein in red blood cells that binds to oxygen in the lungs and carries it to tissues throughout the body for cellular respiration.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Breathing and Exchange of Gases",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "How is carbon dioxide transported in the blood?",
+    "marks": 2,
+    "answer": "Carbon dioxide is transported in the blood in three forms: dissolved in plasma, as bicarbonate ions, and bound to hemoglobin.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Body Fluids and Circulation",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the composition of blood?",
+    "marks": 2,
+    "answer": "Blood is composed of plasma, red blood cells, white blood cells, and platelets.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Body Fluids and Circulation",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the function of hemoglobin in blood?",
+    "marks": 2,
+    "answer": "Hemoglobin in red blood cells carries oxygen from the lungs to the rest of the body and helps in the transport of carbon dioxide back to the lungs.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Body Fluids and Circulation",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the role of lymph in the circulatory system?",
+    "marks": 2,
+    "answer": "Lymph plays a crucial role in the immune system by transporting white blood cells and antibodies to fight infections and removing waste products from tissues.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Excretory Products and Their Elimination",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What are the main excretory products in humans?",
+    "marks": 2,
+    "answer": "The main excretory products in humans are urea, uric acid, and creatinine.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Excretory Products and Their Elimination",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the function of the kidneys in excretion?",
+    "marks": 2,
+    "answer": "The kidneys filter waste products from the blood and help regulate the balance of water, salts, and minerals in the body.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Excretory Products and Their Elimination",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "How does the urinary system help maintain homeostasis in the body?",
+    "marks": 2,
+    "answer": "The urinary system helps regulate the body's fluid balance, electrolyte levels, and pH by filtering and excreting waste products.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Locomotion and Movement",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the role of tendons in locomotion?",
+    "marks": 2,
+    "answer": "Tendons are tough connective tissues that connect muscles to bones, allowing the muscles to pull on the bones and generate movement.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Locomotion and Movement",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "How do antagonistic muscles work together during movement?",
+    "marks": 2,
+    "answer": "Antagonistic muscles work in pairs where one muscle contracts (agonist) to produce movement while the other muscle relaxes (antagonist) to allow the movement to occur smoothly.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Locomotion and Movement",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "Explain the role of synovial fluid in joint movement.",
+    "marks": 2,
+    "answer": "Synovial fluid lubricates the joints, reducing friction between the bones during movement and providing nourishment to the cartilage in the joint.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the function of a neurotransmitter?",
+    "marks": 2,
+    "answer": "Neurotransmitters are chemical messengers that transmit signals across a synapse from one neuron to another, or to a target cell, such as a muscle cell.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the role of the myelin sheath in neuron function?",
+    "marks": 2,
+    "answer": "The myelin sheath is a fatty insulating layer that speeds up the transmission of electrical impulses along the axon of a neuron.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "How do reflex arcs differ from normal neural pathways?",
+    "marks": 2,
+    "answer": "Reflex arcs are rapid, involuntary responses to stimuli that bypass the brain, while normal neural pathways involve processing information in the brain before generating a response.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "What is the primary function of hormones in the human body?",
+    "marks": 2,
+    "answer": "Hormones act as chemical messengers that regulate various physiological processes and maintain homeostasis in the body.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "How does the hypothalamus maintain the body's internal balance?",
+    "marks": 2,
+    "answer": "The hypothalamus monitors and responds to changes in the body's internal environment by producing releasing and inhibiting hormones that control the pituitary gland's secretion of hormones.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "type": "shortAnswer",
+    "difficulty": "easy",
+    "text": "Explain the role of insulin in regulating blood sugar levels.",
+    "marks": 2,
+    "answer": "Insulin is a hormone produced by the pancreas that helps regulate blood sugar levels by facilitating the uptake of glucose from the blood into cells for energy production or storage.",
+    "createdAt": "2024-02-02T00:00:00Z"
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "The Living World",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the process of photosynthesis and its importance in the ecosystem.",
+    "marks": 5,
+    "answer": "Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy, usually from the sun, into chemical energy stored in glucose molecules. During this process, carbon dioxide is taken in, and oxygen is released as a byproduct. Photosynthesis is crucial for the ecosystem as it is the primary source of food and oxygen for most living organisms, playing a key role in the carbon cycle."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "The Living World",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the levels of biological organization from the simplest to the most complex.",
+    "marks": 4,
+    "answer": "The levels of biological organization from simplest to most complex are: 1. Atoms and molecules, 2. Cells, 3. Tissues, 4. Organs, 5. Organ systems, 6. Organisms, 7. Populations, 8. Communities, 9. Ecosystems, 10. Biomes, and 11. Biosphere. Each level builds upon the previous one, with interactions and dependencies between them, ultimately forming the intricate web of life on Earth."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Biological Classification",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the difference between artificial classification and natural classification with examples.",
+    "marks": 4,
+    "answer": "Artificial classification is based on superficial characteristics and is used for convenience, like separating plants based on the number of petals. Natural classification, on the other hand, is based on evolutionary relationships and genetic similarities, like grouping organisms based on their genetic sequences and common ancestry."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Biological Classification",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the significance of binomial nomenclature in biological classification.",
+    "marks": 5,
+    "answer": "Binomial nomenclature is a system of naming organisms with two-part scientific names (genus and species) that are universally accepted. It helps in avoiding confusion caused by common names, facilitates accurate communication among scientists globally, and reflects the evolutionary relationships between different organisms."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Plant Kingdom",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the process of alternation of generations in plants with an example.",
+    "marks": 4,
+    "answer": "Alternation of generations is a life cycle in plants where there are two distinct stages: the haploid gametophyte stage and the diploid sporophyte stage. In this process, the plant alternates between these two stages in its life cycle. An example of alternation of generations is seen in ferns, where the dominant stage is the diploid sporophyte that produces spores. These spores develop into haploid gametophytes which produce gametes for fertilization, leading to the formation of a new sporophyte generation."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Plant Kingdom",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the importance of seed dispersal in the plant kingdom.",
+    "marks": 4,
+    "answer": "Seed dispersal is crucial for plants to ensure the survival and distribution of their offspring. It helps in reducing competition among the parent and offspring for resources like sunlight, water, and nutrients. Seed dispersal also aids in colonizing new habitats and expanding the plant population. Different methods of seed dispersal include wind dispersal, water dispersal, animal dispersal, and self-dispersal mechanisms like explosion and ballistic dispersal. Each method has its advantages and is adapted by plants based on their environment and evolutionary needs."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "type": "mediumAnswer",
+    "difficulty": "easy",
+    "text": "Explain the classification of animals based on their mode of nutrition.",
+    "marks": 3,
+    "answer": "Animals can be classified based on their mode of nutrition into herbivores, carnivores, omnivores, and parasites. Herbivores primarily feed on plants, carnivores primarily feed on other animals, omnivores feed on both plants and animals, and parasites rely on a host organism for their nutrition."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "type": "mediumAnswer",
+    "difficulty": "easy",
+    "text": "Differentiate between invertebrates and vertebrates, providing examples of each.",
+    "marks": 3,
+    "answer": "Invertebrates are animals that do not have a backbone, while vertebrates are animals that have a backbone. Examples of invertebrates include insects, worms, jellyfish, and snails. Examples of vertebrates include mammals, birds, reptiles, amphibians, and fish."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Morphology of Flowering Plants",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the process of double fertilization in flowering plants.",
+    "marks": 5,
+    "answer": "Double fertilization is a unique process in flowering plants where two sperm cells fertilize two different nuclei in the embryo sac. One sperm cell fertilizes the egg cell to form the zygote, which develops into the embryo, while the other sperm cell fertilizes the central cell to form the endosperm, which provides nourishment to the developing embryo."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Morphology of Flowering Plants",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Describe the different types of inflorescence in flowering plants with examples.",
+    "marks": 4,
+    "answer": "Inflorescence refers to the arrangement of flowers on a plant. There are various types of inflorescence, such as racemose (indefinite growth) and cymose (definite growth). Examples of racemose inflorescence include raceme, spike, and panicle, while examples of cymose inflorescence include cyme, umbel, and corymb."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Anatomy of Flowering Plants",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the structure and functions of xylem and phloem in plants.",
+    "marks": 5,
+    "answer": "Xylem is a type of vascular tissue responsible for transporting water and minerals from the roots to the rest of the plant. It is composed of tracheids, vessel elements, fibers, and parenchyma cells. Phloem, on the other hand, is another type of vascular tissue that transports food (sucrose and other organic compounds) produced during photosynthesis from the leaves to other parts of the plant. It is made up of sieve tube elements, companion cells, fibers, and parenchyma cells."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Anatomy of Flowering Plants",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Describe the structure and functions of stomata in plants.",
+    "marks": 4,
+    "answer": "Stomata are small pores found on the surfaces of leaves, stems, and other plant parts that allow for gas exchange (oxygen and carbon dioxide) and transpiration. Each stoma is surrounded by two specialized epidermal cells called guard cells, which control the opening and closing of the pore. When the guard cells take in water, they swell and cause the stomata to open, facilitating gas exchange and transpiration. When they lose water, the guard cells shrink, closing the stomata to prevent excessive water loss."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Structural Organisation in Animals",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the structure and function of nephrons in the human kidney.",
+    "marks": 4,
+    "answer": "Nephrons are the structural and functional units of the kidney responsible for filtering blood and producing urine. Each nephron consists of a renal corpuscle (glomerulus and Bowman's capsule) and a renal tubule (proximal convoluted tubule, loop of Henle, and distal convoluted tubule). Blood is filtered in the glomerulus, and the filtered fluid passes through the renal tubule where reabsorption and secretion take place to regulate the composition of urine."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Structural Organisation in Animals",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Describe the structure and functions of the four main types of tissues found in animals.",
+    "marks": 5,
+    "answer": "The four main types of tissues found in animals are epithelial tissue, connective tissue, muscular tissue, and nervous tissue. Epithelial tissue covers body surfaces, lines cavities and organs, and functions in protection, secretion, and absorption. Connective tissue supports and binds other tissues together, providing structural support, protection, and insulation. Muscular tissue is responsible for movement and is divided into skeletal, smooth, and cardiac muscle. Nervous tissue is involved in communication and control, transmitting electrical impulses and coordinating body functions."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Cell: The Unit of Life",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the structure and function of cell membrane in a cell.",
+    "marks": 4,
+    "answer": "The cell membrane is a semi-permeable membrane that surrounds the cell, separating its internal environment from the external environment. It is composed of lipids, proteins, and carbohydrates. The main function of the cell membrane is to regulate the passage of substances in and out of the cell. It allows nutrients to enter the cell and waste products to leave, while also helping to maintain the cell's shape and protect its internal environment."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Cell: The Unit of Life",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the differences between plant cells and animal cells.",
+    "marks": 5,
+    "answer": "Plant cells have a cell wall, chloroplasts, and a large central vacuole, which are not present in animal cells. Animal cells have centrioles, lysosomes, and smaller vacuoles. Plant cells are usually rectangular in shape, while animal cells are round or irregular in shape. Plant cells can photosynthesize, while animal cells cannot. Both types of cells have a nucleus, mitochondria, endoplasmic reticulum, and Golgi apparatus."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Biomolecules",
+    "type": "mediumAnswer",
+    "difficulty": "easy",
+    "text": "What are the four major classes of biomolecules? Discuss their basic functions.",
+    "marks": 4,
+    "answer": "The four major classes of biomolecules are carbohydrates, lipids, proteins, and nucleic acids. Carbohydrates are the main source of energy for living organisms. Lipids are important for energy storage, cell membrane structure, and signaling. Proteins are essential for various cellular functions such as enzyme catalysis, cell structure, and immune responses. Nucleic acids are involved in storing and transmitting genetic information."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Biomolecules",
+    "type": "mediumAnswer",
+    "difficulty": "easy",
+    "text": "Explain the structure and function of enzymes in biochemical reactions.",
+    "marks": 4,
+    "answer": "Enzymes are biological catalysts that speed up chemical reactions in living organisms. They are typically proteins with specific three-dimensional structures that allow them to bind to substrates and catalyze reactions. Enzymes work by lowering the activation energy required for a reaction to occur, making the reaction proceed faster. They are specific to the substrates they act on and can be reused multiple times."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the process of mitosis in detail.",
+    "marks": 5,
+    "answer": "Mitosis is a type of cell division that results in two daughter cells with the same number of chromosomes as the parent cell. It is essential for growth, repair, and asexual reproduction in organisms. The process of mitosis consists of several stages: prophase, metaphase, anaphase, and telophase. During prophase, the chromatin condenses into visible chromosomes, the nuclear membrane breaks down, and spindle fibers begin to form. In metaphase, the chromosomes line up along the cell's equator. In anaphase, the sister chromatids are pulled apart and move towards opposite poles of the cell. Finally, in telophase, the chromosomes reach the poles, the nuclear membrane reforms, and the cell undergoes cytokinesis to divide into two daughter cells."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the importance of the cell cycle in the growth and development of organisms.",
+    "marks": 4,
+    "answer": "The cell cycle is a series of events that take place in a cell leading to its division and duplication. It is essential for the growth and development of organisms as it allows cells to grow, replicate their DNA, and divide into daughter cells. The cell cycle ensures that organisms can grow in size, repair damaged tissues, and replace old or dying cells. It also plays a crucial role in processes like asexual reproduction, tissue regeneration, and embryonic development. Without the cell cycle, organisms would not be able to grow, develop, or maintain their body structures."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Transport in Plants",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the process of transpiration in plants and its significance.",
+    "marks": 4,
+    "answer": "Transpiration is the process by which plants lose water vapor through tiny pores on their leaves called stomata. This loss of water creates a negative pressure in the plant, allowing for the upward movement of water and nutrients from the roots to the leaves. Transpiration helps in the cooling of the plant, transport of minerals, and maintaining turgidity in cells."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Transport in Plants",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the role of xylem and phloem in the transport of water and nutrients in plants.",
+    "marks": 5,
+    "answer": "Xylem is a type of vascular tissue responsible for transporting water and minerals from the roots to the leaves in a plant. It consists of tracheids and vessel elements that form long tubes for efficient water conduction. Phloem, on the other hand, is another vascular tissue that transports organic nutrients like sugars from the leaves to other parts of the plant. Together, xylem and phloem form the vascular system that ensures the proper distribution of water, minerals, and nutrients in plants."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Mineral Nutrition",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the role of micronutrients in plant growth and development.",
+    "marks": 4,
+    "answer": "Micronutrients are essential elements required by plants in very small quantities. These include elements like iron, zinc, copper, manganese, molybdenum, boron, and chlorine. Micronutrients play crucial roles in various physiological processes of plants such as enzyme activation, photosynthesis, nitrogen metabolism, and cell wall formation. Deficiency of micronutrients can lead to stunted growth, leaf discoloration, and overall poor plant health."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Mineral Nutrition",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the process of mineral absorption in plants, including the role of root hairs and mycorrhizal fungi.",
+    "marks": 5,
+    "answer": "Mineral absorption in plants occurs mainly through the roots. Root hairs, which are tiny extensions of root epidermal cells, greatly increase the surface area for absorption. These root hairs create a zone of high nutrient concentration around them, allowing for efficient uptake of minerals by the plant. Mycorrhizal fungi form symbiotic relationships with plant roots, extending the reach of the roots into the soil and aiding in mineral absorption. The fungi help in the uptake of phosphorus and other nutrients in exchange for carbohydrates from the plant."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the process of light-dependent reactions in photosynthesis.",
+    "marks": 5,
+    "answer": "In light-dependent reactions of photosynthesis, light energy is absorbed by chlorophyll in the thylakoid membranes of chloroplasts. This energy is used to split water molecules into oxygen, protons, and electrons. The electrons are then transferred through a series of proteins in the electron transport chain, creating a proton gradient across the thylakoid membrane. This gradient drives ATP synthesis through ATP synthase. At the end of the chain, the electrons combine with NADP+ and H+ ions to form NADPH, a high-energy electron carrier."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the role of ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO) in the Calvin cycle.",
+    "marks": 4,
+    "answer": "RuBisCO is the enzyme responsible for carbon fixation in the Calvin cycle of photosynthesis. It catalyzes the addition of carbon dioxide to ribulose-1,5-bisphosphate (RuBP) to form an unstable 6-carbon compound that immediately breaks down into two molecules of 3-phosphoglycerate (3-PGA). This is the first step in the conversion of inorganic carbon into organic molecules. RuBisCO is considered one of the most abundant enzymes on Earth and plays a crucial role in the process of photosynthesis."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Respiration in Plants",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the process of transpiration in plants and its significance.",
+    "marks": 5,
+    "answer": "Transpiration is the process by which plants lose water vapor through small openings called stomata in their leaves. This loss of water helps in the uptake of minerals and nutrients from the soil, maintains the temperature of the plant, and creates a negative pressure that helps in the movement of water and nutrients from roots to leaves. It also plays a role in the cooling of the plant and in the regulation of gas exchange."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Respiration in Plants",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the role of mitochondria in the process of respiration in plants.",
+    "marks": 4,
+    "answer": "Mitochondria are known as the powerhouses of the cell and play a crucial role in the process of respiration in plants. They are responsible for the production of ATP (adenosine triphosphate) through aerobic respiration, which is the primary energy currency of the cell. Mitochondria contain enzymes that are involved in the various steps of the respiration process, including the Krebs cycle and the electron transport chain. Without mitochondria, plants would not be able to efficiently generate energy for their metabolic processes."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Plant Growth and Development",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the role of auxins in plant growth and development.",
+    "marks": 5,
+    "answer": "Auxins are plant hormones that play a critical role in various aspects of plant growth and development. They are responsible for cell elongation, apical dominance, phototropism, gravitropism, and root initiation. Auxins promote cell elongation by loosening the cell wall, allowing for expansion. They also inhibit lateral bud growth, promoting apical dominance. In phototropism, auxins help the plant bend towards light, while in gravitropism, they help roots grow downwards. Auxins are also involved in the formation of roots in cuttings and promote the differentiation of vascular tissues."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Plant Growth and Development",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the role of gibberellins in plant growth and development.",
+    "marks": 5,
+    "answer": "Gibberellins are plant hormones that regulate various growth and developmental processes in plants. They are involved in seed germination, stem elongation, flowering, and fruit development. Gibberellins promote stem elongation by stimulating cell division and elongation in the stem internodes. They also play a crucial role in breaking seed dormancy and promoting seed germination. In flowering, gibberellins are involved in the transition from vegetative to reproductive growth phases. Additionally, gibberellins help in fruit development by stimulating cell division and elongation, leading to fruit growth and maturation."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Digestion and Absorption",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the process of digestion in the human body, starting from the mouth to the small intestine.",
+    "marks": 5,
+    "answer": "In the human body, digestion starts in the mouth where food is broken down into smaller pieces by chewing and mixed with saliva containing enzymes like amylase. The food then travels down the esophagus to the stomach where it is mixed with gastric juices containing hydrochloric acid and pepsin for further breakdown. From the stomach, partially digested food enters the small intestine where it is mixed with bile from the liver and enzymes from the pancreas to break down carbohydrates, proteins, and fats. Nutrients are then absorbed through the walls of the small intestine into the bloodstream."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Digestion and Absorption",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the role of villi and microvilli in the process of absorption in the small intestine.",
+    "marks": 4,
+    "answer": "Villi are finger-like projections in the lining of the small intestine that increase the surface area available for absorption of nutrients. They contain blood vessels and lacteals to absorb nutrients like glucose and amino acids. Microvilli are tiny projections on the surface of the villi cells that further increase the surface area for absorption. They contain enzymes that help in the final breakdown of nutrients before absorption into the bloodstream."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Breathing and Exchange of Gases",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the process of external respiration in humans.",
+    "marks": 4,
+    "answer": "External respiration in humans involves the exchange of gases between the lungs and the blood. During inhalation, oxygen-rich air is taken into the lungs, where it diffuses across the alveoli membranes into the blood capillaries. At the same time, carbon dioxide diffuses from the blood into the alveoli to be exhaled during exhalation."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Breathing and Exchange of Gases",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the role of hemoglobin in the transport of gases in the human body.",
+    "marks": 4,
+    "answer": "Hemoglobin is a protein found in red blood cells that plays a crucial role in the transport of gases in the human body. It binds with oxygen in the lungs to form oxyhemoglobin, which is then carried by the blood to tissues where oxygen is released for cellular respiration. Hemoglobin also binds with carbon dioxide to form carbaminohemoglobin, which is transported back to the lungs for exhalation."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Body Fluids and Circulation",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the process of blood clotting and its significance in the human body.",
+    "marks": 4
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Body Fluids and Circulation",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the role of lymphatic system in maintaining fluid balance in the body.",
+    "marks": 4
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Excretory Products and Their Elimination",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the process of ultrafiltration in the nephrons of the kidney.",
+    "marks": 5,
+    "answer": "Ultrafiltration is the first step in the formation of urine in the nephrons of the kidney. It occurs in the glomerulus, where high pressure forces blood through the capillaries into the Bowman's capsule. This process filters out water, ions, glucose, amino acids, and waste products like urea and creatinine. Large molecules like proteins and blood cells are not filtered and remain in the blood."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Excretory Products and Their Elimination",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the role of ADH (antidiuretic hormone) in the regulation of water reabsorption in the kidney.",
+    "marks": 4,
+    "answer": "ADH is a hormone produced by the pituitary gland that plays a key role in regulating the amount of water reabsorbed by the kidneys. When the body is dehydrated, ADH levels increase, causing the kidneys to reabsorb more water from the urine back into the bloodstream, leading to concentrated urine. On the other hand, when the body is well-hydrated, ADH levels decrease, resulting in less water reabsorption and the production of dilute urine."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Locomotion and Movement",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the process of muscle contraction and relaxation in detail.",
+    "marks": 4,
+    "answer": "Muscle contraction is initiated by the brain sending signals through motor neurons to the muscle fibers. These signals trigger the release of calcium ions in the muscle cells, which bind to proteins in the muscle fibers and cause them to slide past each other, shortening the muscle. This shortening of muscle fibers results in muscle contraction. Muscle relaxation occurs when the brain stops sending signals to the muscle fibers, and the calcium ions are pumped back into storage, allowing the muscle fibers to slide back to their original position and lengthen."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Locomotion and Movement",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the role of tendons and ligaments in human movement.",
+    "marks": 4,
+    "answer": "Tendons are tough, fibrous connective tissues that connect muscles to bones. They play a crucial role in human movement by transmitting the force generated by muscle contraction to the bones, allowing movement of body parts. Ligaments, on the other hand, are also tough, fibrous connective tissues that connect bones to other bones. They provide stability to joints and prevent excessive movement, helping in maintaining proper alignment and coordination during physical activities."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the structure and function of a neuron.",
+    "marks": 5,
+    "answer": "A neuron is the basic structural and functional unit of the nervous system. It consists of a cell body, dendrites, and an axon. The cell body contains the nucleus and other organelles. Dendrites receive signals from other neurons and transmit them towards the cell body. The axon transmits signals away from the cell body to other neurons or effector cells. Neurons function by transmitting electrical and chemical signals, allowing communication within the nervous system."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the mechanism of synaptic transmission in the nervous system.",
+    "marks": 5,
+    "answer": "Synaptic transmission is the process by which neurons communicate with each other. When an action potential reaches the axon terminal of a neuron, it triggers the release of neurotransmitters into the synaptic cleft. Neurotransmitters diffuse across the synaptic cleft and bind to receptors on the dendrites of the postsynaptic neuron. This binding leads to the generation of a new electrical signal in the postsynaptic neuron, continuing the transmission of the nerve impulse."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Explain the role of hormones in the human body and give examples of some important hormones.",
+    "marks": 5,
+    "answer": "Hormones are chemical messengers produced by endocrine glands that help regulate various physiological processes in the human body. They travel through the bloodstream to target organs and tissues, where they exert their effects. Examples of important hormones include insulin (regulates blood sugar levels), adrenaline (controls fight or flight response), estrogen and testosterone (regulate reproductive functions), and growth hormone (affects growth and development)."
+  },
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "type": "mediumAnswer",
+    "difficulty": "medium",
+    "text": "Discuss the negative feedback mechanism in hormone regulation with an example.",
+    "marks": 4,
+    "answer": "Negative feedback is a regulatory mechanism in the endocrine system where the secretion of a hormone is reduced in response to high levels of that hormone in the bloodstream. This helps maintain homeostasis. For example, when blood sugar levels rise after a meal, the pancreas releases insulin to lower blood glucose. Once the blood sugar levels return to normal, the secretion of insulin is decreased, preventing hypoglycemia."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "The Living World",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the concept of biological classification and its importance.",
+    "marks": 4,
+    "answer": "Biological classification is the process of grouping living organisms based on their similarities and differences. It helps in organizing the vast diversity of living organisms into manageable units. Classification provides a framework for understanding the relationships between different organisms and helps in studying them systematically. It also aids in the identification of organisms, allows for the prediction of characteristics of unknown species, and helps in the conservation of biodiversity. Classification systems like the taxonomic hierarchy (Domain, Kingdom, Phylum, Class, Order, Family, Genus, Species) provide a standardized way to categorize organisms. Overall, biological classification is crucial for studying and understanding the living world."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Biological Classification",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Describe the criteria used for biological classification.",
+    "marks": 4,
+    "answer": "Biological classification is the process of grouping living organisms based on their similarities and differences. The criteria used for biological classification include morphological features (physical characteristics such as shape, size, color), anatomical features (internal structures and organs), ecological characteristics (habitat, behavior, diet), physiological characteristics (biochemical processes, metabolism), and genetic characteristics (DNA sequences, evolutionary relationships). These criteria help in organizing organisms into hierarchical levels such as kingdom, phylum, class, order, family, genus, and species. By using these criteria, biologists can classify and categorize the immense diversity of life on Earth, making it easier to study and understand the relationships between different organisms."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Plant Kingdom",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the characteristics of algae and give examples of different types of algae.",
+    "marks": 4,
+    "answer": "Algae are simple, autotrophic, and predominantly aquatic organisms belonging to the kingdom Protista. They lack true roots, stems, and leaves. Algae can be unicellular, colonial, or multicellular. They reproduce through spores, fragmentation, or sexual reproduction. Some examples of algae include: 1. Green algae - like Spirogyra, Chlamydomonas, and Ulva. 2. Brown algae - like Sargassum and Laminaria. 3. Red algae - like Porphyra and Gelidium. 4. Diatoms - like Navicula and Coscinodiscus. 5. Blue-green algae - like Nostoc and Anabaena. Algae play a crucial role in the ecosystem by producing oxygen through photosynthesis and serving as a food source for various aquatic organisms."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the classification of animals based on their body symmetry. Give examples of each type.",
+    "marks": 4,
+    "answer": "Animals can be classified based on their body symmetry into three main categories: asymmetrical, radial symmetry, and bilateral symmetry. Asymmetrical animals have irregular body shapes with no definite symmetry, such as sponges. Radially symmetrical animals have body parts arranged around a central axis, like a wheel. Examples include jellyfish and sea anemones. Bilateral symmetry animals have a definite right and left side, with a distinct head and tail region. Most animals, including humans, exhibit bilateral symmetry. Examples of animals with bilateral symmetry are insects, mammals, and birds. This classification based on body symmetry helps in understanding the evolutionary relationships and adaptations of different animal groups."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Morphology of Flowering Plants",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of double fertilization in flowering plants.",
+    "marks": 4,
+    "answer": "Double fertilization is a unique reproductive mechanism in flowering plants. It involves the fusion of two sperm cells with two different nuclei in the embryo sac. One sperm cell fuses with the egg cell to form the zygote, which develops into the embryo. The other sperm cell fuses with the two polar nuclei to form the triploid endosperm, which provides nourishment to the developing embryo. This process ensures the coordinated development of both the embryo and endosperm, essential for the growth and survival of the plant. Double fertilization is a key characteristic of angiosperms and plays a crucial role in seed development."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Anatomy of Flowering Plants",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the structure and function of xylem and phloem in plants.",
+    "marks": 4,
+    "answer": "Xylem and phloem are the two types of vascular tissues found in plants. Xylem is responsible for transporting water and minerals from the roots to the rest of the plant. It is made up of tracheids, vessel elements, fibers, and parenchyma cells. Tracheids and vessel elements are responsible for water conduction, while fibers provide structural support. Phloem, on the other hand, is responsible for transporting organic nutrients like sugars from the leaves to other parts of the plant. It consists of sieve elements, companion cells, fibers, and parenchyma cells. Sieve elements are responsible for nutrient conduction, while companion cells provide metabolic support. Both xylem and phloem work together to ensure the proper growth and functioning of the plant."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Structural Organisation in Animals",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the structure and functions of the nephron in human excretory system.",
+    "marks": 4,
+    "answer": "The nephron is the structural and functional unit of the human excretory system. It consists of two main parts - the renal corpuscle and the renal tubule. The renal corpuscle includes the glomerulus, a network of capillaries, and the Bowman's capsule, a cup-shaped structure that surrounds the glomerulus. The renal tubule consists of the proximal convoluted tubule, loop of Henle, distal convoluted tubule, and collecting duct. \n\nThe functions of the nephron include filtration, reabsorption, secretion, and excretion. Filtration occurs in the glomerulus, where blood is filtered to form the glomerular filtrate. Reabsorption takes place in the renal tubule, where essential substances like glucose, amino acids, and water are reabsorbed back into the blood. Secretion involves the transfer of waste products from the blood into the tubule. Excretion is the final process where the urine is formed and expelled from the body. Overall, the nephron plays a crucial role in maintaining the body's internal environment by regulating the composition and volume of body fluids."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Cell: The Unit of Life",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of endocytosis in a cell.",
+    "marks": 4,
+    "answer": "Endocytosis is the process by which cells take in substances from outside the cell by engulfing them with their cell membrane. It involves the formation of vesicles that bring in the external material. The process of endocytosis can be divided into three main types: phagocytosis, pinocytosis, and receptor-mediated endocytosis. Phagocytosis is the engulfing of solid particles, pinocytosis is the engulfing of liquid particles, and receptor-mediated endocytosis involves the binding of specific molecules to receptors on the cell membrane. Once the material is engulfed, the vesicle fuses with a lysosome where the contents are digested. Endocytosis is essential for nutrient uptake, immune response, and maintaining cellular homeostasis."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Biomolecules",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the structure and function of carbohydrates in living organisms.",
+    "marks": 4,
+    "answer": "Carbohydrates are organic compounds made up of carbon, hydrogen, and oxygen in a ratio of 1:2:1. They serve as a major source of energy for living organisms. The structure of carbohydrates can be simple (monosaccharides) or complex (polysaccharides). Monosaccharides like glucose and fructose are the building blocks of more complex carbohydrates. Polysaccharides, such as starch and glycogen, are used for energy storage in plants and animals, respectively. Carbohydrates also play a crucial role in cell structure and communication. For example, cellulose provides structural support in plant cell walls. Overall, carbohydrates are essential biomolecules that provide energy and structural support in living organisms."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of mitosis in detail.",
+    "marks": 4,
+    "answer": "Mitosis is a type of cell division that results in two daughter cells with the same number of chromosomes as the parent cell. It consists of several stages: prophase, metaphase, anaphase, and telophase. \n\nDuring prophase, the chromatin condenses into visible chromosomes, the nuclear envelope breaks down, and the mitotic spindle forms. In metaphase, the chromosomes align at the metaphase plate. During anaphase, the sister chromatids separate and move towards opposite poles of the cell. Finally, in telophase, the chromosomes de-condense, the nuclear envelope reforms, and the spindle fibers disassemble. \n\nCytokinesis, which is the division of the cytoplasm, usually occurs after mitosis, resulting in two genetically identical daughter cells. Mitosis plays a crucial role in growth, development, and tissue repair in multicellular organisms."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Transport in Plants",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of transpiration in plants.",
+    "marks": 4,
+    "answer": "Transpiration is the process by which water is lost from a plant through the stomata in the leaves. It occurs mainly through the leaves, but can also take place through the stems and flowers. Transpiration helps in the movement of water and minerals from the roots to the leaves and other parts of the plant. The water is absorbed by the roots from the soil and is transported through the xylem tissue to the leaves. Once in the leaves, water evaporates into the air through small pores called stomata. This loss of water creates a negative pressure in the xylem, which helps in the upward movement of water. Transpiration also helps in cooling the plant and maintaining its temperature. Overall, transpiration plays a crucial role in the overall water balance and nutrient transport in plants."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Mineral Nutrition",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the role of essential minerals in plant nutrition.",
+    "marks": 4,
+    "answer": "Essential minerals play a crucial role in the growth and development of plants. These minerals are required in specific amounts for various physiological functions. Macronutrients such as nitrogen, phosphorus, and potassium are essential for plant growth, photosynthesis, and overall metabolism. Micronutrients like iron, zinc, and manganese are also important for enzyme activation, hormone synthesis, and overall plant health. Deficiency of any essential mineral can lead to stunted growth, yellowing of leaves, and even death of the plant. To ensure proper plant nutrition, it is essential to provide a balanced supply of all essential minerals through the soil or foliar application. Monitoring the nutrient levels and adjusting fertilization practices accordingly is key to ensuring optimal plant growth and productivity."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of photosynthesis in higher plants.",
+    "marks": 4,
+    "answer": "Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy, usually from the sun, into chemical energy stored in glucose molecules. This process occurs in chloroplasts and involves two main stages: light-dependent reactions and light-independent reactions. \n\nDuring the light-dependent reactions, light energy is absorbed by chlorophyll and other pigments in the thylakoid membranes of the chloroplasts. This energy is used to split water molecules into oxygen, protons, and electrons. The electrons are then transferred through a series of proteins in the electron transport chain, generating ATP and NADPH.\n\nIn the light-independent reactions (Calvin cycle), ATP and NADPH produced in the light-dependent reactions are used to convert carbon dioxide into glucose. This process involves a series of enzyme-controlled reactions that take place in the stroma of the chloroplasts.Overall, photosynthesis is a crucial process for the survival of plants as it provides them with the energy they need to grow and reproduce."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Respiration in Plants",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of aerobic respiration in plants.",
+    "marks": 4,
+    "answer": "Aerobic respiration in plants is the process by which cells break down glucose in the presence of oxygen to produce energy, carbon dioxide, and water. The process can be broken down into three main stages: glycolysis, the Krebs cycle, and the electron transport chain. In glycolysis, glucose is broken down into pyruvate molecules, producing a small amount of ATP. The pyruvate then enters the mitochondria where it is further broken down in the Krebs cycle, producing more ATP and carbon dioxide. Finally, in the electron transport chain, the high-energy electrons from the Krebs cycle are used to create a large amount of ATP. Overall, aerobic respiration is a highly efficient process that provides plants with the energy they need to carry out various cellular functions."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Plant Growth and Development",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of photomorphogenesis in plants.",
+    "marks": 4,
+    "answer": "Photomorphogenesis is the process of plant growth and development in response to light. It involves various photoreceptors such as phytochromes, cryptochromes, and phototropins that perceive different wavelengths of light. When a plant receives light, phytochromes help in seed germination, regulation of flowering, and stem elongation. Cryptochromes are involved in regulating processes like circadian rhythms and controlling plant growth. Phototropins help in phototropism, which is the growth of plants towards a light source. Overall, photomorphogenesis plays a crucial role in shaping the growth and development of plants in response to light signals."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Digestion and Absorption",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of absorption of digested food in the small intestine.",
+    "marks": 4,
+    "answer": "Absorption of digested food in the small intestine is a complex process that involves various mechanisms. The inner surface of the small intestine is covered with millions of tiny finger-like projections called villi, which increase the surface area for absorption. Each villus has a network of blood capillaries and a lymphatic vessel called lacteal. \n\nThe absorption of different nutrients occurs through different mechanisms. Carbohydrates and proteins are absorbed into the blood capillaries, while fats are absorbed into the lacteals. The absorption of water and minerals also takes place in the small intestine. \n\nThe absorbed nutrients are then transported to the liver via the hepatic portal vein, where they are further processed before being distributed to the rest of the body. Overall, the small intestine plays a crucial role in the efficient absorption of nutrients from the digested food."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Breathing and Exchange of Gases",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of exchange of gases in human beings during inhalation and exhalation.",
+    "marks": 4,
+    "answer": "During inhalation, the diaphragm contracts and moves downwards while the intercostal muscles contract, causing the rib cage to move up and out. This increases the volume of the thoracic cavity, leading to a decrease in pressure inside the lungs. As a result, air rushes into the lungs from the atmosphere. During exhalation, the diaphragm and intercostal muscles relax. The diaphragm moves upwards and the rib cage moves downwards and inwards, decreasing the volume of the thoracic cavity. This increase in pressure inside the lungs forces the air to move out of the lungs into the atmosphere. This process of inhalation and exhalation facilitates the exchange of gases, allowing oxygen to enter the bloodstream and carbon dioxide to be expelled."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Body Fluids and Circulation",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of lymph formation and its significance in the human body.",
+    "marks": 4,
+    "answer": "Lymph formation occurs as a result of filtration of blood plasma through capillaries in the tissues. This filtered fluid, along with some proteins and cellular debris, is collected by lymphatic capillaries to form lymph. Lymph then passes through lymphatic vessels and eventually drains into the bloodstream. Lymphatic system plays a crucial role in maintaining fluid balance in the body, transporting fats from the intestine to the blood, and facilitating immune responses by carrying lymphocytes and antibodies. Additionally, lymph nodes filter lymph, removing pathogens and other harmful substances. Overall, lymph formation is essential for maintaining homeostasis and immunity in the human body."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Excretory Products and Their Elimination",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of urine formation in humans.",
+    "marks": 4,
+    "answer": "Urine formation in humans involves three main processes: filtration, reabsorption, and secretion. It begins in the nephrons of the kidneys where blood is filtered to form a filtrate containing water, glucose, ions, urea, and other waste products. This filtrate then moves to the renal tubules where selective reabsorption occurs. Essential substances like glucose, ions, and water are reabsorbed back into the blood while waste products like urea, excess ions, and drugs are left in the tubules. Finally, secretion takes place where additional waste products are actively transported from the blood into the tubules. The remaining fluid is concentrated and forms urine, which is eventually excreted from the body through the urethra."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Locomotion and Movement",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the sliding filament theory of muscle contraction.",
+    "marks": 4,
+    "answer": "The sliding filament theory of muscle contraction explains how muscles generate force and movement. According to this theory, during muscle contraction, the thin actin filaments slide over the thick myosin filaments, causing the sarcomere (the basic unit of muscle contraction) to shorten. This process is initiated by the binding of calcium ions to troponin, which causes tropomyosin to move away from the binding sites on actin, allowing myosin heads to attach to actin. ATP hydrolysis then powers the movement of myosin heads, pulling the actin filaments towards the center of the sarcomere. This repeated cycle of attachment, power stroke, and detachment results in muscle contraction. Once the stimulation stops, calcium ions are pumped back into the sarcoplasmic reticulum, tropomyosin covers the binding sites on actin, and the muscle relaxes."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the process of transmission of nerve impulse across a chemical synapse.",
+    "marks": 4,
+    "answer": "The transmission of nerve impulse across a chemical synapse involves several steps. When the action potential reaches the axon terminal, it triggers the opening of voltage-gated calcium channels. The influx of calcium ions causes synaptic vesicles containing neurotransmitters to fuse with the presynaptic membrane and release the neurotransmitters into the synaptic cleft. The neurotransmitters then bind to specific receptors on the postsynaptic membrane, leading to depolarization of the postsynaptic neuron. This depolarization may trigger an action potential in the postsynaptic neuron, continuing the signal transmission. The neurotransmitters are either broken down by enzymes or taken back up into the presynaptic neuron through reuptake. Overall, the process ensures the unidirectional flow of nerve impulses across the synapse."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "type": "longAnswer",
+    "difficulty": "easy",
+    "text": "Explain the role of hormones in maintaining homeostasis in the human body.",
+    "marks": 4,
+    "answer": "Hormones play a crucial role in maintaining homeostasis in the human body by regulating various physiological processes. For example, insulin and glucagon help in regulating blood sugar levels by controlling the uptake and release of glucose by cells. Thyroid hormones regulate metabolism and body temperature. Adrenaline helps in the 'fight or flight' response during stressful situations. Hormones like ADH and aldosterone regulate water and electrolyte balance in the body. Overall, hormones ensure that the internal environment of the body remains stable despite external changes, thus supporting the proper functioning of various organs and systems."
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "The Living World",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A group of students went for a botanical expedition to a tropical rainforest. During their exploration, they came across a unique plant species with large leaves and bright red flowers. The plant was found to have a symbiotic relationship with a specific type of insect. The students observed that the plant provided shelter and food to the insect, while the insect helped in pollination. Identify the type of symbiotic relationship observed and explain its significance in the ecosystem.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What type of symbiotic relationship is observed between the plant and the insect?",
+          "marks": 1,
+          "answer": "Mutualism"
+        },
+        {
+          "text": "Explain the significance of this symbiotic relationship in the ecosystem.",
+          "marks": 1,
+          "answer": "The symbiotic relationship ensures pollination of the plant, leading to reproduction and genetic diversity. It also provides food and shelter to the insect, aiding its survival."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Biological Classification",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A group of students went on a nature walk and collected various organisms. They found a green, photosynthetic organism with a distinct nucleus and cell wall. Upon further observation, they noticed that this organism reproduced through binary fission. Identify the organism and explain why it belongs to this particular group.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "Which group does the organism belong to?",
+          "marks": 1,
+          "answer": "The organism belongs to the kingdom Protista."
+        },
+        {
+          "text": "Why does the organism belong to this group?",
+          "marks": 1,
+          "answer": "The organism is photosynthetic, has a distinct nucleus, cell wall, and reproduces through binary fission, which are characteristics of organisms in the kingdom Protista."
+        },
+        {
+          "text": "What other examples belong to this group?",
+          "marks": 1,
+          "answer": "Examples of organisms in the kingdom Protista include algae, protozoans, and slime molds."
+        },
+        {
+          "text": "How does the mode of reproduction in this group differ from other kingdoms?",
+          "marks": 1,
+          "answer": "Organisms in the kingdom Protista reproduce through various methods like binary fission, multiple fission, conjugation, and sporulation, unlike organisms in other kingdoms."
+        },
+        {
+          "text": "Explain the ecological importance of the kingdom Protista.",
+          "marks": 1,
+          "answer": "The kingdom Protista plays a crucial role in aquatic ecosystems as they are primary producers, forming the base of the food chain. They also contribute significantly to oxygen production through photosynthesis."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Plant Kingdom",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A group of students went on a botanical excursion to a nearby forest. During their trip, they encountered a variety of plant species. One particular plant caught their attention due to its unique characteristics and habitat. The plant had needle-like leaves, reduced cones, and was found growing in dry and sandy soil. Upon further examination, the students noticed resin canals in the leaves. Identify the plant species based on the given characteristics and explain its adaptation to the habitat.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What is the name of the plant species based on the given characteristics?",
+          "marks": 1,
+          "answer": "Pinus"
+        },
+        {
+          "text": "Explain the adaptation of this plant species to the dry and sandy soil habitat.",
+          "marks": 2,
+          "answer": "Pinus has needle-like leaves to reduce water loss through transpiration. The resin canals in the leaves help in defense against herbivores. The reduced cones protect the seeds and aid in seed dispersal in dry habitats."
+        },
+        {
+          "text": "How do resin canals in the leaves of Pinus help the plant?",
+          "marks": 1,
+          "answer": "Resin canals in the leaves of Pinus help in defense against herbivores by producing resin that deters them from feeding on the plant."
+        },
+        {
+          "text": "Why is the presence of reduced cones beneficial for Pinus in its habitat?",
+          "marks": 1,
+          "answer": "The presence of reduced cones in Pinus helps in protecting the seeds and aids in seed dispersal, which is crucial for survival in dry habitats."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A group of students went on a field trip to a forest area. During their exploration, they observed various organisms belonging to different phyla of the Animal Kingdom. They noticed insects, birds, mammals, and reptiles exhibiting different modes of locomotion, feeding habits, and reproductive strategies. The students were amazed by the diversity in the animal world and discussed the importance of classification systems in studying and understanding these organisms.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "How does the classification system help in studying animals?",
+          "marks": 1,
+          "answer": "Classification system helps in organizing animals based on shared characteristics, making it easier to study and understand their biology."
+        },
+        {
+          "text": "Give an example of an animal from each of the mentioned phyla observed by the students.",
+          "marks": 1,
+          "answer": "Insect - Butterfly, Bird - Sparrow, Mammal - Tiger, Reptile - Snake"
+        },
+        {
+          "text": "Discuss the importance of locomotion in the survival of animals.",
+          "marks": 1,
+          "answer": "Locomotion helps animals in finding food, escaping predators, seeking mates, and exploring new habitats, thus enhancing their chances of survival."
+        },
+        {
+          "text": "Explain how feeding habits can vary among different animal groups.",
+          "marks": 1,
+          "answer": "Animals can be herbivores, carnivores, or omnivores, depending on their diet preferences and adaptations to obtain nutrients."
+        },
+        {
+          "text": "Why is understanding reproductive strategies important in the study of animal behavior?",
+          "marks": 1,
+          "answer": "Reproductive strategies influence population dynamics, genetic diversity, and species evolution, providing insights into the behavior and ecology of animals."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Morphology of Flowering Plants",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A plant nursery noticed that a particular variety of rose plants in their collection were not producing flowers. Upon closer inspection, they observed that the leaves of these plants were pale green in color and smaller in size compared to healthy rose plants. The nursery manager suspects a nutritional deficiency in these plants.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "Which nutrient deficiency is most likely affecting the rose plants in the nursery?",
+          "marks": 1,
+          "answer": "Iron deficiency"
+        },
+        {
+          "text": "What are the characteristic symptoms of iron deficiency in plants?",
+          "marks": 1,
+          "answer": "Pale green leaves, reduced leaf size, and lack of flowering"
+        },
+        {
+          "text": "How can the nursery address the iron deficiency issue in the rose plants?",
+          "marks": 1,
+          "answer": "By applying iron chelates or iron-rich fertilizers to the soil"
+        },
+        {
+          "text": "What role does iron play in plants and why is it essential?",
+          "marks": 1,
+          "answer": "Iron is essential for chlorophyll synthesis and photosynthesis in plants"
+        },
+        {
+          "text": "How long might it take for the rose plants to recover once the iron deficiency is treated?",
+          "marks": 1,
+          "answer": "It may take a few weeks for the plants to show improvement after treatment"
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Anatomy of Flowering Plants",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A gardener noticed that one of his flowering plants was not producing any flowers despite being healthy and well-watered. Upon closer inspection, he observed that the plant had a high number of stomata on the upper surface of its leaves compared to the lower surface. He also noticed that the leaves were thick and waxy. What could be the possible reasons for the lack of flowering in this plant?",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "How can the high number of stomata on the upper surface of leaves affect the flowering of the plant?",
+          "marks": 1,
+          "answer": "The high number of stomata on the upper surface can lead to excessive water loss through transpiration, causing stress and affecting flowering."
+        },
+        {
+          "text": "Explain how the thick and waxy leaves could be related to the lack of flowering.",
+          "marks": 1,
+          "answer": "Thick and waxy leaves reduce water loss through transpiration, but they can also reduce the efficiency of gas exchange, impacting the plant's ability to undergo photosynthesis and produce flowers."
+        },
+        {
+          "text": "Suggest some changes or treatments that the gardener could implement to encourage flowering in the plant.",
+          "marks": 1,
+          "answer": "The gardener could try pruning the plant to promote branching and flower production, provide a balanced fertilizer to encourage flowering, or adjust the watering and light conditions for optimal growth."
+        },
+        {
+          "text": "How do environmental factors like light intensity and temperature play a role in flowering in plants?",
+          "marks": 1,
+          "answer": "Light intensity and temperature are crucial environmental factors that can trigger flowering in plants by influencing the production of flowering hormones and regulating the plant's growth and development."
+        },
+        {
+          "text": "What role do hormones like auxins and gibberellins play in the flowering process of plants?",
+          "marks": 1,
+          "answer": "Auxins and gibberellins are plant hormones that regulate various aspects of plant growth, including flowering. They can promote flower development, regulate flowering time, and influence flower formation."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Structural Organisation in Animals",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A group of students went for a field trip to a nearby pond. While observing the organisms in the pond, they noticed a particular organism that had a soft body, a muscular foot, and a hard shell covering its body. The organism was found attached to rocks. Upon further investigation, they found out that it had a radula for feeding. Identify the organism and explain its structural features.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What is the name of the organism described in the case?",
+          "marks": 1,
+          "answer": "Mollusk (specifically a snail)"
+        },
+        {
+          "text": "Explain the function of the muscular foot in the organism.",
+          "marks": 1,
+          "answer": "The muscular foot helps in locomotion and movement of the organism."
+        },
+        {
+          "text": "What is the role of the hard shell in the organism?",
+          "marks": 1,
+          "answer": "The hard shell provides protection and support to the soft body of the organism."
+        },
+        {
+          "text": "Describe the function of the radula in the feeding process of the organism.",
+          "marks": 1,
+          "answer": "The radula is a feeding organ that helps in scraping food particles and transferring them into the mouth of the organism."
+        },
+        {
+          "text": "How does the attachment to rocks benefit the organism?",
+          "marks": 1,
+          "answer": "The attachment to rocks provides stability and protection to the organism from predators."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Cell: The Unit of Life",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A plant cell was observed under a microscope and showed a large central vacuole, chloroplasts, and a cell wall. The cell was also actively undergoing photosynthesis. Analyze the structure of the plant cell and explain how each of these components contributes to the process of photosynthesis.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "How does the large central vacuole in the plant cell contribute to photosynthesis?",
+          "marks": 1,
+          "answer": "The central vacuole stores water, nutrients, and waste products, helping to maintain turgor pressure and optimal conditions for photosynthesis."
+        },
+        {
+          "text": "Explain the role of chloroplasts in photosynthesis.",
+          "marks": 1,
+          "answer": "Chloroplasts contain chlorophyll which captures light energy and converts it into chemical energy through photosynthesis."
+        },
+        {
+          "text": "How does the cell wall of a plant cell support photosynthesis?",
+          "marks": 1,
+          "answer": "The cell wall provides structural support and protection to the plant cell, allowing it to maintain its shape and integrity during photosynthesis."
+        },
+        {
+          "text": "Why is it important for a plant cell to have all these components during photosynthesis?",
+          "marks": 1,
+          "answer": "Each component plays a specific role in the process of photosynthesis, from capturing light energy to storing nutrients and maintaining cell structure."
+        },
+        {
+          "text": "How do these components work together to ensure efficient photosynthesis in plant cells?",
+          "marks": 1,
+          "answer": "The central vacuole, chloroplasts, and cell wall work in coordination to create an optimal environment for photosynthesis, providing the necessary resources and support for the process."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Biomolecules",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "Case Description: Sarah, a student, conducted an experiment to determine the presence of starch in different food samples. She used iodine solution as a reagent. She observed that some food samples turned blue-black while others did not show any color change. Based on these observations, help Sarah in analyzing the results.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "Which food samples likely contained starch?",
+          "marks": 1,
+          "answer": "The food samples that turned blue-black likely contained starch."
+        },
+        {
+          "text": "Why did some food samples not show any color change with iodine solution?",
+          "marks": 1,
+          "answer": "The food samples that did not show any color change may not have contained starch."
+        },
+        {
+          "text": "What is the significance of the blue-black color change in the presence of starch?",
+          "marks": 1,
+          "answer": "The blue-black color change indicates the formation of a complex between starch and iodine, confirming the presence of starch."
+        },
+        {
+          "text": "How can Sarah confirm the absence of starch in the food samples that did not show any color change?",
+          "marks": 1,
+          "answer": "Sarah can perform additional tests using enzymes like amylase to confirm the absence of starch in those food samples."
+        },
+        {
+          "text": "Suggest another test that Sarah can conduct to detect the presence of a different biomolecule in the food samples.",
+          "marks": 1,
+          "answer": "Sarah can conduct a Biuret test to detect the presence of proteins in the food samples."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "During a laboratory experiment, a researcher observed that cells in a particular sample were arrested in the G1 phase of the cell cycle. The researcher wants to investigate the possible reasons for this cell cycle arrest.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What are the potential causes of cell cycle arrest in the G1 phase?",
+          "marks": 1,
+          "answer": "DNA damage, lack of nutrients, or presence of inhibitory signals."
+        },
+        {
+          "text": "How can the researcher determine if the cells are truly arrested in the G1 phase?",
+          "marks": 1,
+          "answer": "By analyzing the levels of cyclin-dependent kinases (CDKs) and cyclins in the cells."
+        },
+        {
+          "text": "What are the consequences of prolonged cell cycle arrest in the G1 phase?",
+          "marks": 1,
+          "answer": "Cells may undergo senescence, differentiation, or apoptosis if the arrest is not resolved."
+        },
+        {
+          "text": "Suggest potential experimental approaches the researcher could use to release the cells from G1 arrest.",
+          "marks": 1,
+          "answer": "Treating the cells with growth factors, removing inhibitory signals, or inducing DNA repair mechanisms."
+        },
+        {
+          "text": "How could the knowledge gained from this experiment be applied in medical research or cancer treatment?",
+          "marks": 1,
+          "answer": "Understanding cell cycle regulation can help develop targeted therapies for cancer by exploiting the differences in cell cycle control between normal and cancer cells."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Transport in Plants",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A farmer noticed wilting of his tomato plants in the afternoon despite providing adequate water in the morning. Upon investigation, he found that the plants were losing water through transpiration at a faster rate than they could absorb. The weather was hot and dry, increasing the transpiration rate. Analyze the situation and suggest possible solutions to help the tomato plants.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What is transpiration and how does it occur in plants?",
+          "marks": 1,
+          "answer": "Transpiration is the process of water loss from plant leaves through stomata. It occurs as a result of evaporation of water from the leaf surface."
+        },
+        {
+          "text": "What are the factors that affect the rate of transpiration in plants?",
+          "marks": 1,
+          "answer": "Factors such as temperature, humidity, wind speed, and light intensity can affect the rate of transpiration in plants."
+        },
+        {
+          "text": "How can the farmer reduce transpiration in tomato plants during hot and dry weather?",
+          "marks": 1,
+          "answer": "The farmer can reduce transpiration by providing shade to the plants, increasing humidity around the plants, and watering them during cooler parts of the day."
+        },
+        {
+          "text": "Why is it important for plants to regulate their transpiration rate?",
+          "marks": 1,
+          "answer": "Plants need to regulate their transpiration rate to prevent excessive water loss, maintain turgidity, and ensure efficient uptake of water and nutrients from the soil."
+        },
+        {
+          "text": "Suggest one more method the farmer can use to reduce transpiration in tomato plants.",
+          "marks": 1,
+          "answer": "The farmer can mulch around the tomato plants to reduce evaporation from the soil surface and conserve soil moisture."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Mineral Nutrition",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A farmer noticed that his crops were not growing well despite adequate water and sunlight. Upon closer inspection, he found that the leaves of the plants were turning yellow and the growth was stunted. Upon conducting a soil analysis, it was revealed that the soil was deficient in nitrogen. The farmer decided to address this issue to improve the health of his crops.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What could be the reason behind the yellowing of the leaves in the plants?",
+          "marks": 1,
+          "answer": "Nitrogen deficiency causes yellowing of leaves in plants."
+        },
+        {
+          "text": "How can the farmer rectify the nitrogen deficiency in the soil?",
+          "marks": 1,
+          "answer": "The farmer can add nitrogen-rich fertilizers to the soil to rectify the deficiency."
+        },
+        {
+          "text": "What role does nitrogen play in the growth of plants?",
+          "marks": 1,
+          "answer": "Nitrogen is essential for the synthesis of proteins and chlorophyll, which are important for plant growth."
+        },
+        {
+          "text": "How can the farmer prevent nitrogen deficiency in the future?",
+          "marks": 1,
+          "answer": "The farmer can practice crop rotation and use organic fertilizers to maintain nitrogen levels in the soil."
+        },
+        {
+          "text": "Explain the importance of nutrient balance in plant growth.",
+          "marks": 1,
+          "answer": "Nutrient balance ensures that plants receive all essential minerals in the right proportions for healthy growth and development."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A farmer noticed that the leaves of his plants were turning yellow and wilting even though there was sufficient sunlight and water available. Upon investigation, it was found that the soil in which the plants were growing was deficient in a particular mineral essential for photosynthesis. Identify the mineral and explain its role in photosynthesis.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "Which mineral was deficient in the soil?",
+          "marks": 1,
+          "answer": "Magnesium"
+        },
+        {
+          "text": "Explain the role of the deficient mineral in photosynthesis.",
+          "marks": 1,
+          "answer": "Magnesium is a component of chlorophyll, the pigment that captures light energy for photosynthesis."
+        },
+        {
+          "text": "How does the deficiency of this mineral affect the plants?",
+          "marks": 1,
+          "answer": "The deficiency of magnesium leads to chlorosis (yellowing of leaves) and affects the plant's ability to carry out photosynthesis efficiently."
+        },
+        {
+          "text": "Suggest a solution to address the deficiency of this mineral in the soil.",
+          "marks": 1,
+          "answer": "Adding magnesium-rich fertilizers or compost to the soil can help address the deficiency and promote healthy plant growth."
+        },
+        {
+          "text": "Why is it important for plants to have all essential minerals for photosynthesis?",
+          "marks": 1,
+          "answer": "Essential minerals like magnesium play crucial roles in the photosynthetic process, and their deficiency can hinder plant growth and productivity."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Respiration in Plants",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "During a research study, a group of scientists observed that plants release more oxygen during the day compared to the night. They conducted experiments to understand the reason behind this phenomenon. They found that the rate of photosynthesis was higher during the day, leading to more oxygen production. The researchers also noticed that the stomata of the leaves were open during the day and closed at night. This case study highlights the relationship between photosynthesis, respiration, and oxygen release in plants.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "Explain why plants release more oxygen during the day compared to the night.",
+          "marks": 1,
+          "answer": "Plants release more oxygen during the day due to higher rates of photosynthesis, which occur in the presence of light."
+        },
+        {
+          "text": "What is the role of stomata in the process of oxygen release by plants?",
+          "marks": 1,
+          "answer": "Stomata regulate the exchange of gases in plants by opening during the day for gas exchange and closing at night to prevent water loss."
+        },
+        {
+          "text": "How is photosynthesis related to the oxygen production by plants?",
+          "marks": 1,
+          "answer": "Photosynthesis is the process by which plants produce oxygen using sunlight, water, and carbon dioxide."
+        },
+        {
+          "text": "Explain the significance of understanding the relationship between photosynthesis and respiration in plants.",
+          "marks": 1,
+          "answer": "Understanding this relationship helps in studying the energy balance and metabolic processes of plants, which are essential for their growth and survival."
+        },
+        {
+          "text": "What would happen to oxygen production if a plant is kept in complete darkness?",
+          "marks": 1,
+          "answer": "Oxygen production would decrease or cease in a plant kept in complete darkness as photosynthesis requires light to occur."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Plant Growth and Development",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A farmer noticed that some of his tomato plants were growing taller and producing more fruits compared to the others in the same field. Upon closer inspection, he found that these plants were receiving more sunlight due to a nearby tree that had been cut down, allowing more light to reach them. This led to the phenomenon of phototropism. The plants were able to grow towards the light source, resulting in increased growth and fruit production.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "How does phototropism influence plant growth?",
+          "marks": 1,
+          "answer": "Phototropism is the growth of plants in response to light. Plants grow towards a light source to maximize photosynthesis, resulting in increased growth."
+        },
+        {
+          "text": "Explain how the removal of the nearby tree affected the tomato plants' growth.",
+          "marks": 1,
+          "answer": "The removal of the tree allowed more sunlight to reach the tomato plants, triggering phototropism. This resulted in increased growth and fruit production."
+        },
+        {
+          "text": "What is the role of auxin in phototropism?",
+          "marks": 1,
+          "answer": "Auxin is a plant hormone that promotes cell elongation. In phototropism, auxin accumulates on the shaded side of the stem, causing cells to elongate and the plant to bend towards the light."
+        },
+        {
+          "text": "How can farmers use phototropism to their advantage in crop cultivation?",
+          "marks": 1,
+          "answer": "Farmers can strategically position crops to receive optimal sunlight, promoting phototropism and enhancing plant growth and yield."
+        },
+        {
+          "text": "What other environmental factors can influence plant growth and development?",
+          "marks": 1,
+          "answer": "Other environmental factors include temperature, water availability, soil nutrients, and the presence of other plants or obstacles that may affect light exposure."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Digestion and Absorption",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A patient visited a doctor complaining of bloating and discomfort after meals. Upon further examination, it was found that the patient had a deficiency of lactase enzyme. The doctor diagnosed the patient with lactose intolerance. The patient was advised to avoid dairy products. The doctor also suggested some dietary modifications to help the patient manage the condition.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What is the cause of bloating and discomfort in the patient after meals?",
+          "marks": 1,
+          "answer": "Lactase enzyme deficiency leading to lactose intolerance."
+        },
+        {
+          "text": "How can the patient manage lactose intolerance?",
+          "marks": 1,
+          "answer": "By avoiding dairy products and making dietary modifications."
+        },
+        {
+          "text": "What dietary modifications can help the patient with lactose intolerance?",
+          "marks": 1,
+          "answer": "Consuming lactose-free or lactose-reduced products, taking lactase enzyme supplements, and choosing lactose-free alternatives."
+        },
+        {
+          "text": "Explain the role of lactase enzyme in digestion.",
+          "marks": 1,
+          "answer": "Lactase enzyme breaks down lactose into glucose and galactose for absorption in the small intestine."
+        },
+        {
+          "text": "How does lactose intolerance differ from milk allergy?",
+          "marks": 1,
+          "answer": "Lactose intolerance is due to the lack of lactase enzyme, while milk allergy is an immune response to milk proteins."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Breathing and Exchange of Gases",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "Case Description: A patient arrives at the emergency room with difficulty in breathing and a bluish tint to their skin. The medical history reveals a long-term smoking habit. The patient is also experiencing chest pain and coughing up blood. Upon further examination, the doctor suspects a serious respiratory condition. Further tests confirm the presence of lung cancer, which has progressed significantly. The doctor explains the impact of smoking on the respiratory system and the importance of early detection and treatment.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "How does smoking affect the respiratory system?",
+          "marks": 1,
+          "answer": "Smoking damages the cilia in the respiratory tract, causes inflammation, and increases the risk of developing conditions like lung cancer and chronic obstructive pulmonary disease."
+        },
+        {
+          "text": "What are the symptoms of advanced lung cancer?",
+          "marks": 1,
+          "answer": "Symptoms may include difficulty in breathing, chest pain, coughing up blood, persistent cough, weight loss, and fatigue."
+        },
+        {
+          "text": "Why is early detection of respiratory conditions important?",
+          "marks": 1,
+          "answer": "Early detection allows for timely intervention and treatment, which can improve prognosis and quality of life for the patient."
+        },
+        {
+          "text": "How can lung cancer be diagnosed?",
+          "marks": 1,
+          "answer": "Lung cancer can be diagnosed through imaging tests like CT scans, biopsies, and other diagnostic procedures."
+        },
+        {
+          "text": "What are the treatment options for advanced lung cancer?",
+          "marks": 1,
+          "answer": "Treatment options may include surgery, chemotherapy, radiation therapy, targeted therapy, and immunotherapy, depending on the stage and progression of the cancer."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Body Fluids and Circulation",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A patient arrived at the emergency room with symptoms of dehydration, increased heart rate, and low blood pressure. The doctor suspects hypovolemic shock due to severe blood loss. The patient mentions having a history of gastric ulcers. Upon further examination, it is found that the patient has been experiencing chronic blood loss due to the ulcer. The doctor decides to administer fluids and start treatment for the ulcer. ",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What could be the potential cause of the patient's symptoms?",
+          "marks": 1,
+          "answer": "Chronic blood loss from gastric ulcers leading to hypovolemic shock."
+        },
+        {
+          "text": "How can dehydration affect heart rate and blood pressure?",
+          "marks": 1,
+          "answer": "Dehydration can lead to decreased blood volume, causing the heart to pump faster to maintain circulation, and lowering blood pressure."
+        },
+        {
+          "text": "Why is it important to address the underlying cause of the patient's symptoms?",
+          "marks": 1,
+          "answer": "Treating the underlying cause, such as the gastric ulcer, is essential to prevent further complications and recurrence of symptoms."
+        },
+        {
+          "text": "What treatment options would be suitable for the patient in this case?",
+          "marks": 1,
+          "answer": "Administering fluids to address dehydration and starting treatment for the gastric ulcer."
+        },
+        {
+          "text": "How can hypovolemic shock be managed in such cases?",
+          "marks": 1,
+          "answer": "Managing hypovolemic shock involves fluid replacement, addressing the cause of blood loss, and monitoring vital signs."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Excretory Products and Their Elimination",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A patient comes to the hospital complaining of severe back pain and blood in the urine. Upon investigation, it is found that the patient has kidney stones. The doctor recommends a series of tests and procedures to treat the condition.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What could be the possible causes of kidney stones in the patient?",
+          "marks": 1,
+          "answer": "Dehydration, high intake of certain foods (like oxalate-rich foods), family history, and certain medical conditions can be possible causes."
+        },
+        {
+          "text": "How can kidney stones be diagnosed?",
+          "marks": 1,
+          "answer": "Kidney stones can be diagnosed through imaging tests like CT scans, ultrasounds, and urine tests to analyze the composition of the stones."
+        },
+        {
+          "text": "What treatment options can the doctor recommend for the patient with kidney stones?",
+          "marks": 1,
+          "answer": "Treatment options can include pain management, increased fluid intake, medication to help pass the stone, or procedures like shock wave lithotripsy or surgery in severe cases."
+        },
+        {
+          "text": "How can the patient prevent the recurrence of kidney stones?",
+          "marks": 1,
+          "answer": "Prevention measures can include staying hydrated, following a balanced diet, reducing salt and certain foods intake, and regular follow-ups with a healthcare provider."
+        },
+        {
+          "text": "What lifestyle changes can the patient make to improve kidney health?",
+          "marks": 1,
+          "answer": "The patient can make lifestyle changes like maintaining a healthy weight, exercising regularly, quitting smoking, and managing conditions like diabetes and high blood pressure."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Locomotion and Movement",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A group of students conducted an experiment to understand the role of muscles in movement. They observed that when a person lifts a heavy weight, the muscle fibers contract more vigorously. The students decided to investigate further.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "How do muscles contract during movement?",
+          "marks": 1,
+          "answer": "Muscles contract due to the sliding of actin and myosin filaments."
+        },
+        {
+          "text": "What is the role of ATP in muscle contraction?",
+          "marks": 1,
+          "answer": "ATP provides the energy needed for muscle contraction."
+        },
+        {
+          "text": "Explain the process of muscle relaxation after contraction.",
+          "marks": 1,
+          "answer": "Muscle relaxation occurs when calcium ions are pumped back into the sarcoplasmic reticulum."
+        },
+        {
+          "text": "How does the nervous system control muscle movement?",
+          "marks": 1,
+          "answer": "The nervous system sends signals to muscles through motor neurons to initiate movement."
+        },
+        {
+          "text": "What would happen if there is a lack of calcium ions during muscle contraction?",
+          "marks": 1,
+          "answer": "Muscle contraction would be impaired as calcium ions are essential for the interaction between actin and myosin."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A patient is experiencing involuntary muscle contractions in his arms and legs. These contractions are causing jerky and uncontrolled movements. Upon examination, it is found that the patient's dopamine levels are significantly low. The doctor suspects a neurological disorder affecting the basal ganglia. The patient also shows symptoms of tremors and rigidity. The doctor prescribes medication to increase dopamine levels in the brain.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What could be the possible neurological disorder affecting the patient?",
+          "marks": 1,
+          "answer": "Parkinson's disease"
+        },
+        {
+          "text": "How does low dopamine levels contribute to the symptoms observed in the patient?",
+          "marks": 1,
+          "answer": "Dopamine plays a key role in regulating movement and low levels can lead to motor control issues."
+        },
+        {
+          "text": "Explain the role of basal ganglia in motor control.",
+          "marks": 1,
+          "answer": "Basal ganglia help in coordinating voluntary movements and are involved in action selection."
+        },
+        {
+          "text": "How do medications that increase dopamine levels help in treating the patient?",
+          "marks": 1,
+          "answer": "By increasing dopamine levels, these medications can improve motor symptoms and reduce involuntary movements."
+        },
+        {
+          "text": "What are some other common symptoms associated with Parkinson's disease?",
+          "marks": 1,
+          "answer": "Other symptoms include slow movement, postural instability, and freezing of gait."
+        }
+      ]
+    }
+  }
+],
+[
+  {
+    "class": 11,
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "type": "caseBased",
+    "difficulty": "easy",
+    "text": "A 45-year-old man visited a doctor complaining of excessive thirst, frequent urination, and unexplained weight loss. Upon examination, it was found that his blood glucose levels were consistently high. The doctor diagnosed him with diabetes mellitus. The doctor explained to him the role of insulin in the body and the consequences of inadequate insulin production. The patient was prescribed insulin injections to manage his condition.",
+    "marks": 5,
+    "caseDetails": {
+      "subQuestions": [
+        {
+          "text": "What is the role of insulin in the body?",
+          "marks": 1,
+          "answer": "Insulin helps regulate blood sugar levels by allowing cells to take in glucose for energy."
+        },
+        {
+          "text": "What are the consequences of inadequate insulin production in the body?",
+          "marks": 1,
+          "answer": "Inadequate insulin production can lead to high blood sugar levels, resulting in various complications such as diabetic ketoacidosis."
+        },
+        {
+          "text": "How does diabetes mellitus affect the body?",
+          "marks": 1,
+          "answer": "Diabetes mellitus can lead to symptoms like excessive thirst, frequent urination, unexplained weight loss, and long-term complications affecting organs like the kidneys, eyes, and nerves."
+        },
+        {
+          "text": "Why was the patient prescribed insulin injections?",
+          "marks": 1,
+          "answer": "The patient was prescribed insulin injections to help regulate his blood sugar levels and manage his diabetes mellitus."
+        },
+        {
+          "text": "What lifestyle changes can the patient make to improve his condition?",
+          "marks": 1,
+          "answer": "The patient can make lifestyle changes like following a balanced diet, exercising regularly, and monitoring his blood sugar levels to improve his condition."
+        }
+      ]
+    }
+  }
+],

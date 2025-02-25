@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/translate": "^8.5.0",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "docx": "^9.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase": "^11.2.0",
+    "franc": "^6.2.0",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.9.5",
+    "openai": "^4.77.3",
+    "regex": "^6.0.1"
+  },
+  "type": "module"
+}

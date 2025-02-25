@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/webhook/cashfree",
+      "methods": ["POST", "OPTIONS"],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "POST, OPTIONS",
+        "Access-Control-Allow-Headers": "Content-Type, x-webhook-signature, x-webhook-timestamp, x-webhook-version"
+      },
+      "dest": "/server.js",
+      "continue": true
+    },
+    {
+      "src": "/api/papers/(.*)",
+      "dest": "/server.js"
+    },
+    {
+      "src": "/api/payments/(.*)",
+      "dest": "/server.js"
+    },
+    {
+      "src": "/api/questions/(.*)",
+      "dest": "/server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/server.js"
+    }
+  ]
+}

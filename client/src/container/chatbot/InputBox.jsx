@@ -30,7 +30,7 @@ const InputBox = ({ handleSend, isProcessing }) => {
         onClick={() => setShowCamera(true)}
         disabled={isProcessing}
       >
-        <CameraIcon />
+        <CameraIcon className="custom-camera-icon"/>
       </button>
       <button 
         className="input-box__send" 

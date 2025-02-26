@@ -4,45 +4,103 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.95);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     z-index: 1000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   
   .camera-modal__overlay {
     position: relative;
     width: 100%;
-    height: 80%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
   }
   
   .camera-modal__frame {
     position: absolute;
     width: 80%;
+    max-width: 500px;
     height: 50%;
-    border: 2px dashed #fff;
+    max-height: 350px;
+    border-radius: 12px;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 0 2000px rgba(0, 0, 0, 0.5);
+  }
+  
+  .camera-modal__frame::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .camera-modal__frame::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-top: 3px solid #4d94ff;
+    border-left: 3px solid #4d94ff;
+    top: 10px;
+    left: 10px;
+    border-radius: 4px 0 0 0;
   }
   
   .camera-modal__frame-outline {
-    width: 100%;
-    height: 100%;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    position: relative;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+  }
+  
+  .camera-modal__frame-outline::before,
+  .camera-modal__frame-outline::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .camera-modal__frame-outline::before {
+    border-bottom: 3px solid #4d94ff;
+    border-right: 3px solid #4d94ff;
+    bottom: 0;
+    right: 0;
+    border-radius: 0 0 4px 0;
+  }
+  
+  .camera-modal__frame-outline::after {
+    border-top: 3px solid #4d94ff;
+    border-right: 3px solid #4d94ff;
+    top: 0;
+    right: 0;
+    border-radius: 0 4px 0 0;
   }
   
   .camera-modal__instruction {
     position: absolute;
-    bottom: -30px;
+    bottom: -45px;
     color: #fff;
     font-size: 14px;
+    font-weight: 500;
     text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 8px 16px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    white-space: nowrap;
   }
   
   .camera-modal__video {
@@ -56,26 +114,206 @@
     top: 20px;
     right: 20px;
     display: flex;
-    gap: 10px;
+    gap: 15px;
+    z-index: 10;
   }
   
   .camera-modal__switch,
   .camera-modal__close {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.6);
     border: none;
     color: #fff;
-    padding: 10px;
+    padding: 12px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
     cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+  }
+  
+  .camera-modal__switch:hover,
+  .camera-modal__close:hover {
+    background: rgba(30, 30, 30, 0.8);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  }
+  
+  .camera-modal__switch:active,
+  .camera-modal__close:active {
+    transform: translateY(1px);
+  }
+  
+  .camera-modal__switch {
+    background: rgba(0, 122, 255, 0.7);
+  }
+  
+  .camera-modal__switch:hover {
+    background: rgba(0, 122, 255, 0.9);
+  }
+  
+  .camera-modal__close {
+    background: rgba(255, 59, 48, 0.7);
+  }
+  
+  .camera-modal__close:hover {
+    background: rgba(255, 59, 48, 0.9);
   }
   
   .camera-modal__capture {
     position: absolute;
-    bottom: 20px;
+    bottom: 40px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    border: none;
+  }
+  
+  .camera-modal__capture::before {
+    content: '';
+    position: absolute;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #fff;
-    border: 4px solid #ddd;
+    background: #ff3b30;
+    transition: all 0.15s ease;
+  }
+  
+  .camera-modal__capture:hover::before {
+    transform: scale(1.05);
+  }
+  
+  .camera-modal__capture:active::before {
+    transform: scale(0.95);
+  }
+  
+  .camera-modal__error {
+    background: rgba(30, 30, 30, 0.9);
+    border-radius: 16px;
+    padding: 30px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .camera-modal__error h3 {
+    margin-top: 0;
+    color: #ff3b30;
+  }
+  
+  .camera-modal__error button {
+    background: #007aff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-weight: 500;
+    margin-top: 15px;
     cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .camera-modal__error button:hover {
+    background: #0066d6;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .camera-modal__error button:active {
+    transform: translateY(1px);
+  }
+  
+  .camera-modal__error .camera-modal__retry {
+    background: #34c759;
+    margin-right: 10px;
+  }
+  
+  .camera-modal__error .camera-modal__retry:hover {
+    background: #30b352;
+  }
+  
+  /* Loading indicator */
+  .camera-modal__loading {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .camera-modal__loading p {
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 500;
+  }
+  
+  .camera-modal__loading::before {
+    content: '';
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    border-top-color: #fff;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .camera-modal__frame {
+      width: 90%;
+      height: 45%;
+    }
+    
+    .camera-modal__capture {
+      bottom: 30px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .camera-modal__actions {
+      top: 15px;
+      right: 15px;
+      gap: 10px;
+    }
+    
+    .camera-modal__switch,
+    .camera-modal__close {
+      width: 42px;
+      height: 42px;
+      padding: 10px;
+    }
+    
+    .camera-modal__capture {
+      width: 65px;
+      height: 65px;
+    }
+    
+    .camera-modal__capture::before {
+      width: 55px;
+      height: 55px;
+    }
+    
+    .camera-modal__instruction {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
   }

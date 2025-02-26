@@ -3,32 +3,39 @@ import './CameraModal.css';
 
 const CameraModal = ({ onClose, onCapture }) => {
   const videoRef = useRef(null);
-  const [permissionState, setPermissionState] = useState('prompt'); // 'prompt', 'granted', 'denied'
   const [isCameraReady, setCameraReady] = useState(false);
-  const [facingMode, setFacingMode] = useState('environment');
-  const [errorMessage, setErrorMessage] = useState('');
+  const [error, setError] = useState('');
+  const [isCapturing, setIsCapturing] = useState(false);
 
-  const checkPermissions = async () => {
-    try {
-      // Check if permissions API is available
-      if (navigator.permissions && navigator.permissions.query) {
-        const result = await navigator.permissions.query({ name: 'camera' });
-        setPermissionState(result.state);
-        
-        // Listen for permission changes
-        result.onchange = () => {
-          setPermissionState(result.state);
-        };
-        
-        return result.state;
-      } else {
-        console.log('Permissions API not supported, will try direct access');
-        return 'prompt'; // Assume we need to prompt if we can't check
-      }
-    } catch (error) {
-      console.error('Error checking camera permissions:', error);
-      return 'prompt'; // Assume we need to prompt on error
+  const detectBrowserCapabilities = () => {
+    const userAgent = navigator.userAgent;
+    
+    // Polyfill for older browsers
+    if (!navigator.mediaDevices) {
+      navigator.mediaDevices = {};
     }
+    
+    if (!navigator.mediaDevices.getUserMedia) {
+      navigator.mediaDevices.getUserMedia = function(constraints) {
+        const getUserMedia = navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
+        
+        if (!getUserMedia) {
+          return Promise.reject(new Error('getUserMedia is not implemented in this browser'));
+        }
+        
+        return new Promise(function(resolve, reject) {
+          getUserMedia.call(navigator, constraints, resolve, reject);
+        });
+      };
+    }
+    
+    return {
+      hasMediaDevices: !!navigator.mediaDevices,
+      hasGetUserMedia: !!navigator.mediaDevices.getUserMedia,
+      isMobile: /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent),
+      isIOS: /iPhone|iPad|iPod/i.test(userAgent),
+      isAndroid: /Android/i.test(userAgent)
+    };
   };
 
   const stopCamera = () => {
@@ -41,135 +48,174 @@ const CameraModal = ({ onClose, onCapture }) => {
 
   const startCamera = async () => {
     stopCamera();
-    setErrorMessage('');
+    setError('');
     setCameraReady(false);
     
     try {
-      console.log(`Requesting camera with facingMode: ${facingMode}`);
+      const capabilities = detectBrowserCapabilities();
       
-      // Try with ideal constraints first
-      const constraints = {
-        audio: false,
-        video: {
-          facingMode: facingMode,
-          width: { ideal: 1280 },
-          height: { ideal: 720 }
-        }
-      };
-      
-      // For iOS Safari - try to be very explicit with what we're requesting
-      if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
-        constraints.video = {
-          facingMode: facingMode,
-          width: { min: 640, ideal: 1280, max: 1920 },
-          height: { min: 480, ideal: 720, max: 1080 }
-        };
+      if (!capabilities.hasMediaDevices || !capabilities.hasGetUserMedia) {
+        throw new Error('Camera API not supported in this browser');
       }
       
+      // Start with the most basic constraints
+      let constraints = { video: true };
+      
+      console.log('Requesting camera with constraints:', JSON.stringify(constraints));
       const stream = await navigator.mediaDevices.getUserMedia(constraints);
       
       if (videoRef.current) {
         videoRef.current.srcObject = stream;
-        // Wait for video to be ready
+        
+        // Setup multiple event listeners to try to detect when camera is truly ready
         videoRef.current.onloadedmetadata = () => {
-          setCameraReady(true);
-          setPermissionState('granted');
-          console.log('Camera stream loaded successfully');
+          console.log('Video metadata loaded');
+          try {
+            videoRef.current.play();
+          } catch (e) {
+            console.error('Error playing video:', e);
+          }
         };
         
-        // iOS Safari sometimes doesn't trigger onloadedmetadata
-        setTimeout(() => {
-          if (!isCameraReady) {
-            setCameraReady(true);
-            console.log('Forcing camera ready state after timeout');
-          }
-        }, 1000);
-      }
-    } catch (error) {
-      console.error('Camera access error:', error);
-      if (error.name === 'NotAllowedError') {
-        setPermissionState('denied');
-        setErrorMessage('Camera access denied. Please check your browser settings and allow camera access.');
-      } else if (error.name === 'NotFoundError') {
-        setErrorMessage('No camera found on this device.');
-      } else if (error.name === 'NotReadableError') {
-        setErrorMessage('Camera already in use by another application.');
-      } else if (error.name === 'OverconstrainedError') {
-        // Try again with minimal constraints
-        try {
-          const simpleConstraints = { video: true };
-          const stream = await navigator.mediaDevices.getUserMedia(simpleConstraints);
-          
-          if (videoRef.current) {
-            videoRef.current.srcObject = stream;
-            setCameraReady(true);
-            setPermissionState('granted');
-          }
-        } catch (fallbackError) {
-          setErrorMessage('Could not access camera: constraints not satisfied.');
+        videoRef.current.oncanplay = () => {
+          console.log('Video can play');
+          setCameraReady(true);
+        };
+        
+        // Special iOS fix - sometimes events don't fire properly
+        if (capabilities.isIOS) {
+          setTimeout(() => {
+            if (videoRef.current && videoRef.current.readyState >= 2) {
+              console.log('iOS timeout check - video appears ready');
+              setCameraReady(true);
+            }
+          }, 1000);
         }
+        
+        // Fallback for any browser - force ready after timeout
+        setTimeout(() => {
+          if (!isCameraReady && videoRef.current && videoRef.current.srcObject) {
+            console.log('Forcing camera ready state after timeout');
+            setCameraReady(true);
+          }
+        }, 3000);
       } else {
-        setErrorMessage(`Camera error: ${error.message || 'Unknown error'}`);
+        throw new Error('Video reference not available');
       }
+    } catch (err) {
+      console.error('Camera error:', err);
+      setError(`Camera error: ${err.message || 'Unknown error'}`);
     }
-  };
-
-  const requestCameraAccess = async () => {
-    const currentPermission = await checkPermissions();
-    if (currentPermission !== 'denied') {
-      startCamera();
-    }
-  };
-
-  const switchCamera = () => {
-    const newMode = facingMode === 'environment' ? 'user' : 'environment';
-    setFacingMode(newMode);
   };
 
   const captureImage = () => {
-    if (!videoRef.current || !isCameraReady) return;
+    console.log("Capture image starting");
     
-    const canvas = document.createElement('canvas');
-    const video = videoRef.current;
-    canvas.width = video.videoWidth;
-    canvas.height = video.videoHeight;
-    
-    const ctx = canvas.getContext('2d');
-    ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
-    
-    const imageData = canvas.toDataURL('image/jpeg');
-    if (onCapture) {
-      onCapture(imageData);
-    }
-  };
-
-  useEffect(() => {
-    // Check if mediaDevices API is available
-    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
-      setErrorMessage('Camera API not supported in this browser.');
+    if (!videoRef.current) {
+      console.error("Video reference is null");
       return;
     }
     
-    // Check permissions and start camera if allowed
-    requestCameraAccess();
+    // Force capture even if isCameraReady is false but video element has content
+    const hasVideoContent = videoRef.current.videoWidth > 0 && videoRef.current.videoHeight > 0;
     
-    // Cleanup function
+    if (!hasVideoContent) {
+      console.error("Video has no content: width=", videoRef.current.videoWidth, "height=", videoRef.current.videoHeight);
+      return;
+    }
+    
+    setIsCapturing(true);
+    
+    try {
+      console.log("Creating canvas for capture");
+      const canvas = document.createElement('canvas');
+      const video = videoRef.current;
+      
+      // Get actual dimensions from video element
+      const width = video.videoWidth;
+      const height = video.videoHeight;
+      
+      console.log("Video dimensions:", width, "x", height);
+      
+      // Only proceed if we have valid dimensions
+      if (width && height) {
+        canvas.width = width;
+        canvas.height = height;
+        
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(video, 0, 0, width, height);
+        
+        // Convert to image
+        const imageData = canvas.toDataURL('image/jpeg');
+        
+        // Check if image data is valid
+        if (imageData && imageData.startsWith('data:image/jpeg')) {
+          console.log("Image captured successfully");
+          if (onCapture) {
+            onCapture(imageData);
+          }
+        } else {
+          console.error("Generated invalid image data");
+          setError("Failed to capture image - invalid image data");
+        }
+      } else {
+        throw new Error("Cannot capture image - video dimensions are invalid");
+      }
+    } catch (err) {
+      console.error('Capture error:', err);
+      setError(`Failed to capture image: ${err.message}`);
+    } finally {
+      setIsCapturing(false);
+    }
+  };
+
+
+  useEffect(() => {
+    startCamera();
+    
+    // Set up periodic checks for video readiness
+    const readyCheckInterval = setInterval(() => {
+      if (videoRef.current && 
+          videoRef.current.videoWidth > 0 && 
+          videoRef.current.videoHeight > 0 && 
+          !videoRef.current.paused) {
+        console.log("Video is playing with dimensions, marking as ready");
+        setCameraReady(true);
+        clearInterval(readyCheckInterval);
+      }
+    }, 500);
+    
     return () => {
+      clearInterval(readyCheckInterval);
       stopCamera();
     };
-  }, [facingMode]);
+  }, []);
 
   return (
     <div className="camera-modal">
-      {permissionState === 'denied' ? (
+      {error ? (
         <div className="camera-modal__error">
-          <p>Camera access denied. Please update your browser settings to allow camera access.</p>
-          <button onClick={onClose}>Close</button>
-        </div>
-      ) : errorMessage ? (
-        <div className="camera-modal__error">
-          <p>{errorMessage}</p>
-          <button onClick={onClose}>Close</button>
+          <h3>Camera Error</h3>
+          <p>{error}</p>
+          <div className="camera-modal__troubleshooting">
+            <h4>Troubleshooting Tips:</h4>
+            <ul>
+              <li>Make sure you're using HTTPS</li>
+              <li>Check that your device has a camera</li>
+              <li>Ensure camera permissions are enabled</li>
+              <li>Try a different browser</li>
+            </ul>
+          </div>
+          <button 
+            className="camera-modal__retry" 
+            onClick={startCamera}>
+            Retry
+          </button>
+          <button 
+            className="camera-modal__close" 
+            onClick={onClose}>
+            Close
+          </button>
         </div>
       ) : (
         <div className="camera-modal__overlay">
@@ -179,48 +225,49 @@ const CameraModal = ({ onClose, onCapture }) => {
             playsInline 
             muted
             className="camera-modal__video"
+            onCanPlay={() => setCameraReady(true)}
           />
           
-          {isCameraReady && (
-            <>
-              <div className="camera-modal__frame">
-                <div className="camera-modal__frame-outline"></div>
-                <div className="camera-modal__instruction">
-                  Position document within frame
-                </div>
-              </div>
-              
-              <button 
-                className="camera-modal__capture" 
-                onClick={captureImage}>
-              </button>
-            </>
-          )}
+          <div className="camera-modal__frame">
+            <div className="camera-modal__frame-outline"></div>
+            <div className="camera-modal__instruction">
+              Position document within frame
+            </div>
+          </div>
           
           <div className="camera-modal__actions">
-            {isCameraReady && (
-              <button 
-                className="camera-modal__switch" 
-                onClick={switchCamera}>
-                Switch Camera
-              </button>
-            )}
             <button 
               className="camera-modal__close" 
               onClick={() => {
                 stopCamera();
                 onClose();
               }}>
-              Close
+              ✕
             </button>
           </div>
           
-          {!isCameraReady && permissionState !== 'denied' && (
-            <div className="camera-modal__permission-prompt">
-              <p>Please allow camera access when prompted</p>
-              <button onClick={requestCameraAccess}>
-                Request Camera Access
-              </button>
+          <button 
+            className="camera-modal__capture"
+            onClick={() => {
+              console.log("Capture button clicked, isCameraReady:", isCameraReady);
+              // Allow capture even if isCameraReady is false but video has content
+              if (videoRef.current && videoRef.current.videoWidth > 0) {
+                captureImage();
+              } else {
+                console.log("Cannot capture - no video content");
+                // Try to restart camera if needed
+                if (!isCameraReady) {
+                  startCamera();
+                }
+              }
+            }}
+            disabled={isCapturing}>
+            {isCapturing && <span className="camera-modal__capture-spinner"></span>}
+          </button>
+
+          {!isCameraReady && !error && (
+            <div className="camera-modal__loading">
+              <p>Initializing camera...</p>
             </div>
           )}
         </div>

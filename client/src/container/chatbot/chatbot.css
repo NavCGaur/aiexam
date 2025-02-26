@@ -175,6 +175,11 @@
   border-top: 1px solid var(--input-box-border);
 }
 
+.custom-camera-icon{
+  color: white;
+ 
+}
+
 .input-box__input {
   flex: 1;
   padding: 12px 16px;
@@ -218,7 +223,7 @@
   background: none;
   border: none;
   cursor: pointer;
-  padding: 10px;
+  padding-left: 10px;
 }
 
 .input-box__camera:hover {

@@ -311,6 +311,9 @@
         height: 3rem;
     }
 
+    .gradient__text-subtitle{
+        display: none;
+    }
 
 }
 

@@ -11,7 +11,7 @@ import RefundAndCancellation from './components/refundAndCancellation/RefundAndC
 import { trackPageView } from './analytics/analytics';
 import ChatbotWidget from "./container/chatbot/ChatbotWidget";
 import ChatbotUI from "./container/chatbot/ChatbotUI";
-import QuizContainer from './container/quiz/QuizContainer';
+//import QuizContainer from './container/quiz/QuizContainer';
 
 
 function App() {
@@ -29,7 +29,6 @@ function App() {
                 <Header />
                 <ChatbotWidget />
                 <ChatbotUI />
-                <QuizContainer selectedTopic="Math"/>
                 </>
               
             } />

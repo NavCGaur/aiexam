@@ -1,16 +1,17 @@
 import React from 'react';
-import { trackEvent } from '../../../analytics/analytics';
 import './header.css';
 //import ai from '../../../assets/ai.png';
 import tickmark from '../../../assets/tickmark.png';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import { useDispatch } from "react-redux";
+import { toggleChatbot } from "../../../state/chatbotSlice";
 
 
 
 const Header = () => {
 
 
-
+  const dispatch = useDispatch();
 
   return (
     <div>
@@ -48,7 +49,7 @@ const Header = () => {
               className='gpt4__header-imageLottie'
             />            
             <div className='gpt4__header-features-cta'>
-              <a href='#formatChoser' className="gpt4__cta-button" onClick={() => trackEvent("User", "Clicked Make Your Paper Button", "Make Your Paper Link")}>
+              <a href='#Chatbot' className="gpt4__cta-button" onClick={() => dispatch(toggleChatbot())}>
               Talk to AI Tutor
               </a>
             </div>

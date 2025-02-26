@@ -9,7 +9,7 @@ const ChatbotWidget = () => {
   const isChatbotOpen = useSelector((state) => state.chatbot.isOpen);
 
   return (
-    <div className="chatbot-widget">
+    <div className="chatbot-widget" >
       {!isChatbotOpen && (
         <button className="chatbot-widget__button" onClick={() => dispatch(toggleChatbot())}>
           <ChatIcon fontSize="large" />

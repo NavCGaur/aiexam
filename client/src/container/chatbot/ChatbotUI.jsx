@@ -56,7 +56,7 @@ const ChatbotUI = () => {
   if (!isChatbotOpen) return null;
 
   return (
-    <div className={`chatbot-ui ${theme}`}>
+    <div className={`chatbot-ui ${theme}`} >
       <div className="chatbot-ui__header">
         <span>AI Tutor</span>
         <div className="chatbot-ui__actions">

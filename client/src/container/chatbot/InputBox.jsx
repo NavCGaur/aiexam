@@ -1,13 +1,16 @@
 import React, { useState } from "react";
+import  CameraModal  from "./CameraModal";
+import CameraIcon from "@mui/icons-material/PhotoCamera";
 import SendIcon from "@mui/icons-material/Send";
 import "./chatbot.css";
 
 
 const InputBox = ({ handleSend, isProcessing }) => {
   const [input, setInput] = useState("");
+  const [showCamera, setShowCamera] = useState(false);
+
 
   const handleUserInput = () => {
-    console.log(input)
     handleSend(input, input);
     setInput(""); // Clear input after sending
   };
@@ -22,6 +25,13 @@ const InputBox = ({ handleSend, isProcessing }) => {
         placeholder="Type a message..."
         disabled={isProcessing}
       />
+      <button
+        className="input-box__camera"
+        onClick={() => setShowCamera(true)}
+        disabled={isProcessing}
+      >
+        <CameraIcon />
+      </button>
       <button 
         className="input-box__send" 
         onClick={handleUserInput}
@@ -29,6 +39,11 @@ const InputBox = ({ handleSend, isProcessing }) => {
       >
         <SendIcon />
       </button>
+
+      {showCamera && (
+        <CameraModal onClose={() => setShowCamera(false)} />
+      )}
+
     </div>
   );
 };

@@ -37,6 +37,7 @@ import paperRoutes from './routes/paperRoutes.js';
 import paymentRoutes from './routes/paymentRoutes.js';
 import questionRoutes from './routes/questionRoutes.js'; 
 import chatbotRoutes from './routes/chatbotRoutes.js';
+import  ocrRoutes  from './routes/ocrRoutes.js';
 
 
 // Routes
@@ -45,7 +46,7 @@ app.use('/api/payments', paymentRoutes);
 app.use('/api/questions', questionRoutes); 
 app.use("/api/chatbot", chatbotRoutes);
 app.use("/api/education", questionRoutes);
-
+app.use('/api/ocr', ocrRoutes);
 
 
 //autoGenerateQuestions();
@@ -68,6 +69,6 @@ app.use("/api/education", questionRoutes);
 
 
 // Start server
-app.listen(port, () => {
+app.listen(port,  '0.0.0.0',() => {
   console.log(`Server running on port ${port}`);
 });

@@ -214,6 +214,17 @@
   width: auto;
 }
 
+.input-box__camera {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.input-box__camera:hover {
+  opacity: 0.8;
+}
+
 .typing-indicator {
   display: flex;
   font-size: 14px;

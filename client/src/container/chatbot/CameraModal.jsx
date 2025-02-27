@@ -6,6 +6,9 @@ const CameraModal = ({ onClose, onCapture }) => {
   const [isCameraReady, setCameraReady] = useState(false);
   const [error, setError] = useState('');
   const [isCapturing, setIsCapturing] = useState(false);
+  const [cameraFacingMode, setCameraFacingMode] = useState('environment'); // 'environment' (back) or 'user' (front)
+  const [availableCameras, setAvailableCameras] = useState([]);
+  const [isSwitchingCamera, setIsSwitchingCamera] = useState(false);
 
   const detectBrowserCapabilities = () => {
     const userAgent = navigator.userAgent;
@@ -38,6 +41,25 @@ const CameraModal = ({ onClose, onCapture }) => {
     };
   };
 
+  // Get available camera devices
+  const getAvailableCameras = async () => {
+    try {
+      if (!navigator.mediaDevices || !navigator.mediaDevices.enumerateDevices) {
+        console.log('enumerateDevices() not supported.');
+        return [];
+      }
+
+      const devices = await navigator.mediaDevices.enumerateDevices();
+      const videoDevices = devices.filter(device => device.kind === 'videoinput');
+      console.log('Available cameras:', videoDevices);
+      setAvailableCameras(videoDevices);
+      return videoDevices;
+    } catch (err) {
+      console.error('Error enumerating devices:', err);
+      return [];
+    }
+  };
+
   const stopCamera = () => {
     if (videoRef.current && videoRef.current.srcObject) {
       const tracks = videoRef.current.srcObject.getTracks();
@@ -58,8 +80,15 @@ const CameraModal = ({ onClose, onCapture }) => {
         throw new Error('Camera API not supported in this browser');
       }
       
-      // Start with the most basic constraints
-      let constraints = { video: true };
+      // Check for available cameras
+      const cameras = await getAvailableCameras();
+      
+      // Set constraints with current facing mode
+      let constraints = { 
+        video: { 
+          facingMode: cameraFacingMode 
+        } 
+      };
       
       console.log('Requesting camera with constraints:', JSON.stringify(constraints));
       const stream = await navigator.mediaDevices.getUserMedia(constraints);
@@ -105,7 +134,18 @@ const CameraModal = ({ onClose, onCapture }) => {
     } catch (err) {
       console.error('Camera error:', err);
       setError(`Camera error: ${err.message || 'Unknown error'}`);
+    } finally {
+      setIsSwitchingCamera(false);
     }
+  };
+
+  const switchCamera = async () => {
+    setIsSwitchingCamera(true);
+    // Toggle between front and back camera
+    const newFacingMode = cameraFacingMode === 'environment' ? 'user' : 'environment';
+    setCameraFacingMode(newFacingMode);
+    
+    console.log(`Switching camera to ${newFacingMode} mode`);
   };
 
   const captureImage = () => {
@@ -143,6 +183,13 @@ const CameraModal = ({ onClose, onCapture }) => {
         canvas.height = height;
         
         const ctx = canvas.getContext('2d');
+        
+        // If using front camera, flip the image horizontally
+        if (cameraFacingMode === 'user') {
+          ctx.translate(width, 0);
+          ctx.scale(-1, 1);
+        }
+        
         ctx.drawImage(video, 0, 0, width, height);
         
         // Convert to image
@@ -169,7 +216,7 @@ const CameraModal = ({ onClose, onCapture }) => {
     }
   };
 
-
+  // Effect for camera setup
   useEffect(() => {
     startCamera();
     
@@ -190,6 +237,22 @@ const CameraModal = ({ onClose, onCapture }) => {
       stopCamera();
     };
   }, []);
+
+  // Effect for camera switching
+  useEffect(() => {
+    if (isSwitchingCamera) {
+      startCamera();
+    }
+  }, [cameraFacingMode]);
+
+  // Simple Camera Flip icon SVG (used instead of MUI for standalone version)
+  const CameraFlipIcon = () => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20 5H16.83L15 3H9L7.17 5H4C2.9 5 2 5.9 2 7V19C2 20.1 2.9 21 4 21H20C21.1 21 22 20.1 22 19V7C22 5.9 21.1 5 20 5ZM12 18C9.24 18 7 15.76 7 13C7 10.24 9.24 8 12 8C14.76 8 17 10.24 17 13C17 15.76 14.76 18 12 18Z" fill="white"/>
+      <path d="M12 10L10 13H11V16H13V13H14L12 10Z" fill="white"/>
+      <path d="M12 16L14 13H13V10H11V13H10L12 16Z" fill="white"/>
+    </svg>
+  );
 
   return (
     <div className="camera-modal">
@@ -224,6 +287,7 @@ const CameraModal = ({ onClose, onCapture }) => {
             autoPlay 
             playsInline 
             muted
+            style={{transform: cameraFacingMode === 'user' ? 'scaleX(-1)' : 'none'}}
             className="camera-modal__video"
             onCanPlay={() => setCameraReady(true)}
           />
@@ -236,6 +300,19 @@ const CameraModal = ({ onClose, onCapture }) => {
           </div>
           
           <div className="camera-modal__actions">
+            {/* Switch Camera Button */}
+            <button 
+              className="camera-modal__switch-camera"
+              onClick={switchCamera}
+              disabled={isSwitchingCamera || availableCameras.length < 2}
+              title={cameraFacingMode === 'environment' ? 'Switch to front camera' : 'Switch to back camera'}>
+              {isSwitchingCamera ? (
+                <span className="camera-modal__switch-spinner"></span>
+              ) : (
+                <CameraFlipIcon />
+              )}
+            </button>
+            
             <button 
               className="camera-modal__close" 
               onClick={() => {

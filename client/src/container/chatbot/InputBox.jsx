@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import  CameraModal  from "./CameraModal";
 import CameraIcon from "@mui/icons-material/PhotoCamera";
 import SendIcon from "@mui/icons-material/Send";
 import "./chatbot.css";
+import MainCameraModal from "./MainCameraModal";
 
 
 const InputBox = ({ handleSend, isProcessing }) => {
@@ -41,7 +41,7 @@ const InputBox = ({ handleSend, isProcessing }) => {
       </button>
 
       {showCamera && (
-        <CameraModal onClose={() => setShowCamera(false)} />
+        <MainCameraModal onClose={() => setShowCamera(false)} />
       )}
 
     </div>

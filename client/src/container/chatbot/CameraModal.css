@@ -124,7 +124,7 @@
     border: none;
     color: #fff;
     padding: 12px;
-    width: 48px;
+    width: 6rem;
     height: 48px;
     border-radius: 50%;
     cursor: pointer;
@@ -196,6 +196,29 @@
   
   .camera-modal__capture:active::before {
     transform: scale(0.95);
+  }
+  
+
+  .camera-modal__troubleshooting {
+    padding: 20px;
+  }
+  
+  .camera-modal__troubleshooting h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .camera-modal__troubleshooting ul {
+    padding-left: 20px;
+    list-style-type: disc;
+
+  }
+  
+  .camera-modal__troubleshooting li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: left;  
   }
   
   .camera-modal__error {

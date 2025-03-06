@@ -17,7 +17,7 @@
   .crop-container {
     width: 90%;
     max-width: 600px;
-    height: 300px;
+    max-height: 80vh; /* Ensure it stays within visible area */
     position: relative;
     background: #f4f4f4;
     border-radius: 8px;
@@ -29,6 +29,16 @@
     justify-content: space-between;
     gap: 15px;
     margin-top: 20px;
+  }
+
+  .cropper-view-box {
+    border-radius: 10px !important; /* Rounded corners */
+    border: none !important; /* Thicker border */
+  }
+  
+  .cropper-crop-box {
+    border-radius: 10px !important; /* Make crop box corners rounded */
+    border: 6px solid rgb(144, 179, 243) !important; /* Thick white border */
   }
   
   button {

@@ -7,37 +7,50 @@ const speechClient = new SpeechClient({
 
 export const transcribeAudio = async (audioBuffer) => {
     console.log("Inside speech service")
-  try {
-    // Configure the request
-    const audio = {
-      content: audioBuffer.toString('base64'),
-    };
+    try {
+        // Ensure audioBuffer is not empty
+        if (!audioBuffer || audioBuffer.length === 0) {
+          throw new Error("Audio buffer is empty");
+        }
+    
+        console.log("Audio Buffer Length:", audioBuffer.length);
 
-    const config = {
-      encoding: 'WEBM_OPUS',
-      sampleRateHertz: 48000,
-      languageCode: 'en-US',
-      enableAutomaticPunctuation: true,
-      model: 'default',
-    };
+        console.log("Audio Buffer (First 20 Bytes):", audioBuffer.slice(0, 20));
 
-    const request = {
-      audio,
-      config,
-    };
+        
+        // Convert audio to Base64
+        const audio = {
+          content: Buffer.from(audioBuffer).toString('base64'),
+        };
+    
+        // Correct encoding & settings
+        const config = {
+          encoding: 'WEBM_OPUS',   // ✅ Better for WebM
+          sampleRateHertz: null,
+          languageCode: 'en-US',
+          enableAutomaticPunctuation: true,
+          model: 'default',
+          useEnhanced: true, // Add this for better speech recognition
 
-    // Detects speech in the audio file
-    const [response] = await speechClient.recognize(request);
-
-    console.log("transribe result",response.results);
-
-
-    // Extract transcription from response
-    const transcript = response.results
-      .map((result) => result.alternatives[0].transcript)
-      .join('\n');
-
-    return transcript;
+        };
+    
+        const request = { audio, config };
+    
+        // Call Google Speech-to-Text API
+        const [response] = await speechClient.recognize(request);
+    
+        console.log("Transcribe result:", response.results);
+    
+        if (!response.results || response.results.length === 0) {
+          throw new Error("No transcription result returned");
+        }
+    
+        // Extract transcription
+        const transcript = response.results
+          .map(result => result.alternatives[0]?.transcript || "")
+          .join("\n");
+    
+        return transcript;
   } catch (error) {
     console.error('Google Speech-to-Text API error:', error);
     throw new Error('Failed to transcribe audio: ' + error.message);

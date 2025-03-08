@@ -72,7 +72,7 @@ const InputBox = ({ handleSend, isProcessing }) => {
 
             console.log("Audio blob created, size:", audioBlob.size, "bytes, type:", audioBlob.type);
 
-
+            
             // For debugging - create an audio element to verify recording
             const audioUrl = URL.createObjectURL(audioBlob);
             console.log("Created audio URL for debugging:", audioUrl);
@@ -145,46 +145,52 @@ const InputBox = ({ handleSend, isProcessing }) => {
       }
     };
 
-  return (
-    <div className="input-box">
-     <input
-        className="input-box__input"
-        value={input}
-        onChange={(e) => setInput(e.target.value)}
-        onKeyDown={(e) => e.key === "Enter" && handleUserInput()}
-        placeholder={isListening ? "Listening..." : "Type a message..."}
-        disabled={isProcessing}
-      />
-      <button
-        className={`input-box__mic ${isListening ? "input-box__mic--active" : ""}`}
-        onClick={toggleListening}
-        disabled={isProcessing}
-        aria-label={isListening ? "Stop recording" : "Start recording"}
-      >
-        {isListening ? <MicOffIcon /> : <MicIcon />}
-      </button>
-
-      <button
-        className="input-box__camera"
-        onClick={() => setShowCamera(true)}
-        disabled={isProcessing}
-      >
-        <CameraIcon className="custom-camera-icon"/>
-      </button>
-      <button 
-        className="input-box__send" 
-        onClick={handleUserInput}
-        disabled={isProcessing}
-      >
-        <SendIcon />
-      </button>
-
-      {showCamera && (
-        <MainCameraModal onClose={() => setShowCamera(false)} />
-      )}
-
-    </div>
-  );
+    return (
+      <div className="input-box">
+        <input
+          className="input-box__input"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          onKeyDown={(e) => e.key === "Enter" && handleUserInput()}
+          placeholder={isListening ? "Listening..." : "Type a message..."}
+          disabled={isProcessing}
+        />
+    
+        {/* Mic Button inside Input Box */}
+        <button
+          className={`input-box__mic ${isListening ? "input-box__mic--active" : ""}`}
+          onClick={toggleListening}
+          disabled={isProcessing}
+          aria-label={isListening ? "Stop recording" : "Start recording"}
+        >
+        {isListening ? <MicIcon /> : <MicOffIcon />}
+        </button>
+    
+        {/* Send Button inline */}
+        <button 
+          className="input-box__send" 
+          onClick={handleUserInput}
+          disabled={isProcessing}
+        >
+          <SendIcon />
+        </button>
+    
+        {/* Floating Camera Button */}
+        <button
+          className="input-box__camera-floating"
+          onClick={() => setShowCamera(true)}
+          disabled={isProcessing}
+        >
+          <CameraIcon />
+        </button>
+    
+        {showCamera && (
+          <MainCameraModal onClose={() => setShowCamera(false)} />
+        )}
+      </div>
+    );
+    
+    
 };
 
 

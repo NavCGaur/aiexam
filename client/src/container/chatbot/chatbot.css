@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=DM+Sans:wght@400;500&display=swap');
 
+
+
 /* Define CSS variables for dark theme */
 .chatbot-ui.dark {
   --background-color: #0F1622;
@@ -170,9 +172,14 @@
 /* Input Box */
 .input-box {
   display: flex;
-  padding: 16px;
+  padding: 8px;
   background: var(--input-box-background);
   border-top: 1px solid var(--input-box-border);
+  position: relative;
+  width: 100%;
+  gap: 5px; /* Reduce gaps */
+
+
 }
 
 .custom-camera-icon{
@@ -181,8 +188,7 @@
 }
 
 .input-box__input {
-  flex: 1;
-  padding: 12px 16px;
+  padding: 1px;
   border: 1px solid var(--input-box-border);
   border-radius: 8px;
   background: var(--input-box-background);
@@ -191,6 +197,9 @@
   outline: none;
   color: var(--text-color);
   transition: border-color 0.3s ease;
+  position: relative;
+  width: 70%;
+
 }
 
 .input-box__input::placeholder {
@@ -198,6 +207,7 @@
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
   opacity: 0.5;
+  padding: 5px;
 }
 
 .input-box__input:focus {
@@ -210,7 +220,6 @@
   border: none;
   padding: 12px;
   border-radius: 8px;
-  margin-left: 12px;
   cursor: pointer;
   transition: transform 0.3s ease;
   display: flex;
@@ -223,15 +232,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: none;
+  background: transparent;
   border: none;
   cursor: pointer;
-  margin: 0 5px;
-  color: #555;
+  color: rgb(142, 132, 132);
+  font-size: 18px; /* Adjusted size */
+  padding: 5px;
+  transition: opacity 0.3s ease-in-out;
+
 }
 
 .input-box__mic--active {
-  color: #ff4b4b;
+  color: #33FF66;
   animation: pulse 1.5s infinite;
 }
 
@@ -256,6 +268,23 @@
 
 .input-box__camera:hover {
   opacity: 0.8;
+}
+
+.input-box__camera-floating {
+  position: absolute;
+  bottom: 70px; /* Moves it above the submit button */
+  right:4%;
+  background: none; 
+  border: none;
+  border-radius: 50%;
+  padding: 12px;
+  cursor: pointer;
+  color: rgb(142, 132, 132);
+  transition: background 0.3s ease-in-out;
+}
+
+.input-box__camera-floating:hover {
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .typing-indicator {
@@ -305,11 +334,11 @@
 /* Responsive Design */
 @media screen and (max-width: 480px) {
   .chatbot-ui {
-    width: 100%;
+    width: 95%;
     height: 80%;
     max-height: 100%;
     bottom: 0;
-    right: 0;
+    right: 2%;
   }
 
   .chat-window {
@@ -339,12 +368,6 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .chatbot-ui {
-    width: 90%;
-    right: 5%;
-  }
-}
 
 /* Touch Device Optimizations */
 @media (hover: none) {

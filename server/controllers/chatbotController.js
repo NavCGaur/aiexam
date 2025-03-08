@@ -1,6 +1,7 @@
 import { getChatbotResponse } from "../services/chatbotService.js";
 import Question from "../models/Question.js";
 import generateDoubtPrompt from "../prompts/generateDoubtPrompt.js"
+import generateOCRPrompt from "../prompts/generateOCRPrompt.js"
 import ChatResponse from "../models/ChatResponses.js";
 
 // In-memory context store (can be replaced with Redis or a DB for persistence)
@@ -31,7 +32,9 @@ export const processChatMessage = async (req, res) => {
                                  latestMessage.toLowerCase().includes("question");
 
     const isDoubtSolving =  latestMessage.toLowerCase().includes("explain") && 
-    latestMessage.toLowerCase().includes("doubt");
+                                 latestMessage.toLowerCase().includes("doubt");
+    
+    const isOCR = latestMessage.toLowerCase().includes("ocr question");
 
 
     if (!latestMessage || latestMessage.trim() === "") {
@@ -74,16 +77,21 @@ export const processChatMessage = async (req, res) => {
 
         latestMessage = generateDoubtPrompt(questionVariables.language, questionVariables.expertise, questionVariables.doubt)
       }
+
+      if (isOCR) {
+        console.log("isOCR:",isOCR)
+        latestMessage = generateOCRPrompt(questionVariables.question);
+      }
   
 
-    // Initialize or get user context
-    if (!userContexts[userId]) {
-      userContexts[userId] = {
-        conversationHistory: [],
-        lastInteraction: null,
-        questionContext: null
-      };
-    }
+      // Initialize or get user context
+      if (!userContexts[userId]) {
+        userContexts[userId] = {
+          conversationHistory: [],
+          lastInteraction: null,
+          questionContext: null
+        };
+      }
 
     // Format the conversation history as an array of message objects
     const formattedMessages = [

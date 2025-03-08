@@ -5,6 +5,8 @@ import multer from 'multer';
 const router = Router();
 const uploadMiddleware = multer({ dest: 'uploads/' });
 
+console.log("inside ocr Routes")
+
 router.post('/', uploadMiddleware.single('image'), upload);
 
 export default router;

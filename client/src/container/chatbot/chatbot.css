@@ -219,6 +219,34 @@
   width: auto;
 }
 
+.input-box__mic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+  color: #555;
+}
+
+.input-box__mic--active {
+  color: #ff4b4b;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .input-box__camera {
   background: none;
   border: none;

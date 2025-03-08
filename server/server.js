@@ -37,7 +37,8 @@ import paperRoutes from './routes/paperRoutes.js';
 import paymentRoutes from './routes/paymentRoutes.js';
 import questionRoutes from './routes/questionRoutes.js'; 
 import chatbotRoutes from './routes/chatbotRoutes.js';
-import  ocrRoutes  from './routes/ocrRoutes.js';
+import ocrRoutes  from './routes/ocrRoutes.js';
+import speechRoutes from './routes/speechRoutes.js';
 
 
 // Routes
@@ -46,7 +47,12 @@ app.use('/api/payments', paymentRoutes);
 app.use('/api/questions', questionRoutes); 
 app.use("/api/chatbot", chatbotRoutes);
 app.use("/api/education", questionRoutes);
-app.use('/api/ocr', ocrRoutes);
+app.use("/api/ocr", (req, res, next) => {
+  console.log("Incoming request headers:", req.headers);
+  console.log("Incoming request body:", req.body);
+  next();
+}, ocrRoutes);
+app.use("/api/speech", speechRoutes);
 
 
 //autoGenerateQuestions();

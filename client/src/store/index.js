@@ -6,6 +6,9 @@ import { chatbotApi } from "../state/chatbotApi";  // Import chatbot API
 import quizReducer from '../state/quizSlice';
 import puzzleReducer from '../state/puzzleSlice';
 import { ocrApi } from '../state/ocrApi';
+import speechReducer from '../state/speechSlice';
+import { speechApi } from '../state/speechApi';
+
 
 
 const store = configureStore({
@@ -17,6 +20,8 @@ const store = configureStore({
     quiz: quizReducer,
     puzzle: puzzleReducer,
     [ocrApi.reducerPath]: ocrApi.reducer,
+    speech: speechReducer,
+    [speechApi.reducerPath]: speechApi.reducer,
 
   },
   middleware: (getDefaultMiddleware) =>
@@ -24,6 +29,7 @@ const store = configureStore({
       .concat(paperApi.middleware)
       .concat(chatbotApi.middleware)
       .concat(ocrApi.middleware)
+      .concat(speechApi.middleware)
 });
 
 export default store;

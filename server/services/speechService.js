@@ -25,12 +25,12 @@ export const transcribeAudio = async (audioBuffer) => {
     
         // Correct encoding & settings
         const config = {
-          encoding: 'WEBM_OPUS',   // ✅ Better for WebM
+          encoding: 'WEBM_OPUS',   // 
           sampleRateHertz: null,
           languageCode: 'en-US',
           enableAutomaticPunctuation: true,
           model: 'default',
-          useEnhanced: true, // Add this for better speech recognition
+          useEnhanced: true, 
 
         };
     
@@ -42,16 +42,18 @@ export const transcribeAudio = async (audioBuffer) => {
         console.log("Transcribe result:", response.results);
     
         if (!response.results || response.results.length === 0) {
-          throw new Error("No transcription result returned");
-        }
+          console.warn("No words detected in audio.");
+          return "Couldn't recognize any words. Please speak clearly.";
+      }
     
         // Extract transcription
         const transcript = response.results
           .map(result => result.alternatives[0]?.transcript || "")
           .join("\n");
     
-        return transcript;
-  } catch (error) {
+          return transcript || "Couldn't recognize any words. Please try again.";
+          
+        } catch (error) {
     console.error('Google Speech-to-Text API error:', error);
     throw new Error('Failed to transcribe audio: ' + error.message);
   }

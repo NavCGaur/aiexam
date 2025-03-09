@@ -106,8 +106,10 @@ const CroppingInterface = ({ image, onTextExtracted, onClose }) => {
             />
           </div>
           <div className="crop-actions">
-            <button onClick={onClose} disabled={isProcessing}>Cancel</button>
-            <button onClick={handleCropButtonClick} disabled={isProcessing}>
+            <button onClick={onClose} disabled={isProcessing} className="cancel-button">
+              Cancel</button>
+              
+            <button onClick={handleCropButtonClick} disabled={isProcessing} className="crop-button">
               {isProcessing ? "Processing..." : "Crop"}
             </button>
           </div>

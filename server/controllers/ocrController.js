@@ -9,10 +9,12 @@ export const upload = async (req, res) => {
       return res.status(400).json({ error: "No file uploaded" });
     }
 
-    const extractedText = await ocrService(req.file.path);
+    // Pass the file buffer instead of file path
+    const extractedText = await ocrService(req.file.buffer);
+
     res.json({ text: extractedText });
   } catch (error) {
-    console.error("OCR Error:", error); // Log the actual error
+    console.error("OCR Error:", error);
     res.status(500).json({ error: "OCR processing failed", details: error.message });
   }
 };

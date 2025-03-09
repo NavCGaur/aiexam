@@ -1,5 +1,10 @@
 import { ImageAnnotatorClient } from '@google-cloud/vision';
 
+console.log("Initializing Vision API client with key:", 
+  process.env.GOOGLE_CLOUD_API_KEY ? 
+  `${process.env.GOOGLE_CLOUD_API_KEY.substring(0, 5)}...` : 
+  "API key not found");
+
 const client = new ImageAnnotatorClient({
     apiKey: process.env.GOOGLE_CLOUD_API_KEY
   });

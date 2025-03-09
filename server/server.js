@@ -47,11 +47,7 @@ app.use('/api/payments', paymentRoutes);
 app.use('/api/questions', questionRoutes); 
 app.use("/api/chatbot", chatbotRoutes);
 app.use("/api/education", questionRoutes);
-app.use("/api/ocr", (req, res, next) => {
-  console.log("Incoming request headers:", req.headers);
-  console.log("Incoming request body:", req.body);
-  next();
-}, ocrRoutes);
+app.use("/api/ocr", ocrRoutes);
 app.use("/api/speech", speechRoutes);
 
 
@@ -75,6 +71,6 @@ app.use("/api/speech", speechRoutes);
 
 
 // Start server
-app.listen(port,  '0.0.0.0',() => {
+app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });

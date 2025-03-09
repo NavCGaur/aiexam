@@ -73,6 +73,11 @@
     color: #fff;
     font-size: 16px;
   }
+
+  .text-review-container {
+    position: relative;
+  }
+  
   
   .text-review {
     width: 90%;
@@ -84,6 +89,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: opacity 0.3s ease-in-out;
+
   }
   
   .text-review textarea {
@@ -105,4 +112,22 @@
   .text-review button:hover {
     background: #0056b3;
   }
+  .text-review.loading {
+    opacity: 0.5; /* Make it semi-transparent when loading */
+  }
+  
+  .loading-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.6); /* Light overlay effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+  }
+
+
   

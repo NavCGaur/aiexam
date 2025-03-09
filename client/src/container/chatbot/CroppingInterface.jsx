@@ -1,7 +1,9 @@
 import React, { useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addMessage, toggleChatbot } from "../../state/chatbotSlice"; 
+import { addMessage } from "../../state/chatbotSlice"; 
 import { useSendMessageMutation } from "../../state/chatbotApi"; 
+
+import { CircularProgress } from "@mui/material"; 
 
 
 import { Cropper } from "react-cropper";
@@ -13,38 +15,37 @@ const CroppingInterface = ({ image, onTextExtracted, onClose }) => {
   const [isProcessing, setIsProcessing] = useState(false);
   const [extractedText, setExtractedText] = useState("");
   const [isEditing, setIsEditing] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false); // New state for loading indicator
 
+  const messages = useSelector((state) => state.chatbot.messages);
   const dispatch = useDispatch();
-  const userId = useSelector((state) => state.chatbot.userId); // Get userId from Redux
-  const [sendMessage] = useSendMessageMutation(); // Hook for sending message
-
+  const userId = useSelector((state) => state.chatbot.userId);
+  const [sendMessage] = useSendMessageMutation();
   const [extractText] = useExtractTextMutation();
-
 
   // Function to crop image 
   const handleCropButtonClick = async () => {
     if (!cropperRef.current) return;
-  
+
     setIsProcessing(true);
     try {
       const croppedCanvas = cropperRef.current.cropper.getCroppedCanvas();
       if (!croppedCanvas) throw new Error("Failed to get cropped canvas.");
-  
+
       const croppedImageDataUrl = croppedCanvas.toDataURL("image/png");
-      console.log("Cropped Image:", croppedImageDataUrl);
-  
-      // Convert Base64 to File (Multer expects a file)
+
+      // Convert Base64 to File
       const blob = await fetch(croppedImageDataUrl).then((res) => res.blob());
       const file = new File([blob], "cropped-image.png", { type: "image/png" });
-  
+
       // Send file to backend OCR API
       const formData = new FormData();
       formData.append("image", file);
 
-      console.log("sending file to backend")
+      console.log("sending file to backend");
       const response = await extractText(formData);
-  
-      console.log("extracted text: ",response)
+
+      console.log("extracted text: ", response);
       setExtractedText(response.data.text);
       setIsEditing(true);
     } catch (error) {
@@ -54,23 +55,34 @@ const CroppingInterface = ({ image, onTextExtracted, onClose }) => {
       setIsProcessing(false);
     }
   };
-  
+
   // Handle text submission
-  const handleSubmitToAI = () => {
+  const handleSubmitToAI = async () => {
     if (!extractedText.trim()) return;
+    
+    setIsSubmitting(true); // Show loading indicator
 
     const formattedMessage = `OCR Question: ${extractedText}`;
 
-    // Send extracted text to ChatbotUI
-    dispatch(addMessage({ text: extractedText, sender: "user" })); 
-    
-    // Open Chatbot UI
-    dispatch(toggleChatbot());
+    dispatch(addMessage({ text: extractedText, sender: "user" })); // Show user message
 
-    // Send to backend
-    dispatch(sendMessage({ userId, messages: [{ text: formattedMessage, sender: "user" }] }));
+    try {
+      const response = await sendMessage({
+        userId,
+        messages: [...messages, { text: formattedMessage, sender: "user" }]
+      }).unwrap();
 
-    onClose(); // Close CroppingInterface
+      console.log("Chatbot response:", response);
+
+      dispatch(addMessage({ text: response.reply, sender: "bot" }));
+
+    } catch (err) {
+      console.error("Error sending message:", err);
+      dispatch(addMessage({ text: "Error: Unable to get response.", sender: "bot" }));
+    } finally {
+      setIsSubmitting(false);
+      onClose(); // Close cropping interface **only after** processing
+    }
   };
 
   return (
@@ -82,15 +94,15 @@ const CroppingInterface = ({ image, onTextExtracted, onClose }) => {
               ref={cropperRef}
               src={image}
               style={{ height: "400px", width: "100%" }}
-              aspectRatio={NaN} // Freeform crop (Set to 16/9 for fixed)
-              viewMode={1} // Restrict image from going out of bounds
-              dragMode="move" // Allow moving the image
-              guides={false} // Hide grid guides
-              scalable={true} // Enable resizing
-              cropBoxMovable={true} // Allow moving crop box
-              cropBoxResizable={true} // Allow resizing crop box
-              background={false} // Disable background shading
-              responsive={true} // Make it responsive
+              aspectRatio={NaN}
+              viewMode={1}
+              dragMode="move"
+              guides={false}
+              scalable={true}
+              cropBoxMovable={true}
+              cropBoxResizable={true}
+              background={false}
+              responsive={true}
             />
           </div>
           <div className="crop-actions">
@@ -101,17 +113,32 @@ const CroppingInterface = ({ image, onTextExtracted, onClose }) => {
           </div>
         </>
       ) : (
-        <div className="text-review">
+        <div className="text-review-container">
+        <div className={`text-review ${isSubmitting ? "loading" : ""}`}>
           <textarea
             value={extractedText}
             onChange={(e) => setExtractedText(e.target.value)}
             placeholder="Edit the extracted text..."
+            disabled={isProcessing} // Prevent editing while loading
           />
           <div className="crop-actions">
-            <button onClick={() => setIsEditing(false)}>Recrop</button>
-            <button onClick={handleSubmitToAI}>Submit to Ai</button>
+            <button onClick={() => setIsEditing(false)} disabled={isSubmitting}>
+              Recrop
+            </button>
+            <button onClick={handleSubmitToAI} disabled={isSubmitting}>
+              Submit to AI
+            </button>
           </div>
         </div>
+      
+        {/* Loading Indicator (Overlayed) */}
+        {isSubmitting && (
+          <div className="loading-overlay">
+            <CircularProgress size={80} style={{ color: "rgba(0, 0, 0, 0.5)" }} />
+          </div>
+        )}
+      </div>
+      
       )}
     </div>
   );

@@ -13,7 +13,10 @@ const MainCameraModal = ({ onClose, onTextExtracted }) => {
           <CroppingInterface
             image={capturedImage}
             onTextExtracted={onTextExtracted}
-            onClose={() => setCapturedImage(null)}
+            onClose={() => {
+              setCapturedImage(null);
+              onClose();  // Close MainCameraModal when cropping is done
+            }}
           />
         )}
       </div>

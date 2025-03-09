@@ -5,20 +5,30 @@ const client = new ImageAnnotatorClient({
   });
 
 
-  export const ocrService = async (imageBuffer) => {
+  export const ocrService = async (fileBuffer) => {
+    const startTime = Date.now();
+    console.log("OCR Service Start:", new Date().toISOString());
+    
     try {
-      console.log("OCR Service called");
-  
-      const [result] = await client.textDetection(imageBuffer); // Pass buffer directly
-  
-      if (!result.fullTextAnnotation || !result.fullTextAnnotation.text) {
-        console.error("OCR Error: No text detected.");
-        return "No text detected. Please take a clearer picture and try again."; 
+      console.log("Buffer size:", fileBuffer.length, "bytes");
+      
+      console.log("Before Vision API call:", Date.now() - startTime, "ms");
+      const [result] = await client.textDetection({
+        image: { content: fileBuffer }
+      });
+      console.log("After Vision API call:", Date.now() - startTime, "ms");
+      
+      if (!result || !result.fullTextAnnotation || !result.fullTextAnnotation.text) {
+        console.log("No text detected");
+        return "No text detected. Please try another image.";
       }
       
+      console.log("Full text annotation received:", Date.now() - startTime, "ms");
       return result.fullTextAnnotation.text;
     } catch (error) {
-      console.error("Google Vision API Error:", error);
-      throw new Error("OCR processing failed");
+      console.error("Vision API Error:", error);
+      throw error;
     }
   };
+  
+  

@@ -73,46 +73,6 @@ const InputBox = ({ handleSend, isProcessing }) => {
             console.log("Audio blob created, size:", audioBlob.size, "bytes, type:", audioBlob.type);
 
             
-            // For debugging - create an audio element to verify recording
-            const audioUrl = URL.createObjectURL(audioBlob);
-            console.log("Created audio URL for debugging:", audioUrl);
-            
-            
-                // Ensure proper playback using an audio element
-                const audioElement = document.createElement("audio");
-                audioElement.src = audioUrl;
-                audioElement.controls = true;
-                document.body.appendChild(audioElement);
-                
-                // 🔹 Force metadata loading before playback
-                audioElement.onloadedmetadata = () => {
-                  console.log("Metadata loaded. Duration:", audioElement.duration);
-                  if (audioElement.duration === Infinity) {
-                    console.log("Duration is still Infinity, retrying...");
-                    setTimeout(() => {
-                      console.log("Updated duration:", audioElement.duration);
-                    }, 1000);
-                  }
-                };
-              
-                try {
-                  await audioElement.play();
-                  console.log("Audio is playing");
-                } catch (err) {
-                  console.error("Playback failed:", err);
-                }
-              
-                // 🔹 Provide Download Option
-                const downloadLink = document.createElement("a");
-                downloadLink.href = audioUrl;
-                downloadLink.download = "recorded_audio.webm";
-                document.body.appendChild(downloadLink);
-                downloadLink.click();
-                document.body.removeChild(downloadLink);
-                console.log("Audio downloaded for debugging.");
-              
-
-
             const formData = new FormData();
             formData.append('audio', audioBlob);
             

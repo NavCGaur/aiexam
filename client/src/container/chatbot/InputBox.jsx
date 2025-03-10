@@ -105,16 +105,40 @@ const InputBox = ({ handleSend, isProcessing }) => {
       }
     };
 
+    const inputRef = useRef(null);
+
+    const handleInputChange = (e) => {
+      setInput(e.target.value);
+      
+      // Auto-expand input field with buffer space
+      const textarea = inputRef.current;
+      // Reset to calculated base height first
+      textarea.style.height = "40px";
+      
+      // Get the scroll height (actual content height)
+      const scrollHeight = textarea.scrollHeight;
+      
+      // Add buffer space (extra pixels below text)
+      const bufferSpace = 10; // Adjust this value as needed
+      
+      // Set final height with buffer
+      textarea.style.height = `${scrollHeight + bufferSpace}px`;
+    };
+
+
     return (
       <div className="input-box">
-        <input
+        <textarea
           className="input-box__input"
           value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={(e) => e.key === "Enter" && handleUserInput()}
+          onChange={handleInputChange}
+          onKeyDown={(e) => e.key === "Enter" && !e.shiftKey && handleUserInput(e)}
           placeholder={isListening ? "Listening..." : "Type a message..."}
           disabled={isProcessing}
+          rows={1} // Default rows, auto-expands
+          ref={inputRef}
         />
+
     
         {/* Mic Button inside Input Box */}
         <button

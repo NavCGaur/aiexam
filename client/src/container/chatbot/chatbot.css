@@ -172,14 +172,14 @@
 /* Input Box */
 .input-box {
   display: flex;
+  align-items: flex-end; /* Align buttons to bottom */
+
   padding: 8px;
   background: var(--input-box-background);
   border-top: 1px solid var(--input-box-border);
   position: relative;
   width: 100%;
-  gap: 5px; /* Reduce gaps */
-
-
+  gap: 5px; 
 }
 
 .custom-camera-icon{
@@ -188,7 +188,11 @@
 }
 
 .input-box__input {
-  padding: 1px;
+  flex-grow: 1;
+  min-height: 40px; /* Default height */
+  max-height: 150px; /* Prevent too much expansion */
+  overflow-y: auto;
+  resize: none; /* Disable manual resizing */
   border: 1px solid var(--input-box-border);
   border-radius: 8px;
   background: var(--input-box-background);
@@ -200,14 +204,21 @@
   position: relative;
   width: 70%;
 
+  padding: 8px;  
+  min-height: 54px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+ 
 }
 
 .input-box__input::placeholder {
-  color: var(--text-color);
+  color: rgb(202, 194, 194);
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
-  opacity: 0.5;
   padding: 5px;
+
+
 }
 
 .input-box__input:focus {
@@ -216,6 +227,8 @@
 
 .input-box__send {
   background: linear-gradient(135deg, #9C27B0, #E91E63);
+  height: 40px; /* Fixed height */
+  min-width: 40px;
   color: white;
   border: none;
   padding: 12px;
@@ -235,6 +248,8 @@
   background: transparent;
   border: none;
   cursor: pointer;
+  height: 40px; /* Fixed height */
+  min-width: 40px;
   color: rgb(142, 132, 132);
   font-size: 18px; /* Adjusted size */
   padding: 5px;

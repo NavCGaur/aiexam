@@ -81,6 +81,8 @@ export const processChatMessage = async (req, res) => {
       if (isOCR) {
         console.log("isOCR:",isOCR)
         latestMessage = generateOCRPrompt(questionVariables.question);
+        //const dummytext = "if R = {(a, a3): a is a prime number less than 5} be a relation. Find the range of R 
+        //latestMessage = generateOCRPrompt(dummytext);
       }
   
 

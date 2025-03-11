@@ -294,10 +294,6 @@ const CameraModal = ({ onClose, onCapture }) => {
             onCanPlay={() => setCameraReady(true)}
           />
           
-          <div className="camera-modal__instruction">
-              Position document in center of the screen
-          </div>
-          
           <div className="camera-modal__actions">
             {/* Switch Camera Button */}
             <button 

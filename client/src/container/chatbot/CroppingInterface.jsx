@@ -87,15 +87,16 @@ const CroppingInterface = ({ image, onTextExtracted, onRetake, onClose }) => {
   };
 
 
+
+
   const inputRef = useRef(null);
-  
-  
+    
     const adjustTextareaHeight = () => {
       const textarea = inputRef.current;
       if (textarea) {
-        textarea.style.height = "150px"; // Reset to base height
+        textarea.style.height = "auto"; // Reset to base height
         const scrollHeight = textarea.scrollHeight; // Get the scroll height
-        const bufferSpace = 10; // Add buffer space
+        const bufferSpace = 20; // Add buffer space
         textarea.style.height = `${scrollHeight + bufferSpace}px`;
       }
     };

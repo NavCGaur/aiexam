@@ -22,25 +22,7 @@
     align-items: center;
     overflow: hidden;
   }
-  
 
-  
-  .camera-modal__instruction {
-    position: absolute;
-    z-index: 100;
-    top: 30px;
-
-    color: #fff;
-    font-size: 14px;
-    font-weight: 500;
-    text-align: center;
-    background: none;
-    padding: 8px 16px;
-    border-radius: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(5px);
-    white-space: nowrap;
-  }
   
   .camera-modal__video {
     width: 100%;
@@ -290,8 +272,5 @@
       height: 55px;
     }
     
-    .camera-modal__instruction {
-      font-size: 12px;
-      padding: 6px 12px;
-    }
+   
   }

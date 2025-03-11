@@ -19,8 +19,8 @@
     max-width: 600px;
     max-height: 80vh; /* Ensure it stays within visible area */
     position: relative;
-    background: #f4f4f4;
-    border-radius: 8px;
+    background: #222; /* Darker background for contrast */
+    border-radius: 12px;
     overflow: hidden;
   }
   
@@ -31,16 +31,26 @@
     margin-top: 20px;
   }
 
-  .cropper-view-box {
-    border-radius: 10px !important; /* Rounded corners */
-    border: none !important; /* Thicker border */
-  }
+ 
   
   .cropper-crop-box {
-    border-radius: 10px !important; /* Make crop box corners rounded */
-    border: 6px solid rgb(144, 179, 243) !important; /* Thick white border */
+    border-radius: 12px !important;
+    border: 2px dashed rgba(144, 179, 243, 0.8) !important; /* Subtle border */
+    box-shadow: 0px 0px 8px rgba(144, 179, 243, 0.8); /* Glow effect */
+}
+
+.cropper-line,
+.cropper-point {
+    background-color: rgba(144, 179, 243, 0.9) !important; /* Light blue */
+    width: 12px !important; /* Bigger handles for mobile */
+    height: 12px !important;
+}
+
+
+  .cropper-drag-box {
+    background: rgba(0, 0, 0, 0.6) !important;
   }
-  
+
   button {
     padding: 12px 20px;
     border: none;

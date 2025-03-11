@@ -1,10 +1,9 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState , useEffect} from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addMessage } from "../../state/chatbotSlice"; 
 import { useSendMessageMutation } from "../../state/chatbotApi"; 
 
 import { CircularProgress } from "@mui/material"; 
-
 
 import { Cropper } from "react-cropper";
 import './CroppingInterface.css';
@@ -16,6 +15,8 @@ const CroppingInterface = ({ image, onTextExtracted, onRetake, onClose }) => {
   const [extractedText, setExtractedText] = useState("");
   const [isEditing, setIsEditing] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false); // New state for loading indicator
+  const [input, setInput] = useState("");
+  
 
   const messages = useSelector((state) => state.chatbot.messages);
   const dispatch = useDispatch();
@@ -85,25 +86,51 @@ const CroppingInterface = ({ image, onTextExtracted, onRetake, onClose }) => {
     }
   };
 
+
+  const inputRef = useRef(null);
+  
+  
+    const adjustTextareaHeight = () => {
+      const textarea = inputRef.current;
+      if (textarea) {
+        textarea.style.height = "150px"; // Reset to base height
+        const scrollHeight = textarea.scrollHeight; // Get the scroll height
+        const bufferSpace = 10; // Add buffer space
+        textarea.style.height = `${scrollHeight + bufferSpace}px`;
+      }
+    };
+  
+    useEffect(() => {
+      adjustTextareaHeight();
+    }, [input]); // Trigger whenever `input` changes
+  
+    const handleInputChange = (e) => {
+      setInput(e.target.value);
+    };
+  
+
   return (
     <div className="cropping-interface">
       {!isEditing ? (
         <>
           <div className="crop-container">
-            <Cropper
-              ref={cropperRef}
-              src={image}
-              style={{ height: "400px", width: "100%" }}
-              aspectRatio={NaN}
-              viewMode={1}
-              dragMode="move"
-              guides={false}
-              scalable={true}
-              cropBoxMovable={true}
-              cropBoxResizable={true}
-              background={false}
-              responsive={true}
-            />
+          <Cropper
+            ref={cropperRef}
+            src={image}
+            style={{ height: "400px", width: "100%" }}
+            aspectRatio={NaN}
+            viewMode={0} /* More flexibility */
+            dragMode="crop" /* Improves touch interactions */
+            guides={false}
+            scalable={true}
+            cropBoxMovable={true}
+            cropBoxResizable={true}
+            background={false}
+            responsive={true}
+            checkOrientation={false} /* Avoids rotation issues on mobile */
+
+          />
+
           </div>
           <div className="crop-actions">
             <button onClick={onClose} disabled={isProcessing} className="cancel-button">
@@ -116,30 +143,31 @@ const CroppingInterface = ({ image, onTextExtracted, onRetake, onClose }) => {
         </>
       ) : (
         <div className="text-review-container">
-        <div className={`text-review ${isSubmitting ? "loading" : ""}`}>
-        <textarea
-          value={extractedText}
-          onChange={(e) => setExtractedText(e.target.value)}
-          onInput={(e) => {
-            e.target.style.height = "150px"; // Reset height to calculate new height
-            e.target.style.height = `${e.target.scrollHeight}px`; // Set new height
-          }}
-          placeholder="Edit the extracted text..."
-          disabled={isProcessing} // Prevent editing while loading
-          style={{
-            overflow: "hidden", // Hide scrollbar
-            resize: "none", // Disable manual resizing by the user
-          }}
-        />
+          <div className={`text-review ${isSubmitting ? "loading" : ""}`}>
+            <textarea
+              value={extractedText}
+              onChange={handleInputChange}
 
-          <div className="crop-actions">
-            <button className= "crop-actions-retake" onClick={onRetake} disabled={isSubmitting}>
-              ReTake
-            </button>
-            <button className= "crop-actions-submittoAi" onClick={handleSubmitToAI} disabled={isSubmitting}>
-              Submit to AI
-            </button>
-          </div>
+              placeholder="Edit the extracted text..."
+              rows={1} // Default rows, auto-expands
+
+              disabled={isProcessing} // Prevent editing while loading
+              ref={inputRef}
+
+              style={{
+                overflow: "hidden", // Hide scrollbar
+                resize: "none", // Disable manual resizing by the user
+              }}
+            />
+
+            <div className="crop-actions">
+              <button className= "crop-actions-retake" onClick={onRetake} disabled={isSubmitting}>
+                ReTake
+              </button>
+              <button className= "crop-actions-submittoAi" onClick={handleSubmitToAI} disabled={isSubmitting}>
+                Submit to AI
+              </button>
+            </div>
         </div>
       
         {/* Loading Indicator (Overlayed) */}

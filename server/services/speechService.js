@@ -27,7 +27,7 @@ export const transcribeAudio = async (audioBuffer) => {
         const config = {
           encoding: 'WEBM_OPUS',   // 
           sampleRateHertz: null,
-          languageCode: 'en-US',
+          languageCode: 'en-IN',
           enableAutomaticPunctuation: true,
           model: 'default',
           useEnhanced: true, 

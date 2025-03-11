@@ -10,7 +10,7 @@ import { Cropper } from "react-cropper";
 import './CroppingInterface.css';
 import { useExtractTextMutation } from "../../state/ocrApi";
 
-const CroppingInterface = ({ image, onTextExtracted, onClose }) => {
+const CroppingInterface = ({ image, onTextExtracted, onRetake, onClose }) => {
   const cropperRef = useRef(null);
   const [isProcessing, setIsProcessing] = useState(false);
   const [extractedText, setExtractedText] = useState("");
@@ -117,17 +117,26 @@ const CroppingInterface = ({ image, onTextExtracted, onClose }) => {
       ) : (
         <div className="text-review-container">
         <div className={`text-review ${isSubmitting ? "loading" : ""}`}>
-          <textarea
-            value={extractedText}
-            onChange={(e) => setExtractedText(e.target.value)}
-            placeholder="Edit the extracted text..."
-            disabled={isProcessing} // Prevent editing while loading
-          />
+        <textarea
+          value={extractedText}
+          onChange={(e) => setExtractedText(e.target.value)}
+          onInput={(e) => {
+            e.target.style.height = "150px"; // Reset height to calculate new height
+            e.target.style.height = `${e.target.scrollHeight}px`; // Set new height
+          }}
+          placeholder="Edit the extracted text..."
+          disabled={isProcessing} // Prevent editing while loading
+          style={{
+            overflow: "hidden", // Hide scrollbar
+            resize: "none", // Disable manual resizing by the user
+          }}
+        />
+
           <div className="crop-actions">
-            <button onClick={() => setIsEditing(false)} disabled={isSubmitting}>
-              Recrop
+            <button className= "crop-actions-retake" onClick={onRetake} disabled={isSubmitting}>
+              ReTake
             </button>
-            <button onClick={handleSubmitToAI} disabled={isSubmitting}>
+            <button className= "crop-actions-submittoAi" onClick={handleSubmitToAI} disabled={isSubmitting}>
               Submit to AI
             </button>
           </div>

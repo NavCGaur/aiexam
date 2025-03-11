@@ -5,6 +5,7 @@ import express from 'express';
 import cors from 'cors';
 import { connectToDatabase } from './config/db.js';
 import { initializeFirebase } from './config/firebase.js';
+import {startCronJobs} from './utils/cronjobs.js';
 //import autoGenerateQuestions from './utils/dataBaseActions/autoGenerateQuestions.js';
 //import {insertData, updateData,copyData, deleteData, backupData } from "./utils/dataBaseActions/index.js";
 //import {updateQuestionsWithHash} from './utils/dataBaseActions/updateQuestionsWithHash.js';
@@ -39,6 +40,7 @@ import questionRoutes from './routes/questionRoutes.js';
 import chatbotRoutes from './routes/chatbotRoutes.js';
 import ocrRoutes  from './routes/ocrRoutes.js';
 import speechRoutes from './routes/speechRoutes.js';
+import cronJobRoutes from './routes/cronJobRoutes.js';
 
 
 // Routes
@@ -49,6 +51,7 @@ app.use("/api/chatbot", chatbotRoutes);
 app.use("/api/education", questionRoutes);
 app.use("/api/ocr", ocrRoutes);
 app.use("/api/speech", speechRoutes);
+app.use("/api/health-check", cronJobRoutes);
 
 
 //autoGenerateQuestions();
@@ -68,6 +71,9 @@ app.use("/api/speech", speechRoutes);
 //updateQuestionsWithHash();
 
 //deleteDuplicateQuestions();
+
+// Cron jobs
+startCronJobs();
 
 
 // Start server

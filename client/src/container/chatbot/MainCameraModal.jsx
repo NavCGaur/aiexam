@@ -4,6 +4,10 @@ import CameraModal from './CameraModal';
 
 const MainCameraModal = ({ onClose, onTextExtracted }) => {
     const [capturedImage, setCapturedImage] = useState(null);
+
+    const handleRetake = () => {
+      setCapturedImage(false); // Open the camera modal
+    };
   
     return (
       <div>
@@ -13,6 +17,7 @@ const MainCameraModal = ({ onClose, onTextExtracted }) => {
           <CroppingInterface
             image={capturedImage}
             onTextExtracted={onTextExtracted}
+            onRetake={handleRetake}
             onClose={() => {
               setCapturedImage(null);
               onClose();  // Close MainCameraModal when cropping is done

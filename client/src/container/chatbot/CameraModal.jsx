@@ -1,4 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
+import CloseIcon from '@mui/icons-material/Close';
 import './CameraModal.css';
 
 const CameraModal = ({ onClose, onCapture }) => {
@@ -258,6 +259,11 @@ const CameraModal = ({ onClose, onCapture }) => {
     <div className="camera-modal">
       {error ? (
         <div className="camera-modal__error">
+          <CloseIcon 
+           className="camera-modal__close-icon" 
+           onClick={onClose}
+          />
+
           <h3>Camera Error</h3>
           <p>{error}</p>
           <div className="camera-modal__troubleshooting">
@@ -274,11 +280,7 @@ const CameraModal = ({ onClose, onCapture }) => {
             onClick={startCamera}>
             Retry
           </button>
-          <button 
-            className="camera-modal__close" 
-            onClick={onClose}>
-            Close
-          </button>
+          
         </div>
       ) : (
         <div className="camera-modal__overlay">

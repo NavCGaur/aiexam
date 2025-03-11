@@ -222,6 +222,8 @@
   }
   
   .camera-modal__error {
+    position: relative;
+
     background: rgba(30, 30, 30, 0.9);
     border-radius: 16px;
     padding: 30px;
@@ -231,6 +233,23 @@
     color: #fff;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
   }
+
+  .camera-modal__close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #d7d2d2; 
+    background: transparent;
+    border: none;
+    padding: 0;
+    font-size: 24px; /* Adjust size as needed */
+  }
+  
+  .camera-modal__close-icon:hover {
+    color: rgb(228, 221, 221); 
+  }
+  
   
   .camera-modal__error h3 {
     margin-top: 0;

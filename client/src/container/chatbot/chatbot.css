@@ -189,7 +189,7 @@
 
 .input-box__input {
   flex-grow: 1;
-  min-height: 40px; /* Default height */
+  min-height: 54px; /* Default height */
   max-height: 150px; /* Prevent too much expansion */
   overflow-y: auto;
   resize: none; /* Disable manual resizing */
@@ -212,6 +212,9 @@
  
 }
 
+.input-box__input--loading{
+  min-height: 54px;
+}
 .input-box__input::placeholder {
   color: rgb(202, 194, 194);
   font-family: 'DM Sans', sans-serif;
@@ -261,6 +264,12 @@
   color: #33FF66;
   animation: pulse 1.5s infinite;
 }
+
+.input-box__input--loading::placeholder {
+  animation: pulse 1.5s infinite;
+
+}
+
 
 @keyframes pulse {
   0% {

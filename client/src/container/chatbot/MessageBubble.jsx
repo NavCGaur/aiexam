@@ -1,97 +1,64 @@
-  import React, {useState} from "react";
-  import QuestionGenerator from "./QuestionGenerator";
-  import DoubtSolver from "./DoubtSolver";
+import React from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { setExpertise } from "../../state/chatbotSlice";
 
+import './chatbot.css'
 
+const EXPERTISE_LEVELS = [
+  { id: "Beginner", label: "🌱 Starter (Class 5-9)" },
+  { id: "Explorer", label: "🚀 Explorer  (Class 10-12)" },
+  { id: "Expert", label: "🎓 Expert (Grad and Up)" },
+];
 
-  import "./chatbot.css";
-  const MessageBubble = ({ text = "", sender, handleSend }) => {
-    const [showGenerator, setShowGenerator] = useState(false);
-    const [showDoubtSolver, setShowDoubtSolver] = useState(false);
-  
-    const isNumberedOption = (line) => {
-      return /^\d️⃣/.test(line.trim());
-    };
-  
-    const handleOptionClick = (option) => {
-      console.log("option",option)
-      if (option === "Generate Questions.") {
-        setShowGenerator(true);
-        setShowDoubtSolver(false);
-      } else if (option === "Doubt Solving.") {
-        console.log("Inside Doubt solver")
-        setShowDoubtSolver(true);
-        setShowGenerator(false);
-      } else {
-        handleSend(option);
-      }
-    };
-  
-    const handleQuestionGeneratorComplete = (selections) => {
-      const fullMessage = `Generate ${selections.noOfQuestions} questions for CBSE Class: ${selections.class}, Subject: ${selections.subject}, Chapter: ${selections.chapter}, Type: ${selections.questionType}, Language: ${selections.language}. Please generate the questions now. After providing the questions, ask: "Would you like me to provide answers for these questions as well?"`;
-      const displayMessage = `Generate ${selections.noOfQuestions} questions for Class: ${selections.class}, Subject: ${selections.subject}, Chapter: ${selections.chapter}, Type: ${selections.questionType}, Language: ${selections.language}.`;
-      
-      handleSend(fullMessage, displayMessage);
-      setShowGenerator(false);
-    };
+const MessageBubble = ({ text = "", sender  }) => {
+  const expertise = useSelector((state) => state.chatbot.expertise);
+  const dispatch = useDispatch();
 
-    const handleDoubtSolverComplete = ( language, expertise, doubt ) => {
-      const fullMessage = `Explain doubt in Language: ${language}, Expertise: ${expertise}, Doubt: ${doubt} `;
-      const displayMessage = `${doubt}`;
-      handleSend(fullMessage, displayMessage);
-      setShowDoubtSolver(false); // Hide DoubtSolver after sending
-    };
-  
-  
-    const formatMessage = () => {
-      if (showGenerator) {
-        return <QuestionGenerator onComplete={handleQuestionGeneratorComplete} />;
-      }
-  
-      if (showDoubtSolver) {
-        return <DoubtSolver onComplete={handleDoubtSolverComplete} />;
-      }
-      
-
-   
-      return text.split("\n").map((line, index) => {
-        const trimmedLine = line.trim();
-  
-        if (isNumberedOption(trimmedLine)) {
-          const cleanText = trimmedLine.replace(/^\d️⃣\s*/, "").trim();
-          return (
-            <div
-              key={index}
-              onClick={() => handleOptionClick(cleanText)}
-              className="option-button"
-              style={{
-                cursor: "pointer",
-                padding: "8px",
-                margin: "4px 0",
-                borderRadius: "4px",
-                backgroundColor: "rgba(255, 255, 255, 0.05)",
-                transition: "background-color 0.2s ease",
-              }}
-              onMouseOver={(e) =>
-                (e.currentTarget.style.backgroundColor = "rgba(255, 255, 255, 0.1)")
-              }
-              onMouseOut={(e) =>
-                (e.currentTarget.style.backgroundColor = "rgba(255, 255, 255, 0.05)")
-              }
-            >
-              {trimmedLine}
-            </div>
-          );
-        }
-  
-        return trimmedLine ? <p key={index}>{trimmedLine}</p> : null;
-      }).filter(Boolean);
-    };
-  
-    return (
-      <div className={`message-bubble message-bubble--${sender}`}>{formatMessage()}</div>
-    );
+  const formatMessage = (text) => {
+    return text.split("\n").map((line, index) => (
+      <p key={index} style={{ margin: "18px 0" }}>{line}</p>
+    ));
   };
-  
 
-  export default MessageBubble;
+  const handleExpertiseSelect = (level) => {
+    dispatch(setExpertise(level)); // Update expertise in Redux
+  };
+
+  // For welcome message special handling
+  const isWelcomeMessage = sender === "bot" && text.includes("Hey Champ!");
+
+  return (
+    <div className={`message-bubble message-bubble--${sender}`}>
+      {/* Render message text */}
+      {formatMessage(text)}
+      
+      {/* Expertise selection buttons (only for welcome message) */}
+      {isWelcomeMessage && !expertise && (
+        <div className="doubt-solver__options">
+          {EXPERTISE_LEVELS.map(({ id, label }) => (
+            <button
+              key={id}
+              onClick={() => handleExpertiseSelect(id)}
+              className="doubt-solver__button"
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      )}
+      
+      {/* Prompt after expertise selection */}
+      {isWelcomeMessage && expertise && <>
+        <p style={{marginTop:".5rem"}}>{expertise} selected! </p>
+        <p style={{marginTop:"1.5rem"}}>Type, speak, or scan your doubt!</p>
+        </>
+
+        }
+       
+    </div>
+  );
+};
+
+
+
+export default MessageBubble;

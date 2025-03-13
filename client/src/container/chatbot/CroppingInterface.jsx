@@ -14,8 +14,8 @@ const CroppingInterface = ({ image, onTextExtracted, onRetake, onClose }) => {
   const [isProcessing, setIsProcessing] = useState(false);
   const [extractedText, setExtractedText] = useState("");
   const [isEditing, setIsEditing] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false); // New state for loading indicator
-  const [input, setInput] = useState("");
+  const [noTextDetected, setNoTextDetected] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   
 
   const messages = useSelector((state) => state.chatbot.messages);
@@ -47,8 +47,17 @@ const CroppingInterface = ({ image, onTextExtracted, onRetake, onClose }) => {
       const response = await extractText(formData);
 
       console.log("extracted text: ", response);
-      setExtractedText(response.data.text);
-      setIsEditing(true);
+      
+      if (response.data.text === "No text detected. Please try another image.") {
+        setNoTextDetected(true);
+        setExtractedText(response.data.text); // Show message in review container
+      } else {
+        setNoTextDetected(false);
+        setExtractedText(response.data.text);
+      }
+  
+      setIsEditing(true); // Ensure text review container is always shown
+      
     } catch (error) {
       console.error("Error in image processing:", error);
       alert("An error occurred. Please try again.");
@@ -94,19 +103,19 @@ const CroppingInterface = ({ image, onTextExtracted, onRetake, onClose }) => {
     const adjustTextareaHeight = () => {
       const textarea = inputRef.current;
       if (textarea) {
-        textarea.style.height = "auto"; // Reset to base height
+        textarea.style.height = "auto"; 
         const scrollHeight = textarea.scrollHeight; // Get the scroll height
-        const bufferSpace = 20; // Add buffer space
+        const bufferSpace = 30; // Add buffer space
         textarea.style.height = `${scrollHeight + bufferSpace}px`;
       }
     };
   
     useEffect(() => {
       adjustTextareaHeight();
-    }, [input]); // Trigger whenever `input` changes
+    }, [extractedText]); // Trigger whenever `extractedText` changes
   
     const handleInputChange = (e) => {
-      setInput(e.target.value);
+      setExtractedText(e.target.value); // Update extractedText state
     };
   
 
@@ -158,6 +167,10 @@ const CroppingInterface = ({ image, onTextExtracted, onRetake, onClose }) => {
               style={{
                 overflow: "hidden", // Hide scrollbar
                 resize: "none", // Disable manual resizing by the user
+                fontFamily:"Sans-serif",
+                fontSize:"16px",  
+                lineHeight  :"1.5",
+                letterSpacing:"0.7px",
               }}
             />
 
@@ -165,7 +178,7 @@ const CroppingInterface = ({ image, onTextExtracted, onRetake, onClose }) => {
               <button className= "crop-actions-retake" onClick={onRetake} disabled={isSubmitting}>
                 ReTake
               </button>
-              <button className= "crop-actions-submittoAi" onClick={handleSubmitToAI} disabled={isSubmitting}>
+              <button className= "crop-actions-submittoAi" onClick={handleSubmitToAI} disabled={isSubmitting||noTextDetected}>
                 Submit to AI
               </button>
             </div>

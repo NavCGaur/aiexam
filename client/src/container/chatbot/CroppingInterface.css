@@ -31,6 +31,13 @@
     margin-top: 20px;
   }
 
+  .crop-actions-submittoAi:disabled {
+    background-color: #bdbdbd !important; /* Gray color for disabled state */
+    color: #757575 !important; /* Lighter text */
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+
  
   
   .cropper-crop-box {

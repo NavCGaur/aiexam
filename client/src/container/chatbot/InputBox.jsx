@@ -10,7 +10,7 @@ import "./chatbot.css";
 
 
 
-const InputBox = ({ handleSend, isProcessing }) => {
+const InputBox = ({ handleSend, isProcessing, isInputEnabled }) => {
   const [input, setInput] = useState("");
   const [showCamera, setShowCamera] = useState(false);
   const [isListening, setIsListening] = useState(false);
@@ -21,11 +21,17 @@ const InputBox = ({ handleSend, isProcessing }) => {
   const [transcribeAudio] = useTranscribeAudioMutation();
 
   const handleUserInput = () => {
-    handleSend(input, input);
+    if (!isInputEnabled || !input.trim()) return;
+    
+    handleSend(input);
     setInput(""); // Clear input after sending
   };
 
+
   const toggleListening = async () => {
+
+    if (!isInputEnabled) return;
+
     if (isListening) {
       console.log("Stopping recording...");
 
@@ -105,7 +111,7 @@ const InputBox = ({ handleSend, isProcessing }) => {
     if (textarea) {
       textarea.style.height = "54px"; // Reset to base height
       const scrollHeight = textarea.scrollHeight; // Get the scroll height
-      const bufferSpace = 10; // Add buffer space
+      const bufferSpace = 20; // Add buffer space
       textarea.style.height = `${scrollHeight + bufferSpace}px`;
     }
   };
@@ -118,55 +124,62 @@ const InputBox = ({ handleSend, isProcessing }) => {
     setInput(e.target.value);
   };
 
+    // Get appropriate placeholder text based on state
+    const getPlaceholder = () => {
+      if (!isInputEnabled) return "Please choose your expertise level first...";
+      if (isTranscribing) return "Getting text. Please wait...";
+      if (isListening) return "Listening...";
+      return "Type a message...";
+    };
 
-
-
-
-  return (
-    <div className="input-box">
-      <textarea
-        className={`input-box__input ${isTranscribing ? "input-box__input--loading" : ""}`}
-        value={isTranscribing ? "" : input} // Clear input during transcription
-        onChange={handleInputChange}
-        onKeyDown={(e) => e.key === "Enter" && !e.shiftKey && handleUserInput(e)}
-        placeholder={isTranscribing ? "Getting text. Please wait..." : isListening ? "Listening..." : "Type a message..."}
-        disabled={isProcessing || isTranscribing} // Disable during processing or transcription
-        rows={1} // Default rows, auto-expands
-        ref={inputRef}
-      />
-
-      {/* Mic Button inside Input Box */}
-      <button
-        className={`input-box__mic ${isListening ? "input-box__mic--active" : ""}`}
-        onClick={toggleListening}
-        disabled={isProcessing || isTranscribing} // Disable during processing or transcription
-        aria-label={isListening ? "Stop recording" : "Start recording"}
-      >
-        {isListening ? <MicIcon /> : <MicOffIcon />}
-      </button>
-
-      {/* Send Button inline */}
-      <button
-        className="input-box__send"
-        onClick={handleUserInput}
-        disabled={isProcessing || isTranscribing} // Disable during processing or transcription
-      >
-        <SendIcon />
-      </button>
-
-      {/* Floating Camera Button */}
-      <button
-        className="input-box__camera-floating"
-        onClick={() => setShowCamera(true)}
-        disabled={isProcessing || isTranscribing} // Disable during processing or transcription
-      >
-        <CameraIcon />
-      </button>
-
-      {showCamera && <MainCameraModal onClose={() => setShowCamera(false)} />}
-    </div>
-  );
-};
-
+    return (
+      <div className="input-box">
+        <textarea
+          className={`input-box__input ${isTranscribing ? "input-box__input--loading" : ""}`}
+          value={isTranscribing ? "" : input}
+          onChange={handleInputChange}
+          onKeyDown={(e) => e.key === "Enter" && !e.shiftKey && handleUserInput(e)}
+          placeholder={getPlaceholder()}
+          disabled={isProcessing || isTranscribing || !isInputEnabled}
+          rows={1}
+          ref={inputRef}
+          style={{
+            letterSpacing: "0.5px",
+            fontSize: "15px",
+          }}
+        />
+  
+        {/* Mic Button */}
+        <button
+          className={`input-box__mic ${isListening ? "input-box__mic--active" : ""} ${!isInputEnabled ? "input-box__button--disabled" : ""}`}
+          onClick={toggleListening}
+          disabled={isProcessing || isTranscribing || !isInputEnabled}
+          aria-label={isListening ? "Stop recording" : "Start recording"}
+        >
+          {isListening ? <MicIcon /> : <MicOffIcon />}
+        </button>
+  
+        {/* Send Button */}
+        <button
+          className={`input-box__send ${!isInputEnabled ? "input-box__button--disabled" : ""}`}
+          onClick={handleUserInput}
+          disabled={isProcessing || isTranscribing || !isInputEnabled}
+        >
+          <SendIcon />
+        </button>
+  
+        {/* Camera Button */}
+        <button
+          className={`input-box__camera-floating ${!isInputEnabled ? "input-box__button--disabled" : ""}`}
+          onClick={() => isInputEnabled && setShowCamera(true)}
+          disabled={isProcessing || isTranscribing || !isInputEnabled}
+        >
+          <CameraIcon />
+        </button>
+  
+        {showCamera && <MainCameraModal onClose={() => setShowCamera(false)} />}
+      </div>
+    );
+  };
 
 export default InputBox;

@@ -16,7 +16,7 @@ const client = new ImageAnnotatorClient({
       });
       
       if (!result || !result.fullTextAnnotation || !result.fullTextAnnotation.text) {
-        return "No text detected. Please try another image.";
+        return "No text detected. Please try taking image again.";
       }
       
       return result.fullTextAnnotation.text;

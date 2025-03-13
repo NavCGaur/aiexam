@@ -6,16 +6,14 @@ const chatbotSlice = createSlice({
       isOpen: false,
       isTyping: false,
       messages: [
-        { text: "Hi! How can I help you today?", sender: "bot" },
-        { 
-          text: `I can assist you with:\n
-                1️⃣ Doubt Solving.\n
-                2️⃣ Take Quiz.\n
-             
-                Which one should I help you with?`,
-          sender: "bot"
-        }
-    ],
+                 {   text: "Hey Champ! 👋\n\nI can help explain concepts and solve problems.\n\nChoose your expertise level to let me help you better!",
+                     sender: "bot",},
+    
+              ],        
+    userId: null,
+    expertise: null, // Add expertise to store
+
+
   },
   reducers: {
     toggleChatbot: (state) => {
@@ -29,9 +27,13 @@ const chatbotSlice = createSlice({
     },
     setUserId: (state, action) => {
       state.userId = action.payload;
+    },
+    setExpertise: (state, action) => {
+      state.expertise = action.payload;
     }
+
   }
 });
 
-export const { toggleChatbot, addMessage, setTyping, setUserId } = chatbotSlice.actions;
+export const { toggleChatbot, addMessage, setTyping, setUserId, setExpertise } = chatbotSlice.actions;
 export default chatbotSlice.reducer;

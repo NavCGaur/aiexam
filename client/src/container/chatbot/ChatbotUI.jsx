@@ -15,6 +15,7 @@ const ChatbotUI = () => {
   const isChatbotOpen = useSelector((state) => state.chatbot.isOpen);
   const messages = useSelector((state) => state.chatbot.messages);
   const userId = useSelector((state) => state.chatbot.userId);
+  const expertise = useSelector((state) => state.chatbot.expertise); // Add expertise from state
   const [sendMessage] = useSendMessageMutation();
   const [isProcessing, setIsProcessing] = useState(false);
   const [theme, setTheme] = useState('dark'); // Default theme is dark
@@ -23,6 +24,8 @@ const ChatbotUI = () => {
     setTheme(theme === 'dark' ? 'light' : 'dark');
   };
 
+  const Language = "English";
+
   useEffect(() => {
     if (!userId) {
       const newUserId = 'user_' + Math.random().toString(36).slice(2, 11);
@@ -30,10 +33,13 @@ const ChatbotUI = () => {
     }
   }, [userId, dispatch]);
 
-  const handleSend = async (fullMessage, displayMessage) => {
-    if (!fullMessage.trim()) return;
+  const handleSend = async (inputText) => {
+    if (!inputText.trim()) return;
 
-    dispatch(addMessage({ text: displayMessage, sender: "user" }));
+    const fullMessage = `Explain doubt in Expertise: ${expertise}, Language: ${Language}, Doubt: ${inputText}`;
+
+
+    dispatch(addMessage({ text: inputText, sender: "user" }));
     setIsProcessing(true);
     dispatch(setTyping(true));
 
@@ -65,7 +71,11 @@ const ChatbotUI = () => {
         </div>
       </div>
       <ChatWindow handleSend={handleSend} />
-      <InputBox handleSend={handleSend} isProcessing={isProcessing} />
+      <InputBox 
+        handleSend={handleSend} 
+        isProcessing={isProcessing} 
+        isInputEnabled={expertise !== null} // Pass enabled state based on expertise
+      />
     </div>
   );
 };

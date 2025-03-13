@@ -16,6 +16,8 @@
   --scrollbar-thumb: rgba(255, 255, 255, 0.2);
   --scrollbar-thumb-hover: rgba(255, 255, 255, 0.3);
   --font-weight:600;
+    height: 95vh;
+
 
 }
 
@@ -33,6 +35,8 @@
   --scrollbar-thumb: rgba(222, 0, 176, 0.2);
   --scrollbar-thumb-hover: rgba(222, 0, 176, 0.3);
   --font-weight:700;
+    height: 95vh;
+
 }
 
 /* Chatbot Floating Button */
@@ -75,10 +79,10 @@
 /* Chatbot UI */
 .chatbot-ui {
   position: fixed;
+  max-height: 600px;
   bottom: 80px;
   right: 20px;
   width: 390px;
-  max-height: 600px;
   background: var(--background-color);
   color: var(--text-color);
   border-radius: 16px;
@@ -154,6 +158,7 @@
   align-self: flex-end;
   border-bottom-right-radius: 4px;
   font-weight: var(--font-weight);
+  margin-bottom: 1rem;
 }
 
 .message-bubble--bot {
@@ -162,12 +167,39 @@
   border-bottom-left-radius: 4px;
   border: 1px solid var(--input-box-border);
   font-weight: 500;
+  margin-bottom: 1rem;
+
 }
 
 .message-bubble p {
   line-height: 1.5rem;
   margin-bottom: 0.5rem;
 }
+
+.doubt-solver__options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.doubt-solver__button {
+  padding: 0.75rem 0rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  background: #1E2837;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.doubt-solver__button:hover {
+  background: #2A3649;
+}
+
+
 
 /* Input Box */
 .input-box {
@@ -190,7 +222,6 @@
 .input-box__input {
   flex-grow: 1;
   min-height: 54px; /* Default height */
-  max-height: 150px; /* Prevent too much expansion */
   overflow-y: auto;
   resize: none; /* Disable manual resizing */
   border: 1px solid var(--input-box-border);
@@ -358,11 +389,10 @@
 /* Responsive Design */
 @media screen and (max-width: 480px) {
   .chatbot-ui {
-    width: 95%;
-    height: 80%;
-    max-height: 100%;
+    width: 98%;
+    max-height: 90%;
     bottom: 0;
-    right: 2%;
+    right: 1%;  
   }
 
   .chat-window {

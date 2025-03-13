@@ -2,7 +2,7 @@ const generateDoubtPrompt = (language, expertise, doubt) => {
     let prompt = "";
 
     switch (expertise) {
-        case "beginner":
+        case "Beginner":
             if (language === "hindi") {
                 prompt = `"${doubt}" को एक सरल और सहज तरीके से समझाएँ ताकि एक शुरुआती व्यक्ति इसे आसानी से समझ सके। उत्तर को निम्नलिखित प्रारूप में प्रस्तुत करें:  
 
@@ -44,7 +44,7 @@ const generateDoubtPrompt = (language, expertise, doubt) => {
             }
             break;
 
-        case "explorer":
+        case "Explorer":
             if (language === "hindi") {
                 prompt = `"${doubt}" का एक संतुलित और व्यवस्थित व्याख्या करें। उत्तर को निम्नलिखित प्रारूप में प्रस्तुत करें:  
 
@@ -86,7 +86,7 @@ const generateDoubtPrompt = (language, expertise, doubt) => {
             }
             break;
 
-        case "expert":
+        case "Expert":
             if (language === "hindi") {
                 prompt = `"${doubt}" की गहन और विस्तृत व्याख्या करें। उत्तर को निम्नलिखित संरचना में प्रस्तुत करें:  
 

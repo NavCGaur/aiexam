@@ -148,16 +148,29 @@ const InputBox = ({ handleSend, isProcessing, isInputEnabled }) => {
             fontSize: "15px",
           }}
         />
-  
-        {/* Mic Button */}
-        <button
-          className={`input-box__mic ${isListening ? "input-box__mic--active" : ""} ${!isInputEnabled ? "input-box__button--disabled" : ""}`}
-          onClick={toggleListening}
-          disabled={isProcessing || isTranscribing || !isInputEnabled}
-          aria-label={isListening ? "Stop recording" : "Start recording"}
-        >
-          {isListening ? <MicIcon /> : <MicOffIcon />}
-        </button>
+
+        <div className="input-box__miccameraContainer">
+
+              {/* Mic Button */}
+              <button
+                className={`input-box__mic ${isListening ? "input-box__mic--active" : ""} ${!isInputEnabled ? "input-box__button--disabled" : ""}`}
+                onClick={toggleListening}
+                disabled={isProcessing || isTranscribing || !isInputEnabled}
+                aria-label={isListening ? "Stop recording" : "Start recording"}
+              >
+                {isListening ? <MicIcon /> : <MicOffIcon />}
+              </button>
+
+               {/* Camera Button */}
+              <button
+                className={`input-box__camera-floating ${!isInputEnabled ? "input-box__button--disabled" : ""}`}
+                onClick={() => isInputEnabled && setShowCamera(true)}
+                disabled={isProcessing || isTranscribing || !isInputEnabled}
+              >
+                <CameraIcon />
+              </button>
+        </div>
+    
   
         {/* Send Button */}
         <button
@@ -168,14 +181,7 @@ const InputBox = ({ handleSend, isProcessing, isInputEnabled }) => {
           <SendIcon />
         </button>
   
-        {/* Camera Button */}
-        <button
-          className={`input-box__camera-floating ${!isInputEnabled ? "input-box__button--disabled" : ""}`}
-          onClick={() => isInputEnabled && setShowCamera(true)}
-          disabled={isProcessing || isTranscribing || !isInputEnabled}
-        >
-          <CameraIcon />
-        </button>
+       
   
         {showCamera && <MainCameraModal onClose={() => setShowCamera(false)} />}
       </div>

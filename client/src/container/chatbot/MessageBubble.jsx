@@ -5,7 +5,7 @@ import { setExpertise } from "../../state/chatbotSlice";
 import './chatbot.css'
 
 const EXPERTISE_LEVELS = [
-  { id: "Beginner", label: "🌱 Starter (Class 5-9)" },
+  { id: "Beginner", label: "🌱 Beginner (Class 5-9)" },
   { id: "Explorer", label: "🚀 Explorer  (Class 10-12)" },
   { id: "Expert", label: "🎓 Expert (Grad and Up)" },
 ];
@@ -16,7 +16,7 @@ const MessageBubble = ({ text = "", sender  }) => {
 
   const formatMessage = (text) => {
     return text.split("\n").map((line, index) => (
-      <p key={index} style={{ margin: "18px 0" }}>{line}</p>
+      <p key={index} style={{ margin: "5px 0" }}>{line}</p>
     ));
   };
 

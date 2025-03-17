@@ -60,6 +60,8 @@
 
 
 
+
+
 .gpt4__header-content p{
     font-family: var(--font-family);
     font-weight: 600;
@@ -70,6 +72,10 @@
     margin-top: 1.5rem;
 
     
+}
+
+.gpt4__header-content :nth-child(3){
+    font-size: 1.1rem;
 }
 
 .gpt4__header-content__input {
@@ -111,7 +117,11 @@
     padding: 0 1rem;
     
 }
-
+.gpt4__header-features-icon{
+    margin-right: 1rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
 
 
 .gpt4__header-image{

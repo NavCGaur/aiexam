@@ -18,49 +18,50 @@ const Header = () => {
       <div className="gpt4__header" id="home">
         <div className='gpt4__header-content'>
           <h1 className='gradient__text'>🎓 AI-Powered Tutoring</h1>
-          <h2 className='gradient__text'> Learn Smarter. Learn Faster.</h2>
+          <h2 className='gradient__text'> Personalized, Context-Aware AI Tutor</h2>
+
+          <p className='gpt4__header-subtitle'>
+        Why sift through hundreds of search results? Instant, structured answers from our AI tutor.
+          </p>
 
           <div className='gpt4__header-features'>
-            <img src={tickmark} alt=''></img>
-            <p>Step-by-Step Explanations.  </p>
+            <div className='gpt4__header-features-icon'>📚 </div>
+            <p> Chatbot remembers your learning progress.</p>
           </div>
           <div className='gpt4__header-features'>
-            <img src={tickmark} alt=''></img>
-            <p>Quizzes and practice questions to reinforce learning.</p>
+            <div className='gpt4__header-features-icon'>🎯 </div>
+            <p>Explanations match your understanding level.</p>
           </div>
           <div className='gpt4__header-features'>
-            <img src={tickmark} alt=''></img>
-            <p>Instant feedback on answers with detailed explanations.  </p>
+            <div className='gpt4__header-features-icon'>✅ </div>
+            <p> Ask follow-up questions & get real-time feedback.</p>
           </div>
+       
+
           <div className='gpt4__header-features'>
-            <img src={tickmark} alt=''></img>
-            <p>Multiple languages Support - Hindi & English. </p>
-          </div>
-          <div className='gpt4__header-features'>
-            <p className='gradient__text-subtitle'><b>🧠 "Instant, AI-Powered Answers to All Your Questions!"</b> </p>
+            <p className='gradient__text-subtitle'><b>🔍 "Your AI Tutor That Learns With You!"</b></p>
           </div>
         </div>
+
         <div className='gpt4__header-image'>
           <div className='gpt4__header-imageContainer'>
+            <div className='gpt4__header-features-cta'>
+              <a href='#Chatbot' className="gpt4__cta-button" onClick={() => dispatch(toggleChatbot())}>
+              Start Learning
+              </a>
+            </div>
             <DotLottieReact
               src="https://lottie.host/34ce58dd-27c5-469a-8f7b-e669b0c2f5eb/HMJ99AaKfk.lottie"
               loop
               autoplay
               className='gpt4__header-imageLottie'
             />            
-            <div className='gpt4__header-features-cta'>
-              <a href='#Chatbot' className="gpt4__cta-button" onClick={() => dispatch(toggleChatbot())}>
-              Talk to AI Tutor
-              </a>
-            </div>
-            
           </div>
         </div>
       </div>
-
-     
     </div>
   );
+
 };
 
 export default Header;

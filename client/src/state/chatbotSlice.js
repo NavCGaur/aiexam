@@ -6,12 +6,12 @@ const chatbotSlice = createSlice({
       isOpen: false,
       isTyping: false,
       messages: [
-                 {   text: "Hey Champ! 👋\n\nI can help explain concepts and solve problems.\n\nChoose your expertise level to let me help you better!",
+                 {   text: "Hey Champ! 👋\n\n\nI can help explain concepts and solve problems.\n\nChoose your expertise level to let me help you better!\n",
                      sender: "bot",},
     
               ],        
     userId: null,
-    expertise: null, // Add expertise to store
+    expertise: null, 
 
 
   },

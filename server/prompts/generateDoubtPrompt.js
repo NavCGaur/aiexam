@@ -33,7 +33,7 @@ const generateDoubtPrompt = (language, expertise, doubt) => {
 
                 3️⃣ **Example:**  
                 - Give one easy-to-understand example that illustrates the concept.  
-
+            
                 4️⃣ **Fun Fact:**  
                 - Share an interesting fun fact related to the topic.  
 
